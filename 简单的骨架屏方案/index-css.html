@@ -1,0 +1,105 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2021-08-12 09:40:55
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2021-11-02 23:18:29
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue</title>
+    <!-- <link rel="preload" as="style" href="./vue.css"> -->
+    <link rel="stylesheet" href="./vue.css">
+    <!-- <link rel="preload" as="image"
+        href="https://foxgoing.oss-cn-beijing.aliyuncs.com/img/ftms/20201123112404190-635.jpg"> -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js?v=1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js?v=2"></script>
+    <style>
+        .skeleton {
+            background: #eee;
+            background-image: linear-gradient(100deg, #eee 40%, #fff 50%, #eee 60%);
+            animation: loading 2s ease infinite;
+            background-size: 300% 100%;
+        }
+
+        @keyframes loading {
+            0% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0 50%;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box skeleton-box">
+        <div class="item">
+            <div class="item-left skeleton"></div>
+            <div class="item-right">
+                <p class="skeleton"></p>
+                <p class="skeleton"></p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-left skeleton"></div>
+            <div class="item-right">
+                <p class="skeleton"></p>
+                <p class="skeleton"></p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-left skeleton"></div>
+            <div class="item-right">
+                <p class="skeleton"></p>
+                <p class="skeleton"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box-list">
+        <div class="item">
+            <img class="item-left" src="https://foxgoing.oss-cn-beijing.aliyuncs.com/img/ftms/20201123112404190-635.jpg"
+                alt="">
+            <div class="item-right">
+                <p>文章标题文章标题文章...</p>
+                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
+            </div>
+        </div>
+        <div class="item">
+            <img class="item-left" src="https://foxgoing.oss-cn-beijing.aliyuncs.com/img/ftms/20201123112404190-635.jpg"
+                alt="">
+            <div class="item-right">
+                <p>文章标题文章标题文章...</p>
+                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
+            </div>
+        </div>
+        <div class="item">
+            <img class="item-left" src="https://foxgoing.oss-cn-beijing.aliyuncs.com/img/ftms/20201123112404190-635.jpg"
+                alt="">
+            <div class="item-right">
+                <p>文章标题文章标题文章...</p>
+                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    setTimeout(() => {
+        document.getElementsByClassName("skeleton-box")[0].style.display = "none"
+        document.getElementsByClassName("box-list")[0].style.display = "block"
+    }, 3000);
+</script>
+
+</html>
