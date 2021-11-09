@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-08-12 09:40:55
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-09 18:05:52
+ * @LastEditTime: 2021-11-09 18:25:05
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -13,14 +13,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图片实现骨架屏</title>
-    <link rel="preload" as="image" href="https://yuwuwu.oss-cn-beijing.aliyuncs.com/skeketon.gif">
     <link rel="stylesheet" href="./index.css">
-    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js?v=1"></script>
+    <!-- <link rel="preload" as="image" href="https://yuwuwu.oss-cn-beijing.aliyuncs.com/skeketon.gif"> -->
 </head>
 
 <body>
     <img class="skeleton-box" src="https://yuwuwu.oss-cn-beijing.aliyuncs.com/skeketon.gif" alt="">
-    <div class="box box-list">
+    <div class="box box-list" style="display: none;">
         <div class="item">
             <img class="item-left" src="./img.jpg" alt="">
             <div class="item-right">
@@ -45,12 +44,14 @@
     </div>
 
 </body>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js?v=1"></script>
+
 <script>
+    
     setTimeout(() => {
         document.getElementsByClassName("skeleton-box")[0].style.display = "none"
         document.getElementsByClassName("box-list")[0].style.display = "block"
     }, 3000);
-    
 </script>
 
 </html>
