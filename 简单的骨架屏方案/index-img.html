@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-08-12 09:40:55
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-09 18:25:05
+ * @LastEditTime: 2021-11-09 23:02:18
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -13,44 +13,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>图片实现骨架屏</title>
+    <link rel="preload" as="image" href="https://yuwuwu.oss-cn-beijing.aliyuncs.com/skeketon.gif">
     <link rel="stylesheet" href="./index.css">
-    <!-- <link rel="preload" as="image" href="https://yuwuwu.oss-cn-beijing.aliyuncs.com/skeketon.gif"> -->
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js?v=1"></script>
+
 </head>
 
 <body>
     <img class="skeleton-box" src="https://yuwuwu.oss-cn-beijing.aliyuncs.com/skeketon.gif" alt="">
     <div class="box box-list" style="display: none;">
-        <div class="item">
-            <img class="item-left" src="./img.jpg" alt="">
-            <div class="item-right">
-                <p>文章标题文章标题文章...</p>
-                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
-            </div>
-        </div>
-        <div class="item">
-            <img class="item-left" src="./img.jpg" alt="">
-            <div class="item-right">
-                <p>文章标题文章标题文章...</p>
-                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
-            </div>
-        </div>
-        <div class="item">
-            <img class="item-left" src="./img.jpg" alt="">
-            <div class="item-right">
-                <p>文章标题文章标题文章...</p>
-                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
-            </div>
-        </div>
     </div>
 
 </body>
-<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js?v=1"></script>
 
 <script>
-    
+    // 延时器模拟接口
     setTimeout(() => {
-        document.getElementsByClassName("skeleton-box")[0].style.display = "none"
-        document.getElementsByClassName("box-list")[0].style.display = "block"
+        let html = ''
+        let i = 0
+        for (i; i < 3; i++) {
+            html += `<div class="item">
+                        <img class="item-left" src="./img.jpg" alt="">
+                        <div class="item-right">
+                            <p>文章标题文章标题文章...</p>
+                            <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
+                        </div>
+                    </div>`
+        }
+
+        $(".skeleton-box").hide()
+        $(".box-list").html(html)
+        $(".box-list").show()
     }, 3000);
 </script>
 

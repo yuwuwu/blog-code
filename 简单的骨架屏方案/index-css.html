@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-08-12 09:40:55
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-09 17:10:33
+ * @LastEditTime: 2021-11-09 22:35:04
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -13,11 +13,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css骨架屏</title>
-    <!-- <link rel="preload" as="style" href="./vue.css"> -->
-    <link rel="preload" as="image"
-        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAJ0lEQVQ4jWP8////fwYqAiZqGsYwauCogaMGjhqIC4waSCFgYGAAAGOiBCJIQ7VGAAAAAElFTkSuQmCC">
-    <link rel="preload" as="image"
-        href="https://foxgoing.oss-cn-beijing.aliyuncs.com/img/ftms/20201123112404190-635.jpg">
     <link rel="stylesheet" href="./index.css">
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -40,13 +35,9 @@
 
         }
     </style>
-
 </head>
 
 <body>
-    <img src="https://pic4.zhimg.com/80/v2-809ba4f9f726e41e751aed0b16177c5b_1440w.jpg" alt="">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAJ0lEQVQ4jWP8////fwYqAiZqGsYwauCogaMGjhqIC4waSCFgYGAAAGOiBCJIQ7VGAAAAAElFTkSuQmCC"
-        alt="">
     <div class="box skeleton-box">
         <div class="item">
             <div class="item-left skeleton"></div>
@@ -72,34 +63,26 @@
     </div>
 
     <div class="box box-list">
-        <div class="item">
-            <img class="item-left" src="./img.jpg" alt="">
-            <div class="item-right">
-                <p>文章标题文章标题文章...</p>
-                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
-            </div>
-        </div>
-        <div class="item">
-            <img class="item-left" src="./img.jpg" alt="">
-            <div class="item-right">
-                <p>文章标题文章标题文章...</p>
-                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
-            </div>
-        </div>
-        <div class="item">
-            <img class="item-left" src="./img.jpg" alt="">
-            <div class="item-right">
-                <p>文章标题文章标题文章...</p>
-                <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
-            </div>
-        </div>
     </div>
 
 </body>
 <script>
     setTimeout(() => {
-        document.getElementsByClassName("skeleton-box")[0].style.display = "none"
-        document.getElementsByClassName("box-list")[0].style.display = "block"
+        let html = ''
+        let i = 0
+        for (i; i < 3; i++) {
+            html += `<div class="item">
+                        <img class="item-left" src="./img.jpg" alt="">
+                        <div class="item-right">
+                            <p>文章标题文章标题文章...</p>
+                            <p>文章详情文字详情文章详情文字详情文章详情文字详情文章详...</p>
+                        </div>
+                    </div>`
+        }
+
+        $(".skeleton-box").hide()
+        $(".box-list").html(html)
+        $(".box-list").show()
     }, 3000);
 </script>
 
