@@ -2,14 +2,14 @@
  * @Author: yuyongxing
  * @Date: 2021-11-10 19:00:21
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-11 11:25:40
+ * @LastEditTime: 2021-11-11 19:25:48
  * @Description: 
  */
-let express = require('express');
-let app = express()
-const puppeteer = require('puppeteer');
 
-(async () => {
+const puppeteer = require('puppeteer');
+const {getSkeletonHtml} = require('./util.js')
+
+async function openPage(){
   const option = {
     url: "http://landing.powerxene.com/static/test/index.html",
     device: "iPhone 6"
@@ -24,19 +24,21 @@ const puppeteer = require('puppeteer');
   await page.goto(option.url,{waitUntil:"networkidle0"});
 
   await page.screenshot({
-    path: 'example.png',
+    path: new Date().getTime()+'.png',
     fullPage: true
   });
+  const skeletonHtml = getSkeletonHtml(page)
+  console.log("skeletonHtml",skeletonHtml)
 
-  const content = await getScriptContent()
-  await this.page.addScriptTag({ content })
-  await sleep(defer)
-  await this.page.evaluate(async (options) => {
-    const { genSkeleton } = Skeleton
-    genSkeleton(options)
-  }, options)
-  console.log("file: index.js ~ line 33 ~ content", content)
+//   const content = await getScriptContent()
+//   await this.page.addScriptTag({ content })
+//   await sleep(defer)
+//   await this.page.evaluate(async (options) => {
+//     const { genSkeleton } = Skeleton
+//     genSkeleton(options)
+//   }, options)
+//   console.log("file: index.js ~ line 33 ~ content", content)
 
   // await browser.close();
-})()
-app.listen(7000);
+}
+openPage()
