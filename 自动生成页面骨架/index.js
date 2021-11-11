@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-10 19:00:21
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-10 22:53:48
+ * @LastEditTime: 2021-11-11 11:25:40
  * @Description: 
  */
 let express = require('express');
@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
 
 (async () => {
   const option = {
-    url: "https://juejin.cn/",
+    url: "http://landing.powerxene.com/static/test/index.html",
     device: "iPhone 6"
   }
   // 初始化puppeteer
