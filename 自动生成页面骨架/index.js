@@ -2,10 +2,12 @@
  * @Author: yuyongxing
  * @Date: 2021-11-10 19:00:21
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-11 19:26:38
+ * @LastEditTime: 2021-11-11 19:51:57
  * @Description: 
  */
 // https://github.com/famanoder/dps
+// https://blog.csdn.net/zz_jesse/article/details/116452550
+// dom元素过滤成骨架屏
 const puppeteer = require('puppeteer');
 const {getSkeletonHtml} = require('./util.js')
 
@@ -39,6 +41,6 @@ async function openPage(){
 //   }, options)
 //   console.log("file: index.js ~ line 33 ~ content", content)
 
-  // await browser.close();
+  await browser.close();
 }
 openPage()
