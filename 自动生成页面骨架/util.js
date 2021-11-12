@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-11 18:56:42
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-11 23:49:50
+ * @LastEditTime: 2021-11-12 10:31:48
  * @Description: 
  */
 function getSkeletonHtml(page) {
@@ -10,6 +10,9 @@ function getSkeletonHtml(page) {
     return html
 }
 function getDomByScript(){
-  return  document.getElementsByTagName("img")[0].style.display="none"
+    return `$('img').css('display','none')`
+    
+
 }
 module.exports.getSkeletonHtml = getSkeletonHtml
+module.exports.getDomByScript = getDomByScript
