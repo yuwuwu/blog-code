@@ -2,11 +2,10 @@
  * @Author: yuyongxing
  * @Date: 2021-11-13 15:01:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-15 10:57:19
+ * @LastEditTime: 2021-11-15 23:00:51
  * @Description: 
  */
 let skeletonHtml = " <style>.skeleton {position: fixed;background: #aaa;background-image: linear-gradient(100deg, #eee 40%, #fff 45%, #eee 50%);animation: opacity 2s ease infinite;background-size: 300% 100%;} @keyframes opacity {0%{opacity: 1;}50%{opacity: 0.4;}100%{opacity: 1;}} </style>"
-const { innerWidth, innerHeight } = window//可视区域宽高
 let removeClass = []
 let removeId = []
 function getDom(options = { removeElements: [] }) {
@@ -23,7 +22,6 @@ function getDom(options = { removeElements: [] }) {
     }
     const dom = document.body
     const nodes = dom.childNodes
-    window.scrollTo(0, 0)
     dom.style.overflow = "hidden"
     deepNode(nodes)
     return skeletonHtml
@@ -55,7 +53,6 @@ function deepNode(nodes) {
                 flag = true
             }
         }
-        // 只有遍历到底层才渲染
         if ((node.nodeType == 1 && !flag) || (node.nodeType == 1 && node.childNodes.length == 0)) {
             createDiv(node)
         }
@@ -92,7 +89,7 @@ function isHide(node) {
     if (node.nodeType != 1) return false
     let style = getComputedStyle(node, null)
     //  console.log("file: getDom.js ~ line 71 ~ isHide ~ node", style)
-    return style.display == 'none' || style.opacity == 0 || style.visibility == 'hidden' || node.hidden
+    return style.display == 'none' || style.opacity == 0 || style.visibility == 'hidden'
 }
 /**
  * @Author: yuyongxing
@@ -129,8 +126,8 @@ function isRemove(node) {
  */
 function createDiv(node) {
     let { width, height, top, left } = node.getBoundingClientRect()
-    let { borderRadius, zIndex } = getComputedStyle(node, null)
-    console.log(width / innerWidth)
+    const { borderRadius, zIndex } = getComputedStyle(node, null)
+    const { innerWidth, innerHeight } = window//可视区域宽高
     //    必须符合要求的元素才渲染：有大小，并且在视图内
     if (width > 5 && height > 5 && top < innerHeight && left < innerWidth) {
         width = ((width / innerWidth) * 100).toFixed(2) + '%'
