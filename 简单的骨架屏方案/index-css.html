@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-08-12 09:40:55
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-16 10:42:06
+ * @LastEditTime: 2021-11-16 21:17:42
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -19,7 +19,7 @@
     <style>
         .skeleton {
             background: #bbb;
-            animation: loading 2s ease infinite;
+            animation: opacity 2s ease infinite;
         }
 
         @keyframes loading {
@@ -93,9 +93,9 @@
                     </div>`
         }
 
-        $(".skeleton-box").hide()
-        $(".box-list").html(html)
-        $(".box-list").show()
+        // $(".skeleton-box").hide()
+        // $(".box-list").html(html)
+        // $(".box-list").show()
     }, 3000);
 </script>
 

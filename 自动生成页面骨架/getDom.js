@@ -2,10 +2,10 @@
  * @Author: yuyongxing
  * @Date: 2021-11-13 15:01:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-16 10:35:28
+ * @LastEditTime: 2021-11-16 22:51:37
  * @Description: 
  */
-let skeletonHtml = " <style>.skeleton {position: fixed;background: #aaa;background-image: linear-gradient(100deg, #eee 40%, #fff 45%, #eee 50%);animation: opacity 2s ease infinite;background-size: 300% 100%;} @keyframes opacity {0%{opacity: 1;}50%{opacity: 0.4;}100%{opacity: 1;}} </style>"
+let skeletonHtml = "<style>.skeleton {position: fixed;background: #bbb;animation: opacity 2s ease infinite;} @keyframes opacity {0%{opacity: 1;}50%{opacity: 0.4;}100%{opacity: 1;}} </style>"
 let removeClass = []
 let removeId = []
 function getDom(options = { removeElements: [] }) {
@@ -26,12 +26,6 @@ function getDom(options = { removeElements: [] }) {
     deepNode(nodes)
     return skeletonHtml
 }
-// childNodes包含了哪些节点？
-// 由childNodes属性返回的数组中包含着所有类型的节点，所有的属性节点和文本节点也包含在其中。（这一点存在疑问,下面有解释）
-
-// 事实上，文档里几乎每一样东西都是一个节点，甚至连空格和换行符都会被解释成节点。而且都包含在childNodes属性所返回的数组中
-
-// getComputedStyle是获取元素最终呈现的样式，style只能拿到行内style属性设置的属性，对于类似于的空标签，style拿不到属性，将返回空字符串
 /**
  * @Author: yuyongxing
  * @param {*} nodes
@@ -62,19 +56,6 @@ function deepNode(nodes) {
     }
 }
 
-
-/**
- * @Author: yuyongxing
- * @param {*} node
- * @return {*}
- * @Date: 2021-11-13 15:51:53
- * @LastEditors: yuyongxing
- * @LastEditTime: Do not edit
- * @Description: 过滤节点，只保留元素节点
- */
-function filterNode(node) {
-    return node.nodeType == 1 && node.nodeName != "SCRIPT"
-}
 /**
  * @Author: yuyongxing
  * @param {*} node
@@ -87,7 +68,7 @@ function filterNode(node) {
 function isHide(node) {
     if (node.nodeType != 1) return false
     let style = getComputedStyle(node, null)
-    return style.display == 'none' || style.opacity == 0 || style.visibility == 'hidden'
+    return node.nodeName == "SCRIPT"|| style.display == 'none' || style.opacity == 0 || style.visibility == 'hidden'
 }
 /**
  * @Author: yuyongxing
@@ -111,7 +92,6 @@ function isRemove(node) {
         }
     }
     return false
-
 }
 /**
  * @Author: yuyongxing
@@ -137,5 +117,4 @@ function createDiv(node) {
         skeletonHtml += `<div class="skeleton" ${nodeClassName} ${nodeId} style="width:${width};height:${height};left:${left};top:${top};border-radius:${borderRadius};z-index:${zIndex}"></div>`
     }
 }
-// document.getElementsByTagName("body").innerHTML(getDom())
-document.body.innerHTML = getDom({ removeElements: [".container-bg","#pid2"] })
+document.getElementsByTagName("body").innerHTML(getDom())
