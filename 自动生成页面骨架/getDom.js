@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-13 15:01:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-16 22:51:37
+ * @LastEditTime: 2021-11-16 22:56:43
  * @Description: 
  */
 let skeletonHtml = "<style>.skeleton {position: fixed;background: #bbb;animation: opacity 2s ease infinite;} @keyframes opacity {0%{opacity: 1;}50%{opacity: 0.4;}100%{opacity: 1;}} </style>"
@@ -117,4 +117,4 @@ function createDiv(node) {
         skeletonHtml += `<div class="skeleton" ${nodeClassName} ${nodeId} style="width:${width};height:${height};left:${left};top:${top};border-radius:${borderRadius};z-index:${zIndex}"></div>`
     }
 }
-document.getElementsByTagName("body").innerHTML(getDom())
+document.body.innerHTML=getDom()
