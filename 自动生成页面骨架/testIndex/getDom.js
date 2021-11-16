@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-13 15:01:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-15 23:00:51
+ * @LastEditTime: 2021-11-16 10:35:28
  * @Description: 
  */
 let skeletonHtml = " <style>.skeleton {position: fixed;background: #aaa;background-image: linear-gradient(100deg, #eee 40%, #fff 45%, #eee 50%);animation: opacity 2s ease infinite;background-size: 300% 100%;} @keyframes opacity {0%{opacity: 1;}50%{opacity: 0.4;}100%{opacity: 1;}} </style>"
@@ -44,7 +44,6 @@ function getDom(options = { removeElements: [] }) {
 function deepNode(nodes) {
     for (let i = 0; i < nodes.length; i++) {
         let node = nodes[i]
-        console.log(node.className, node.id)
         if (isHide(node) || isRemove(node)) continue
         let flag = false
         for (let j = 0; j < node.childNodes.length; j++) {
@@ -88,7 +87,6 @@ function filterNode(node) {
 function isHide(node) {
     if (node.nodeType != 1) return false
     let style = getComputedStyle(node, null)
-    //  console.log("file: getDom.js ~ line 71 ~ isHide ~ node", style)
     return style.display == 'none' || style.opacity == 0 || style.visibility == 'hidden'
 }
 /**
@@ -128,14 +126,16 @@ function createDiv(node) {
     let { width, height, top, left } = node.getBoundingClientRect()
     const { borderRadius, zIndex } = getComputedStyle(node, null)
     const { innerWidth, innerHeight } = window//可视区域宽高
+    let nodeClassName = node.className ? `node-class=${node.className}`:""
+    let nodeId = node.id ? `node-id=${node.id}`:""
     //    必须符合要求的元素才渲染：有大小，并且在视图内
     if (width > 5 && height > 5 && top < innerHeight && left < innerWidth) {
         width = ((width / innerWidth) * 100).toFixed(2) + '%'
         height = ((height / innerHeight) * 100).toFixed(2) + '%'
         left = ((left / innerWidth) * 100).toFixed(2) + '%'
         top = ((top / innerHeight) * 100).toFixed(2) + '%'
-        skeletonHtml += `<div class="skeleton" style="width:${width};height:${height};left:${left};top:${top};border-radius:${borderRadius};z-index:${zIndex}"></div>`
+        skeletonHtml += `<div class="skeleton" ${nodeClassName} ${nodeId} style="width:${width};height:${height};left:${left};top:${top};border-radius:${borderRadius};z-index:${zIndex}"></div>`
     }
 }
 // document.getElementsByTagName("body").innerHTML(getDom())
-document.body.innerHTML = getDom({ removeElements: [".remove","#pid2"] })
+document.body.innerHTML = getDom({ removeElements: [".container-bg","#pid2"] })
