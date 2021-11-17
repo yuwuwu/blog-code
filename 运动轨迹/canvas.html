@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-17 16:06:53
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-17 18:12:46
+ * @LastEditTime: 2021-11-17 23:22:41
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -33,6 +33,10 @@
         })(document, window);
     </script>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         #canvas {
             width: 7.5rem;
             height: 7.5rem;
@@ -43,21 +47,26 @@
 <body>
     <div class="box">
         <canvas id="canvas"></canvas>
+        <button onclick="go()">go</button>
     </div>
     <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
     <script>
+        /** @type {HTMLCanvasElement} */
         let canvas = document.getElementById("canvas")
+        canvas.width = '750';
+        canvas.height = '750';
+        let timer=null
         let ctx = canvas.getContext('2d')
         let dpr = window.innerWidth / 750
         console.log("file: canvas.html ~ li", window.innerWidth)
         console.log("file: canvas.html ~ line 53 ~ dpr", dpr)
         let routes = [
-            { x: 12, y: 12, },
-            { x: 12, y: 500, },
-            { x: 500, y: 500, },
-            { x: 500, y: 12, }
+            { x: 10, y: 10, },
+            { x: 12, y: 550, },
+            { x: 550, y: 550, },
+            { x: 550, y: 12, }
         ]
-        initRoutes()
+        // initRoutes()
         drawPoint()
         function initRoutes() {
             routes.map((item) => {
@@ -67,7 +76,34 @@
             })
             console.log(routes)
         }
-        let skeleton = new Animati(this.options, this.log)
+        function drawPoint(){
+            ctx.fillStyle = "#333"
+            ctx.strokeStyle = "#333"
+            ctx.beginPath()
+            for(let i=0;i<routes.length;i++){
+                let point = routes[i]
+                if(i==0){
+                    ctx.moveTo(point.x,point.y)
+                }else{
+                    ctx.lineTo(point.x,point.y)
+                }
+                console.log(point)
+            }
+            ctx.lineTo(routes[0].x,routes[0].y)
+            console.log(13)
+            ctx.stroke()
+        }
+        function go(){
+
+        }
+        function animate(){
+           timer = window.requestAnimationFrame(animate)
+           startAnimate({x:0,y:0},{x:30,y:40})
+        }
+        function startAnimate(start,end){
+           let speed = 1
+        //    x2+y2=z2求出路线上所有坐标
+        }
     </script>
 </body>
 

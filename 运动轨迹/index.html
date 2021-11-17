@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-08 14:01:17
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-17 14:43:28
+ * @LastEditTime: 2021-11-17 23:20:42
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -38,14 +38,8 @@
 
         //源数据
         let routes = [
-            { x: 12, y: 666 },
-            { x: 190, y: 120 },
-            { x: 354, y: 456 },
-            { x: 269, y: 85 },
-            { x: 456, y: 41 },
-            { x: 789, y: 120 },
-            { x: 876, y: 354 },
-            { x: 976, y: 354 },
+            { x: 0, y: 0 },
+            { x: 30, y: 40 }
         ]
         //开始运动
         init(routes)
@@ -126,7 +120,7 @@
                 //重绘
                 ctx.clearRect(0, 0, cvs.clientWidth, cvs.clientHeight)
                 drawPolygon(points)
-                drawPoint(animatePoint.x, animatePoint.y, 'yellow')
+                drawPoint(animatePoint.x, animatePoint.y, '#333')
                 return
             }
 
@@ -152,7 +146,8 @@
                     (routes[nextPointIndex].y - routes[nextPointIndex - 1].y) * rate
 
                 animatePoint.x = x
-                animatePoint.y = y
+                animatePoint.y = 0
+                console.log("file: index.html ~ line 151 ~ startMove ~ animatePoint", animatePoint)
 
                 //重绘, 将animatePoint设为轨迹的下一个点, 以达到动态的效果
                 points[nextPointIndex] = {
