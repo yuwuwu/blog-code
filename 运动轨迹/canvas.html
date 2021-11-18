@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-17 16:06:53
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-17 23:22:41
+ * @LastEditTime: 2021-11-18 18:16:31
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -33,10 +33,11 @@
         })(document, window);
     </script>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
+
         #canvas {
             width: 7.5rem;
             height: 7.5rem;
@@ -55,7 +56,7 @@
         let canvas = document.getElementById("canvas")
         canvas.width = '750';
         canvas.height = '750';
-        let timer=null
+        let timer = null
         let ctx = canvas.getContext('2d')
         let dpr = window.innerWidth / 750
         console.log("file: canvas.html ~ li", window.innerWidth)
@@ -76,33 +77,68 @@
             })
             console.log(routes)
         }
-        function drawPoint(){
+        function drawPoint() {
             ctx.fillStyle = "#333"
             ctx.strokeStyle = "#333"
             ctx.beginPath()
-            for(let i=0;i<routes.length;i++){
+            for (let i = 0; i < routes.length; i++) {
                 let point = routes[i]
-                if(i==0){
-                    ctx.moveTo(point.x,point.y)
-                }else{
-                    ctx.lineTo(point.x,point.y)
+                if (i == 0) {
+                    ctx.moveTo(point.x, point.y)
+                } else {
+                    ctx.lineTo(point.x, point.y)
                 }
-                console.log(point)
             }
-            ctx.lineTo(routes[0].x,routes[0].y)
+            ctx.lineTo(routes[0].x, routes[0].y)
             console.log(13)
             ctx.stroke()
         }
-        function go(){
+        function go() {
+            animate({ x: 10, y: 10, },{ x: 500, y: 550, })
+        }
+        let points = []
+        function animate(start, end) {
+            //    timer = window.requestAnimationFrame(animate)
+            //    startAnimate({x:0,y:0},{x:30,y:40})
+            let speed = 10
+            //    let rate = 
+            let rate = (end.x - start.x) / speed
+            // let points = []
+            for (let i = 0; i < rate; i++) {
+                points.push({
+                    x: start.x + (speed * i),
+                    y: start.y + ((end.y - start.y) / rate * i)
+                })
+            }
+            points.push(end)
+            console.log(startAnimate)
+            startAnimate()
+            // timer = window.requestAnimationFrame(startAnimate(points))
+        }
+        let animateNum = 0
+        function startAnimate() {
+            let nowPoint = points[animateNum]
+            animateNum++
+            let nextPoint = points[animateNum]
+            ctx.beginPath()
+            ctx.strokeStyle = "#1DEFFF"
+            ctx.moveTo(nowPoint.x, nowPoint.y)
+            ctx.lineTo(nextPoint.x, nextPoint.y)
+            ctx.stroke()
 
-        }
-        function animate(){
-           timer = window.requestAnimationFrame(animate)
-           startAnimate({x:0,y:0},{x:30,y:40})
-        }
-        function startAnimate(start,end){
-           let speed = 1
-        //    x2+y2=z2求出路线上所有坐标
+            console.log(12332)
+            if (animateNum >= points.length - 2) {
+                window.cancelAnimationFrame(timer)
+                return
+            }
+            console.log("file: canvas.html ~ line 131 ~ startAnimate ~ timer", timer)
+             timer = window.requestAnimationFrame(startAnimate)
+
+
+            
+            
+            console.log("file: canvas.html ~ line 131 ~ startAnimate ~ timer", timer)
+
         }
     </script>
 </body>
