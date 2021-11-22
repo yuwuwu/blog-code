@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-17 16:06:53
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-22 16:21:59
+ * @LastEditTime: 2021-11-22 16:26:49
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -71,7 +71,6 @@
                 this.options = options
                 this.ctx = null
                 this.timer = null
-                this.dpr = 1
                 this.points = []
                 this.animateNum = 0
                 this.dpr = window.devicePixelRatio||1
@@ -163,6 +162,17 @@
                 this.ctx.fill()
                 this.ctx.closePath()
             }
+            /**
+             * @Author: yuyongxing
+             * @param {*} start
+             * @param {*} end
+             * @param {*} color
+             * @return {*}
+             * @Date: 2021-11-22 16:25:55
+             * @LastEditors: yuyongxing
+             * @LastEditTime: Do not edit
+             * @Description: 绘制线段
+             */
             drawLine(start, end, color) {
                 this.ctx.strokeStyle = color
                 this.ctx.shadowColor = color
@@ -173,6 +183,16 @@
                 this.ctx.stroke()
                 this.ctx.closePath()
             }
+            /**
+             * @Author: yuyongxing
+             * @param {*} start
+             * @param {*} end
+             * @return {*}
+             * @Date: 2021-11-22 16:26:16
+             * @LastEditors: yuyongxing
+             * @LastEditTime: Do not edit
+             * @Description: 开始两个坐标点之间的动画
+             */
             animate(start, end) {
                 return new Promise((resolve, reject) => {
                     let speed = 2
@@ -247,7 +267,6 @@
             await game.animate(routes[2], routes[3])
             await game.animate(routes[3], routes[4])
             await game.animate(routes[4], routes[5])
-
         }
 
     </script>
