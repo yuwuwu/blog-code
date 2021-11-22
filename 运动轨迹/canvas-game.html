@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-17 16:06:53
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-22 16:26:49
+ * @LastEditTime: 2021-11-22 23:29:14
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -74,8 +74,8 @@
                 this.points = []
                 this.animateNum = 0
                 this.dpr = window.devicePixelRatio||1
-                this.routes = this.formatRoutes(options.routes)
-                this.passRoutes = this.formatRoutes(options.passRoutes)
+                this.routes = options.routes
+                this.passRoutes = options.passRoutes
                 this.initCanvas()
             }
             initCanvas() {
@@ -83,8 +83,7 @@
                 canvas.width = this.options.width*this.dpr;
                 canvas.height = this.options.height*this.dpr;
                 this.ctx = canvas.getContext('2d')
-                // this.ctx.scale(this.dpr,this.dpr) 
-                // this.formatRouts()
+                this.ctx.scale(this.dpr,this.dpr) 
                 this.drawInitialPath()
             }
             /**
@@ -98,9 +97,9 @@
              */
             drawInitialPath() {
                 this.ctx.strokeStyle = "#bbb"
-                this.ctx.shadowBlur = 2
+                this.ctx.shadowBlur = 0.5
                 this.ctx.shadowColor = '#333'
-                this.ctx.lineWidth = 10
+                this.ctx.lineWidth = 5
                 this.ctx.lineJoin = "bevel"
                 this.ctx.beginPath()
                 for (let i = 0; i < this.routes.length; i++) {
@@ -157,7 +156,7 @@
                 this.ctx.fillStyle = color
                 this.ctx.strokeStyle = color
                 this.ctx.shadowColor = color
-                this.ctx.arc(x, y, 10, Math.PI * 2, 0, true)
+                this.ctx.arc(x, y, 5, Math.PI * 2, 0, true)
                 this.ctx.stroke()
                 this.ctx.fill()
                 this.ctx.closePath()
@@ -176,7 +175,7 @@
             drawLine(start, end, color) {
                 this.ctx.strokeStyle = color
                 this.ctx.shadowColor = color
-                this.ctx.shadowBlur = 2
+                this.ctx.shadowBlur = 0.5
                 this.ctx.beginPath()
                 this.ctx.moveTo(start.x, start.y)
                 this.ctx.lineTo(end.x, end.y)
@@ -195,7 +194,7 @@
              */
             animate(start, end) {
                 return new Promise((resolve, reject) => {
-                    let speed = 2
+                    let speed = 1
                     let rate = Math.sqrt(
                         Math.pow(end.x - start.x, 2) +
                         Math.pow(end.y - start.y, 2)) / speed
@@ -216,7 +215,7 @@
                 this.ctx.beginPath()
                 this.ctx.strokeStyle = "#1DEFFF"
                 this.ctx.shadowColor = '#1DEFFF'
-                this.ctx.lineWidth = 12
+                this.ctx.lineWidth = 7
                 this.ctx.moveTo(nowPoint.x, nowPoint.y)
                 this.ctx.lineTo(nextPoint.x, nextPoint.y)
                 this.ctx.stroke()
