@@ -1,0 +1,179 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2021-11-17 16:06:53
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2021-11-22 13:54:07
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运动</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement;
+            var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            var recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if (clientWidth >= 750) {
+                    docEl.style.fontSize = '100px';
+                } else {
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #canvas {
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <canvas id="canvas"></canvas>
+        <button onclick="go()">go</button>
+    </div>
+    <script>
+        /** @type {HTMLCanvasElement} */
+        let canvas = document.getElementById("canvas")
+        canvas.width = '750';
+        canvas.height = '750';
+        let timer = null
+        let ctx = canvas.getContext('2d')
+        console.log("file: canvas.html ~ li", window.innerWidth)
+        let InitialRoutes = []
+        let routes = [
+            { x: 100, y: 100 },
+            { x: 80, y: 190 },
+            { x: 100, y: 280 },
+            { x: 50, y: 350 },
+            { x: 200, y: 500 },
+            { x: 300, y: 500 },
+            { x: 320, y: 560 },
+            { x: 400, y: 530 },
+            { x: 350, y: 500 },
+            { x: 390, y: 440 },
+            { x: 500, y: 440 },
+            { x: 600, y: 490 },
+            { x: 650, y: 400 },
+            { x: 600, y: 330 },
+            { x: 650, y: 200 },
+            { x: 550, y: 300 },
+            { x: 500, y: 110 },
+            { x: 440, y: 150 },
+            { x: 340, y: 170 },
+            { x: 220, y: 100 },
+
+        ]
+        drawInitialPath()
+        // function initRoutes() {
+        //     routes.map((item) => {
+        //         item.x = item.x * dpr
+        //         item.y = item.y * dpr
+        //         return item
+        //     })
+        //     console.log(routes)
+        // }
+        function drawInitialPath() {
+            // ctx.fillStyle = "#333"
+            ctx.strokeStyle = "#bbb"
+            ctx.shadowBlur = 0.5
+            ctx.shadowColor = '#bbb'
+            ctx.lineWidth = 3
+            ctx.beginPath()
+            for (let i = 0; i < routes.length; i++) {
+                let point = routes[i]
+                if (i == 0) {
+                    ctx.moveTo(point.x, point.y)
+                } else {
+                    ctx.lineTo(point.x, point.y)
+                }
+            }
+            ctx.lineTo(routes[0].x, routes[0].y)
+            ctx.stroke()
+            ctx.closePath()
+            for (let i = 0; i < routes.length; i++) {
+                let point = routes[i]
+                if (i <= InitialRoutes.length) {
+                    drawPoint(point.x, point.y, "#1DEFFF")
+                    continue
+                }
+                drawPoint(point.x, point.y, "#bbb")
+            }
+        }
+        function drawPoint(x, y, color = "#333") {
+            ctx.fillStyle = color
+            ctx.strokeStyle = color
+            // ctx.shadowBlur = 10
+            ctx.beginPath()
+            ctx.arc(x, y, 5, Math.PI * 2, 0, true)
+            ctx.closePath()
+            ctx.stroke()
+            ctx.fill()
+        }
+        async function go() {
+            for (let i = 3; i < 10; i++) {
+                await animate(routes[i], routes[i + 1])
+                drawPoint(routes[i + 1].x, routes[i + 1].y, "#1DEFFF")
+            }
+        }
+
+        let points = []
+        function animate(start, end) {
+            return new Promise((resolve, reject) => {
+                let speed = 1
+                let rate = Math.sqrt(
+                    Math.pow(end.x - start.x, 2) +
+                    Math.pow(end.y - start.y, 2)) / speed
+                console.log("file: canvas.html ~ line 143 ~ returnnewPromise ~ rate", rate)
+                for (let i = 0; i < rate; i++) {
+                    points.push({
+                        x: (start.x + ((end.x - start.x) / rate * i)).toFixed(1),
+                        y: (start.y + ((end.y - start.y) / rate * i)).toFixed(1)
+                    })
+                }
+                points.push(end)
+                console.log(points)
+                startAnimate(resolve, reject)
+            })
+        }
+
+        let animateNum = 0
+        function startAnimate(resolve, reject) {
+            let nowPoint = points[animateNum]
+            animateNum++
+            let nextPoint = points[animateNum]
+            ctx.beginPath()
+            ctx.strokeStyle = "#1DEFFF"
+            ctx.shadowColor = '#1DEFFF'
+            ctx.shadowBlur = 3
+            ctx.moveTo(nowPoint.x, nowPoint.y)
+            ctx.lineTo(nextPoint.x, nextPoint.y)
+            ctx.stroke()
+            timer = window.requestAnimationFrame(function () { startAnimate(resolve, reject) })
+            if (animateNum >= points.length - 1) {
+                window.cancelAnimationFrame(timer)
+                resolve()
+            }
+        }
+    </script>
+</body>
+
+</html>

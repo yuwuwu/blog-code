@@ -1,0 +1,237 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2021-11-17 16:06:53
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2021-11-22 13:42:38
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运动</title>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement;
+            var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+            var recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if (clientWidth >= 750) {
+                    docEl.style.fontSize = '100px';
+                } else {
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                }
+            };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #canvas {
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <canvas id="canvas"></canvas>
+        <button onclick="go()">go</button>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        /** @type {HTMLCanvasElement} */
+        class Game {
+            constructor(options) {
+                this.options = options
+                this.ctx = null
+                this.timer = null
+                this.dpr = 1
+                this.points = []
+                this.animateNum = 0
+                this.routes = this.formatRoutes(options.routes)
+                this.passRoutes = this.formatRoutes(options.passRoutes)
+                this.initCanvas()
+            }
+            initCanvas() {
+                let canvas = document.getElementById(this.options.id)
+                canvas.width = this.options.width;
+                canvas.height = this.options.height;
+                this.ctx = canvas.getContext('2d')
+                this.drawInitialPath()
+            }
+
+            /**
+             * @Author: yuyongxing
+             * @param {*}
+             * @return {*}
+             * @Date: 2021-11-21 21:25:13
+             * @LastEditors: yuyongxing
+             * @LastEditTime: Do not edit
+             * @Description: 绘制初始路径
+             */
+            drawInitialPath() {
+                this.ctx.strokeStyle = "#bbb"
+                this.ctx.shadowBlur = 0.5
+                this.ctx.shadowColor = '#333'
+                this.ctx.lineWidth = 3
+                this.ctx.beginPath()
+                for (let i = 0; i < this.routes.length; i++) {
+                    let point = this.routes[i]
+                    if (i == 0) {
+                        this.ctx.moveTo(point.x, point.y)
+                    } else {
+                        this.ctx.lineTo(point.x, point.y)
+                    }
+                }
+                this.ctx.stroke()
+                this.ctx.closePath()
+                for (let i = 0; i < this.routes.length; i++) {
+                    let point = this.routes[i]
+                    if (i <= this.passRoutes.length) {
+                        this.drawPoint(point.x, point.y, "#1DEFFF")
+                        if (i > 0) {
+                            this.drawLine(this.routes[i - 1], point, "#1DEFFF")
+                        }
+                        continue
+                    }
+                    this.drawPoint(point.x, point.y, "#bbb")
+                }
+            }
+            /**
+             * @Author: yuyongxing
+             * @param {*} routes
+             * @return {*} routes
+             * @Date: 2021-11-21 21:13:03
+             * @LastEditors: yuyongxing
+             * @LastEditTime: Do not edit
+             * @Description: 根据屏幕比例格式化坐标点
+             */
+            formatRoutes(routes) {
+                return routes.map((item) => {
+                    item.x = item.x * this.dpr
+                    item.y = item.y * this.dpr
+                    return item
+                })
+            }
+            /**
+             * @Author: yuyongxing
+             * @param {*} x
+             * @param {*} y
+             * @param {*} color
+             * @return {*}
+             * @Date: 2021-11-21 21:35:44
+             * @LastEditors: yuyongxing
+             * @LastEditTime: Do not edit
+             * @Description: 绘制坐标点
+             */
+            drawPoint(x, y, color) {
+                this.ctx.beginPath()
+                this.ctx.fillStyle = color
+                this.ctx.strokeStyle = color
+                this.ctx.shadowColor = color
+                this.ctx.arc(x, y, 5, Math.PI * 2, 0, true)
+                this.ctx.stroke()
+                this.ctx.fill()
+                this.ctx.closePath()
+            }
+            drawLine(start, end, color) {
+                this.ctx.strokeStyle = color
+                this.ctx.shadowColor = color
+                this.ctx.shadowBlur = 3
+                this.ctx.beginPath()
+                this.ctx.moveTo(start.x, start.y)
+                this.ctx.lineTo(end.x, end.y)
+                this.ctx.stroke()
+                this.ctx.closePath()
+            }
+            animate(start, end) {
+                return new Promise((resolve, reject) => {
+                    let speed = 1
+                    let rate = Math.sqrt(
+                        Math.pow(end.x - start.x, 2) +
+                        Math.pow(end.y - start.y, 2)) / speed
+                    for (let i = 0; i < rate; i++) {
+                        this.points.push({
+                            x: (start.x + ((end.x - start.x) / rate * i)).toFixed(1),
+                            y: (start.y + ((end.y - start.y) / rate * i)).toFixed(1)
+                        })
+                    }
+                    this.points.push(end)
+                    this.startAnimate(resolve, reject)
+                })
+            }
+            startAnimate(resolve, reject) {
+                let nowPoint = this.points[this.animateNum]
+                this.animateNum++
+                let nextPoint = this.points[this.animateNum]
+                this.ctx.beginPath()
+                this.ctx.strokeStyle = "#1DEFFF"
+                this.ctx.shadowColor = '#1DEFFF'
+                // this.ctx.shadowBlur = 30
+                this.ctx.moveTo(nowPoint.x, nowPoint.y)
+                this.ctx.lineTo(nextPoint.x, nextPoint.y)
+                this.ctx.stroke()
+                this.ctx.closePath()
+                this.timer = window.requestAnimationFrame(() => { this.startAnimate(resolve, reject) })
+                if (this.animateNum >= this.points.length - 1) {
+                    window.cancelAnimationFrame(this.timer)
+                    this.drawPoint(nowPoint.x, nowPoint.y, "#1DEFFF")
+                    resolve()
+                }
+            }
+
+        }
+        let routes = [
+            { x: 100, y: 100 },
+            { x: 80, y: 190 },
+            { x: 100, y: 280 },
+            { x: 50, y: 350 },
+            { x: 200, y: 500 },
+            { x: 300, y: 500 },
+            { x: 320, y: 560 },
+            { x: 400, y: 530 },
+            { x: 350, y: 500 },
+            { x: 390, y: 440 },
+            { x: 500, y: 440 },
+            { x: 600, y: 490 },
+            { x: 650, y: 400 },
+            { x: 600, y: 330 },
+            { x: 650, y: 200 },
+            { x: 550, y: 300 },
+            { x: 500, y: 110 },
+            { x: 440, y: 150 },
+            { x: 340, y: 170 },
+            { x: 220, y: 100 }
+        ]
+        let passRoutes = [{ x: 100, y: 100 },
+        { x: 80, y: 190 },]
+        let game = new Game({
+            id: "canvas",
+            width: 750,
+            height: 750,
+            routes: routes,
+            passRoutes: []
+        })
+        async function go() {
+            await game.animate(routes[0], routes[1])
+            await game.animate(routes[1], routes[2])
+
+        }
+
+    </script>
+</body>
+
+</html>
