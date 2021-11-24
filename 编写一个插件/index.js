@@ -2,11 +2,10 @@
  * @Author: yuyongxing
  * @Date: 2021-11-10 19:00:21
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-11-12 10:31:33
+ * @LastEditTime: 2021-11-24 19:40:25
  * @Description: 
  */
-// https://github.com/famanoder/dps
-// https://blog.csdn.net/zz_jesse/article/details/116452550
+
 // dom元素过滤成骨架屏
 const puppeteer = require('puppeteer');
 const { getSkeletonHtml, getDomByScript } = require('./util.js')
