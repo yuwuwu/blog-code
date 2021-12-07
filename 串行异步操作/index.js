@@ -2,14 +2,22 @@
  * @Author: yuyongxing
  * @Date: 2021-11-23 21:54:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-07 14:02:18
+ * @LastEditTime: 2021-12-07 18:13:30
  * @Description: 
  */
-let callback = (name) => {
+let callback1 = () => {
     setTimeout(() => {
-        console.log(name)
+        console.log("callback1")
+        callback2()
     }, 1000);
 }
+let callback2 = () => {
+    setTimeout(() => {
+        console.log("callback2")
+    }, 500);
+}
+callback1()
+
 let promise = (name) => new Promise((resolve) => {
     setTimeout(() => {
         console.log(name)
