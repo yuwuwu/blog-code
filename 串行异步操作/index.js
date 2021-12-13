@@ -1,10 +1,12 @@
 /*
  * @Author: yuyongxing
- * @Date: 2021-11-23 21:54:35
+ * @Date: 2021-12-07 21:54:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-07 18:13:30
+ * @LastEditTime: 2021-12-13 20:17:47
  * @Description: 
  */
+
+
 let callback1 = () => {
     setTimeout(() => {
         console.log("callback1")
@@ -16,7 +18,27 @@ let callback2 = () => {
         console.log("callback2")
     }, 500);
 }
-callback1()
+// callback1()
+
+let promise1 = (name) => new Promise((resolve) => {
+    setTimeout(() => {
+        console.log("promise1")
+        resolve()
+    }, 2000);
+})
+let promise2 = (name) => new Promise((resolve) => {
+    setTimeout(() => {
+        console.log("promise2")
+        resolve()
+    }, 1500);
+})
+
+promise1().then(()=>{
+    return promise2()
+}).then(()=>{
+    
+})
+
 
 let promise = (name) => new Promise((resolve) => {
     setTimeout(() => {
@@ -24,16 +46,9 @@ let promise = (name) => new Promise((resolve) => {
         resolve()
     }, 1000);
 })
-
-// promise("1").then(()=>{
-//     return promise("2")
-// }).then(()=>{
-//     return promise("3")
-// })
-
 let generator = function* () {
-    yield promise(1)
-    yield promise(2)
+    yield promise("generator1")
+    yield promise("generator2")
 }
 console.log(generator())
 generator().next()
@@ -49,9 +64,9 @@ let co = generator => {
 }
 
 let asyncAwait = async () => {
-    await promise("asyncAwait 1")
-    await promise("asyncAwait 2")
-    await promise("asyncAwait 3")
+    await promise("asyncAwait1")
+    await promise("asyncAwait2")
+    await promise("asyncAwait3")
 }
 asyncAwait()
 
