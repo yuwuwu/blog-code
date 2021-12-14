@@ -2,14 +2,14 @@
  * @Author: yuyongxing
  * @Date: 2021-08-27 10:09:47
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-14 17:40:35
+ * @LastEditTime: 2021-12-14 17:48:36
  * @Description: 
  */
 let express = require('express');
 let app = express()
 let { createProxyMiddleware } = require('http-proxy-middleware');
 
-app.use('/moebius/', express.static('dist'))
+app.use('/', express.static('dist'))
 const options = {
     target: 'http://yqft-wd-panel.test.hi-cloud.net',
     changeOrigin: true,
