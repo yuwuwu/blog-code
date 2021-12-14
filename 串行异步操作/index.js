@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-07 21:54:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-13 22:59:55
+ * @LastEditTime: 2021-12-14 17:30:28
  * @Description: 
  */
 
@@ -42,24 +42,39 @@
 //     })
 
 
-let promise = (name) => new Promise((resolve) => {
+let generator1 = function(){
     setTimeout(() => {
-        console.log(name)
-        resolve()
-    }, 1000);
-})
-let g1 = function(){
-    setTimeout(() => {
-        console.log(12)
+        console.log("generator1")
+        it.next("generator1")
     }, 2000);
 }
+let generator2 = function(){
+    setTimeout(() => {
+        console.log("generator2")
+        it.next()
+    }, 1500);
+}
 let generator = function* () {
-    yield g1()
-    yield promise("generator2")
+    yield generator1()
+    yield generator2()
 }
 let it = generator()
 it.next()
-it.next()
+
+
+
+let generator3 = ()=>new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("promise1")
+            resolve()
+        }, 2000);
+    })
+let generator4 = function(){
+    setTimeout(() => {
+        console.log("generator2")
+        it.next()
+    }, 1500);
+}
 
 
 
