@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-07 21:54:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-15 19:32:35
+ * @LastEditTime: 2021-12-15 23:18:22
  * @Description: 
  */
 
@@ -68,7 +68,7 @@
 // it.next()
 
 
-
+// let co = require('co')
 // let generator3 = () => new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //         console.log("generator3")
@@ -81,43 +81,57 @@
 //         resolve("generator4")
 //     }, 2000);
 // })
-// let generatorByPromise = function* () {
+// let generatorByCo = function* () {
 //     let result = yield generator3()
-//     yield generator4(result)
+//     let result2 = yield generator4(result)
+//     return result2
 // }
-// let itByPromise = generatorByPromise()
-// itByPromise.next().value.then(res=>{
-//     itByPromise.next(res)
+// co(generatorByCo).then(res => {
+//     console.log(res)
+// })
+// 等同于
+// let itByCo = generatorByCo()
+// itByCo.next().value.then(res=>{
+//     itByCo.next(res).value.then(res=>{
+//        let data =  itByCo.next(res).value
+//     })
 // })
 
 
 // async/await方式
 
-let asyncAwait1 = () => new Promise((resolve, reject) => {
-    setTimeout(() => {
-        console.log("asyncAwait1")
-        resolve("asyncAwait1")
-    }, 1000);
-})
-let asyncAwait2 = (data) => new Promise((resolve, reject) => {
-    setTimeout(() => {
-        console.log("asyncAwait2", "传入的数据" + data)
-        resolve()
-    }, 1000);
-})
-async function async() {
-    let result = await asyncAwait1()
-    await asyncAwait2(result)
-}
-async()
-
-
-// let event = (name) => {
-//     event => {
-//         setTimeout(() => {
-//             console.log(name)
-//             event.emit('end')
-//         }, 1000);
-//         return event
-//     }
+// let asyncAwait1 = () => new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         console.log("asyncAwait1")
+//         resolve("asyncAwait1")
+//     }, 1000);
+// })
+// let asyncAwait2 = (data) => new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         console.log("asyncAwait2", "传入的数据" + data)
+//         resolve()
+//     }, 1000);
+// })
+// async function async() {
+//     let result = await asyncAwait1()
+//     await asyncAwait2(result)
 // }
+// async()
+
+
+// 事件监听方式
+let events = require("events")
+let emitter = new events.EventEmitter()
+let event1 = () => {
+    setTimeout(() => {
+        console.log("event1")
+        emitter.emit("end","event1")
+    }, 1000);
+}
+let event2 = (data) => {
+    setTimeout(() => {
+        console.log("event2", "传入的数据" + data)
+    }, 1000);
+}
+emitter.on("end",event2)
+event1()
