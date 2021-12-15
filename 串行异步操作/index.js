@@ -2,88 +2,115 @@
  * @Author: yuyongxing
  * @Date: 2021-12-07 21:54:35
  * @LastEditors: yuyongxing
- * @LastEditTime: 2021-12-14 17:30:28
+ * @LastEditTime: 2021-12-15 19:32:35
  * @Description: 
  */
 
 
-// let callback1 = (callback) => {
+
+// callback方式
+
+// let callback1 = () => {
 //     setTimeout(() => {
 //         console.log("callback1")
-//         callback()
+//         callback2("callback1")
 //     }, 1000);
 // }
-// let callback2 = () => {
+// let callback2 = (data) => {
 //     setTimeout(() => {
-//         console.log("callback2")
+//         console.log("callback2","传入的数据"+data)
 //     }, 500);
 // }
-// callback1(callback2)
+// callback1()
+
+
+// promise方式
 
 // let promise1 = () => new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //         console.log("promise1")
-//         resolve()
+//         resolve("promise1")
 //     }, 2000);
 // })
-// let promise2 = () => new Promise((resolve, reject) => {
+// let promise2 = (data) => new Promise((resolve, reject) => {
 //     setTimeout(() => {
-//         console.log("promise2")
+//         console.log("promise2", "传入的数据" + data)
 //         resolve()
 //     }, 1500);
 // })
-
 // promise1()
-//     .then(() => {
-//         return promise2()
+//     .then((res) => {
+//         return promise2(res)
 //     })
 //     .then(() => {
-
 //     })
 
 
-let generator1 = function(){
-    setTimeout(() => {
-        console.log("generator1")
-        it.next("generator1")
-    }, 2000);
-}
-let generator2 = function(){
-    setTimeout(() => {
-        console.log("generator2")
-        it.next()
-    }, 1500);
-}
-let generator = function* () {
-    yield generator1()
-    yield generator2()
-}
-let it = generator()
-it.next()
+// generator方式
 
-
-
-let generator3 = ()=>new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log("promise1")
-            resolve()
-        }, 2000);
-    })
-let generator4 = function(){
-    setTimeout(() => {
-        console.log("generator2")
-        it.next()
-    }, 1500);
-}
-
-
-
-// let asyncAwait = async () => {
-//     await promise("asyncAwait1")
-//     await promise("asyncAwait2")
-//     await promise("asyncAwait3")
+// let generator1 = function () {
+//     setTimeout(() => {
+//         console.log("generator1")
+//         it.next("generator1")
+//     }, 2000);
 // }
-// asyncAwait()
+// let generator2 = function (data) {
+//     setTimeout(() => {
+//         console.log("generator2", "传入的数据" + data)
+//         it.next()
+//     }, 1500);
+// }
+// let generator = function* () {
+//     let result = yield generator1()
+//     yield generator2(result)
+// }
+// let it = generator()
+// it.next()
+
+
+
+// let generator3 = () => new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         console.log("generator3")
+//         resolve("generator3")
+//     }, 2000);
+// })
+// let generator4 = (data) => new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         console.log("generator4", "传入的数据" + data)
+//         resolve("generator4")
+//     }, 2000);
+// })
+// let generatorByPromise = function* () {
+//     let result = yield generator3()
+//     yield generator4(result)
+// }
+// let itByPromise = generatorByPromise()
+// itByPromise.next().value.then(res=>{
+//     itByPromise.next(res)
+// })
+
+
+// async/await方式
+
+let asyncAwait1 = () => new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log("asyncAwait1")
+        resolve("asyncAwait1")
+    }, 1000);
+})
+let asyncAwait2 = (data) => new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log("asyncAwait2", "传入的数据" + data)
+        resolve()
+    }, 1000);
+})
+async function async() {
+    let result = await asyncAwait1()
+    await asyncAwait2(result)
+}
+async()
+
 
 // let event = (name) => {
 //     event => {
