@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-10 11:33:26
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-13 18:14:02
+ * @LastEditTime: 2022-01-13 18:50:39
  * @Description: 
  */
 const express = require('express');
@@ -11,7 +11,13 @@ const getImg =require('./puppeteer.js')
 
 
 
-
+// {
+//   "width":750,
+//   "height":1101,
+//   "url":"https://yqft-api.test.hi-cloud.net/activity-new/common/testShare.html?name=%E4%BA%8E%E4%BA%94%E4%BA%94&url=http://foxgoing.oss-cn-beijing.aliyuncs.com/mdImg/1433418892058333.png",
+//   "ele":".share-box",
+//   "waitTime":1
+// }
 app.use(express.json())
 app.post('/api/getShareImg', (req, res) => {
   let params = req.body
