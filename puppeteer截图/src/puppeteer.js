@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-13 18:07:56
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-14 14:39:03
+ * @LastEditTime: 2022-01-14 18:21:28
  * @Description: 工具方法
  */
 const puppeteer = require("puppeteer");
@@ -15,22 +15,31 @@ module.exports = async (opt) => {
       headless: true,
       slowMo: 0,
       args: [
-        '–disable-gpu',
-        '–disable-dev-shm-usage',
-        '–disable-setuid-sandbox',
-        '–no-first-run',
-        '–no-sandbox',
-        '–no-zygote',
-        '–single-process'
+        '--no-zygote',
+        '--no-sandbox',
+        '--disable-gpu',
+        '--no-first-run',
+        '--single-process',
+        '-disable-extensions',
+        "--disable-xss-auditor",
+        '--disable-web-security',
+        '--disable-dev-shm-usage',
+        '--disable-popup-blocking',
+        '--disable-setuid-sandbox',
+        '--disable-accelerated-2d-canvas',
+        '--enable-features=NetworkService',
+        '--blink-settings=imagesEnabled=false',
       ]
     });
+    browser.useCount = 0
+    console.log(browser.useCount, "br")
     const page = await browser.newPage();
     await page.goto(opt.url);
     await page.setViewport({
       width: opt.width,
       height: opt.height,
     });
-    await waitTime(opt.waitTime || 500);
+    await waitTime(opt.waitTime || 0);
     const ele = await page.$(opt.ele);
     const base64 = await ele.screenshot({
       fullPage: false,
