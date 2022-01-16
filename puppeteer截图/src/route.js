@@ -2,10 +2,11 @@
  * @Author: yuyongxing
  * @Date: 2022-01-14 14:29:07
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-14 14:38:49
+ * @LastEditTime: 2022-01-16 18:58:35
  * @Description: 
  */
-const getImg = require('./puppeteer.js')
+// const getImg = require('./puppeteer.js')
+const getImg = require('./puppeteerByPool')
 
 module.exports = app => {
     app.post('/api/getShareImg', (req, res) => {
@@ -25,6 +26,12 @@ module.exports = app => {
                 return
             }
         }
+        // res.json({
+        //     code: 1,
+        //     data: "file",
+        //     msg: ""
+        // })
+        // return
         getImg(req.body).then(file => {
             res.json({
                 code: 1,
