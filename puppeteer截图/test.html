@@ -1,0 +1,47 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2022-01-16 17:20:51
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2022-01-16 18:59:47
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <img style="width: 100%;" src="" id="img" alt="">
+    <script>
+        let a = 0
+        for (var i = 0; i < 500; i++) {
+            let start = new Date().getTime()
+            $.ajax({
+                method: "post",
+                url: "http://192.168.1.10:7000/api/getShareImg",
+                headers: { "content-type": "application/json" },
+                type: "JSON",
+                data: JSON.stringify({
+                    "width": 750,
+                    "height": 1100,
+                    "url": "http://www.baidu.com",
+                    "ele": "body",
+                    "waitTime": 0
+                }),
+                success: res => {
+                    console.log(res)
+                },
+
+            })
+
+        }
+    </script>
+</body>
+
+</html>
