@@ -1,0 +1,98 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2022-01-17 18:05:02
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2022-01-17 19:04:04
+ * @Description: 红包雨
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url("./images/bg.png");
+            background-size: 100% 100%;
+        }
+        #canvas{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+        }
+        .btn{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+    </style>
+    <script src="./js/RedPacketGame.js"></script>
+    <script src="./js/utils.js"></script>
+</head>
+
+<body>
+    <button class="btn" onclick="start()">
+        开始
+    </button>
+    <div>倒计时{{ time>0?time:0 }}s</div>
+    <canvas id="canvas"></canvas>
+
+
+    <script>
+        let Rpg = null, time = null
+        init()
+        function init() {
+            Rpg = new RedPacketGame({
+                width: window.innerWidth,
+                height: window.innerHeight,
+                targerId: "canvas",
+                image: "http://foxgoing.oss-cn-beijing.aliyuncs.com/mdImg/red.png"
+            })
+        }
+        function start() {
+            const points = getPointsByCount(45, 120) // 生成60个和为120的积分数组
+            console.log(1)
+            time = 15
+            Rpg.start()
+            let i = 0
+            const timer = setInterval(() => {
+                Rpg.createRedPacket(points.slice(3 * i, 3 * (i + 1)))
+                time--
+                i++
+                if (time < -1) {
+                    time = 0
+                    clearInterval(timer)
+                    Rpg.end()
+                    getPoints(Rpg.clicks)
+                }
+            }, 1000)
+        }
+        function getPoints(list){
+           let count = 0
+           for(let i=0,len = list.length;i<len;i++){
+               count+=list.point
+           }
+           alert(count)
+        }
+    </script>
+</body>
+
+</html>
