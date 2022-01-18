@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-10 17:16:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-17 19:04:54
+ * @LastEditTime: 2022-01-18 23:42:49
  * @Description:红包雨游戏类
  */
 class RedPacketGame {
@@ -20,6 +20,7 @@ class RedPacketGame {
     this.moveTimer = null
     this.redPackets = []
     this.clicks = []
+    this.ponitXs =[]
   }
   setImage() {
     const img = new Image()
@@ -32,6 +33,35 @@ class RedPacketGame {
     canvas.width = this.width
     canvas.height = this.height
     return canvas.getContext("2d")
+  }
+  // 设置每一列的起点
+  setColXs(){
+    let arr=[], step =Math.floor((this.width-20)/60)
+    for(let i =0;i<step;i++){
+          arr.push(10 + 60*i)
+    }
+    return arr
+  }
+  sortArr(arr) {
+    for (let i = 0, len = arr.length; i < len; i++) {
+      const curRandom = parseInt(Math.random() * (len - 1));
+      const cur = arr[i];
+      arr[i] = arr[curRandom];
+      arr[curRandom] = cur;
+    }
+    return arr;
+  }
+  getPointX(){
+    if(this.ponitXs.length==0){
+      let arr=[], step =Math.floor((this.width-20)/60)
+      for(let i =0;i<step;i++){
+       arr.push(10 + 60*i)
+      }
+      this.ponitXs = this.sortArr(arr)
+    }
+    let x = this.ponitXs[0]
+    this.ponitXs.splice(0,1)
+    return x
   }
   //   开始执行动画
   start() {
@@ -76,10 +106,14 @@ class RedPacketGame {
   //   创建红包元素
   createRedPacket(list) {
     list = list || [1]
+    
     for (let i = 0; i < list.length; i++) {
+      let w = [40,45,50,55,60,65][i]
       this.redPackets.push(new RedPacket({
-        x: this.randomFn(20, this.width - 40),
-        y: -this.randomFn(20, 100),
+        w:w,
+        h:w,
+        x: this.getPointX(),
+        y: -this.randomFn(10, 200),
         image: this.redPacketImg,
         point: list[i]
       }))
@@ -137,8 +171,8 @@ class RedPacketGame {
  */
 class RedPacket {
   constructor(opt) {
-    this.w = [40,50,60,70,80][opt.point]||40
-    this.h = [40,50,60,70,80][opt.point]||40
+    this.w = opt.w||40
+    this.h = opt.h||40
     this.x = opt.x || 0
     this.y = opt.y || 0
     this.point = opt.point || 0
@@ -146,5 +180,6 @@ class RedPacket {
     this.step = opt.step || 2
     this.isClick = false
     this.clickY = 0
+    console.log(opt.x)
   }
 }

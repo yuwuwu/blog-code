@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-17 18:05:02
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-18 14:57:31
+ * @LastEditTime: 2022-01-18 22:12:13
  * @Description: 红包雨
 -->
 <!DOCTYPE html>
@@ -42,10 +42,12 @@
 
         .btn {
             width: 200px;
+            /* height: 80px; */
             position: absolute;
             bottom: 0;
             left: 0;
             z-index: 2;
+            background-color: #fff;
         }
     </style>
     <script src="./js/RedPacketGame.js"></script>
@@ -71,12 +73,15 @@
                 image: "http://foxgoing.oss-cn-beijing.aliyuncs.com/mdImg/red.png"
             })
         }
+        let ing = false
         function start() {
+            if(ing)return
             const points = getPointsByCount(45, 120) // 生成60个和为120的积分数组
             console.log(1)
             time = 15
             Rpg.start()
             let i = 0
+            ing = true
             const timer = setInterval(() => {
                 Rpg.createRedPacket(points.slice(3 * i, 3 * (i + 1)))
                 time--
@@ -86,6 +91,7 @@
                     clearInterval(timer)
                     Rpg.end()
                     getPoints(Rpg.clicks)
+                    ing = false
                 }
             }, 1000)
         }
