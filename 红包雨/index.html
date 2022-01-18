@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-17 18:05:02
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-17 19:04:04
+ * @LastEditTime: 2022-01-18 14:57:31
  * @Description: 红包雨
 -->
 <!DOCTYPE html>
@@ -18,18 +18,20 @@
     <meta http-equiv="Expires" content="0" />
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        body{
+
+        body {
             position: relative;
             width: 100%;
             height: 100vh;
             background-image: url("./images/bg.png");
             background-size: 100% 100%;
         }
-        #canvas{
+
+        #canvas {
             position: absolute;
             top: 0;
             left: 0;
@@ -37,9 +39,11 @@
             height: 100vh;
             z-index: 1;
         }
-        .btn{
+
+        .btn {
+            width: 200px;
             position: absolute;
-            top: 0;
+            bottom: 0;
             left: 0;
             z-index: 2;
         }
@@ -49,9 +53,9 @@
 </head>
 
 <body>
-    <button class="btn" onclick="start()">
+    <div class="btn" onclick="start()">
         开始
-    </button>
+    </div>
     <div>倒计时{{ time>0?time:0 }}s</div>
     <canvas id="canvas"></canvas>
 
@@ -85,12 +89,24 @@
                 }
             }, 1000)
         }
-        function getPoints(list){
-           let count = 0
-           for(let i=0,len = list.length;i<len;i++){
-               count+=list.point
-           }
-           alert(count)
+        function getPoints(list) {
+            let count = 0
+            for (let i = 0, len = list.length; i < len; i++) {
+                count += list.point
+            }
+            alert(count)
+        }
+        let arr1 = [{id:1},{id:2},{id:3}]
+        let arr2 = [{id:3},{id:2},{id:1}]
+        for (let i = 0; i < arr1.length; i++) {
+            for (let j = 0; j < arr2.length; j++) {
+                console.log(arr1[i])
+                if(arr1[i].id==arr2[j].id){
+                    arr1.splice(i,1)
+                    i--
+                    break
+                }
+            }
         }
     </script>
 </body>
