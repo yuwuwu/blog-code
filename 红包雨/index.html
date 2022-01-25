@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-17 18:05:02
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-18 22:12:13
+ * @LastEditTime: 2022-01-19 18:45:32
  * @Description: 红包雨
 -->
 <!DOCTYPE html>
@@ -41,24 +41,53 @@
         }
 
         .btn {
-            width: 200px;
+            width: 100%;
+            text-align: center;
             /* height: 80px; */
             position: absolute;
             bottom: 0;
             left: 0;
             z-index: 2;
-            background-color: #fff;
+            font-size: 0.3rem;
+            color: #fff;
+            background-color: #FC2F42;
+        }
+        .second-box{
+            width: 100%;
+            height: 72px;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            z-index: 2;
+            color: #fff;
+            font-size: 0.3rem;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            padding-left: 0.1rem;
+        }
+        .second{
+            width: .68rem;
+            height: .72rem;
+            background-image: url("images/s-bg.png");
+            background-size: 100% 100%;
+            margin: 0 0.1rem;
+            color: #FC2F42;
+            box-sizing: border-box;
+            padding-left: 0.15rem;
+            line-height: .8rem;
         }
     </style>
     <script src="./js/RedPacketGame.js"></script>
     <script src="./js/utils.js"></script>
+    <script src="./js/rem.js"></script>
 </head>
 
 <body>
     <div class="btn" onclick="start()">
         开始
     </div>
-    <div>倒计时{{ time>0?time:0 }}s</div>
+    <div class="second-box">剩余时间 <div class="second">15</div> s</div>
     <canvas id="canvas"></canvas>
 
 
@@ -96,9 +125,10 @@
             }, 1000)
         }
         function getPoints(list) {
+            console.log(list)
             let count = 0
             for (let i = 0, len = list.length; i < len; i++) {
-                count += list.point
+                count += list[i].point
             }
             alert(count)
         }
