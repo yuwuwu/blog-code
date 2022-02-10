@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-10 17:16:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-01-18 23:42:49
+ * @LastEditTime: 2022-02-10 16:00:16
  * @Description:红包雨游戏类
  */
 class RedPacketGame {
@@ -20,7 +20,7 @@ class RedPacketGame {
     this.moveTimer = null
     this.redPackets = []
     this.clicks = []
-    this.ponitXs =[]
+    this.ponitXs = []
   }
   setImage() {
     const img = new Image()
@@ -35,10 +35,10 @@ class RedPacketGame {
     return canvas.getContext("2d")
   }
   // 设置每一列的起点
-  setColXs(){
-    let arr=[], step =Math.floor((this.width-20)/60)
-    for(let i =0;i<step;i++){
-          arr.push(10 + 60*i)
+  setColXs() {
+    let arr = [], step = Math.floor((this.width - 20) / 60)
+    for (let i = 0; i < step; i++) {
+      arr.push(10 + 60 * i)
     }
     return arr
   }
@@ -51,16 +51,16 @@ class RedPacketGame {
     }
     return arr;
   }
-  getPointX(){
-    if(this.ponitXs.length==0){
-      let arr=[], step =Math.floor((this.width-20)/60)
-      for(let i =0;i<step;i++){
-       arr.push(10 + 60*i)
+  getPointX() {
+    if (this.ponitXs.length == 0) {
+      let arr = [], step = Math.floor((this.width - 20) / 60)
+      for (let i = 0; i < step; i++) {
+        arr.push(10 + 60 * i)
       }
       this.ponitXs = this.sortArr(arr)
     }
     let x = this.ponitXs[0]
-    this.ponitXs.splice(0,1)
+    this.ponitXs.splice(0, 1)
     return x
   }
   //   开始执行动画
@@ -94,7 +94,7 @@ class RedPacketGame {
       // 并且点击的y坐标大于区域的y坐标，并且小于y+height
       if (
         pos.x >= redPacket.x && pos.x - redPacket.x <= redPacket.w &&
-                pos.y >= redPacket.y && pos.y - redPacket.y <= redPacket.h
+        pos.y >= redPacket.y && pos.y - redPacket.y <= redPacket.h
       ) {
         this.redPackets[i].isClick = true
         this.redPackets[i].clickY = redPacket.y
@@ -104,20 +104,18 @@ class RedPacketGame {
     }
   }
   //   创建红包元素
-  createRedPacket(list) {
-    list = list || [1]
-    
-    for (let i = 0; i < list.length; i++) {
-      let w = [40,45,50,55,60,65][i]
-      this.redPackets.push(new RedPacket({
-        w:w,
-        h:w,
-        x: this.getPointX(),
-        y: -this.randomFn(10, 200),
-        image: this.redPacketImg,
-        point: list[i]
-      }))
-    }
+  createRedPacket(point) {
+    point = point || 0
+    let w = [40, 45, 50, 55, 60, 65][point]
+    this.redPackets.push(new RedPacket({
+      w: 60,
+      h: 60,
+      x: this.getPointX(),
+      y: -60,
+      image: this.redPacketImg,
+      point: point
+    }))
+
   }
   //   红包动画：先清空画布，在绘制一次
   redPacketMove() {
@@ -150,7 +148,6 @@ class RedPacketGame {
         this.ctx.drawImage(redPacket.image, redPacket.x, redPacket.y, redPacket.w, redPacket.h)
       }
     }
-    //
     this.moveTimer && window.cancelAnimationFrame(this.moveTimer)
     this.moveTimer = window.requestAnimationFrame(this.redPacketMove.bind(this))
   }
@@ -171,8 +168,8 @@ class RedPacketGame {
  */
 class RedPacket {
   constructor(opt) {
-    this.w = opt.w||40
-    this.h = opt.h||40
+    this.w = opt.w || 40
+    this.h = opt.h || 40
     this.x = opt.x || 0
     this.y = opt.y || 0
     this.point = opt.point || 0
@@ -180,6 +177,5 @@ class RedPacket {
     this.step = opt.step || 2
     this.isClick = false
     this.clickY = 0
-    console.log(opt.x)
   }
 }
