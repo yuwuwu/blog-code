@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-17 18:05:02
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-10 16:14:24
+ * @LastEditTime: 2022-02-11 10:08:50
  * @Description: 红包雨
 -->
 <!DOCTYPE html>
@@ -138,30 +138,6 @@
             alert(count)
         }
 
-
-        function Person(name) {
-            this.name = name;
-            this.info = {
-                age:20
-            }
-            this.sayName = function () {
-                console.log(this.name)
-            };
-        }
-        function Worker(time) {
-            this.time = time
-            this.sayWorkTime = function () {
-                console.log(this.time)
-            };
-        }
-        Worker.prototype = new Person()
-        var WorkerA = new Worker("8h")
-        WorkerA.name = "张三"
-        WorkerA.info.age = 26
-        var WorkerB = new Worker("12h")
-        // WorkerB.name = "李四"
-        // WorkerA.prototype.name = "sss"
-        console.log(WorkerA.info,WorkerB.info)
     </script>
 </body>
 
