@@ -1,8 +1,8 @@
 /*
  * @Author: yuyongxing
- * @Date: 2022-01-10 17:16:48
+ * @Date: 2022-01-20 17:16:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-10 16:00:16
+ * @LastEditTime: 2022-02-16 18:11:06
  * @Description:红包雨游戏类
  */
 class RedPacketGame {
@@ -42,6 +42,7 @@ class RedPacketGame {
     }
     return arr
   }
+  // 打乱数组
   sortArr(arr) {
     for (let i = 0, len = arr.length; i < len; i++) {
       const curRandom = parseInt(Math.random() * (len - 1));
@@ -51,6 +52,7 @@ class RedPacketGame {
     }
     return arr;
   }
+  // 获取x坐标
   getPointX() {
     if (this.ponitXs.length == 0) {
       let arr = [], step = Math.floor((this.width - 20) / 60)
@@ -168,10 +170,10 @@ class RedPacketGame {
  */
 class RedPacket {
   constructor(opt) {
-    this.w = opt.w || 40
-    this.h = opt.h || 40
-    this.x = opt.x || 0
-    this.y = opt.y || 0
+    this.w = opt.w
+    this.h = opt.h
+    this.x = opt.x
+    this.y = opt.y
     this.point = opt.point || 0
     this.image = opt.image
     this.step = opt.step || 2
