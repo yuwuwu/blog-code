@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-17 18:05:02
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-11 10:08:50
+ * @LastEditTime: 2022-02-17 15:20:35
  * @Description: 红包雨
 -->
 <!DOCTYPE html>
@@ -113,7 +113,6 @@
             $(".btn").hide()
             const timer = setInterval(() => {
                 Rpg.createRedPacket(points[i])
-                console.log(points)
                 i++
                 $(".second").text(15 - Math.floor(i / 3))
 

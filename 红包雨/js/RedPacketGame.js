@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-20 17:16:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-16 18:11:06
+ * @LastEditTime: 2022-02-17 18:10:51
  * @Description:红包雨游戏类
  */
 class RedPacketGame {
@@ -14,8 +14,6 @@ class RedPacketGame {
     this.image = opt.image
     this.redPacketImg = this.setImage()
     this.isIng = false
-    this.isEnd = false
-    this.isClick = false
     this.timer = null
     this.moveTimer = null
     this.redPackets = []
@@ -75,7 +73,6 @@ class RedPacketGame {
   }
   //   结束执行动画
   end() {
-    console.log(this.timer, this.moveTimer)
     this.redPackets = []
     this.isIng = false
     this.timer && clearInterval(this.timer)
@@ -108,16 +105,15 @@ class RedPacketGame {
   //   创建红包元素
   createRedPacket(point) {
     point = point || 0
-    let w = [40, 45, 50, 55, 60, 65][point]
     this.redPackets.push(new RedPacket({
       w: 60,
       h: 60,
       x: this.getPointX(),
       y: -60,
+      step:2,
       image: this.redPacketImg,
       point: point
     }))
-
   }
   //   红包动画：先清空画布，在绘制一次
   redPacketMove() {
@@ -150,7 +146,7 @@ class RedPacketGame {
         this.ctx.drawImage(redPacket.image, redPacket.x, redPacket.y, redPacket.w, redPacket.h)
       }
     }
-    this.moveTimer && window.cancelAnimationFrame(this.moveTimer)
+    // this.moveTimer && window.cancelAnimationFrame(this.moveTimer)
     this.moveTimer = window.requestAnimationFrame(this.redPacketMove.bind(this))
   }
   //   生成min到max之间的随机数
@@ -176,7 +172,7 @@ class RedPacket {
     this.y = opt.y
     this.point = opt.point || 0
     this.image = opt.image
-    this.step = opt.step || 2
+    this.step = opt.step
     this.isClick = false
     this.clickY = 0
   }
