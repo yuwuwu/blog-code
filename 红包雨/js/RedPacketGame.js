@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-01-20 17:16:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-17 18:10:51
+ * @LastEditTime: 2022-02-17 23:05:19
  * @Description:红包雨游戏类
  */
 class RedPacketGame {
@@ -110,7 +110,7 @@ class RedPacketGame {
       h: 60,
       x: this.getPointX(),
       y: -60,
-      step:2,
+      step:1,
       image: this.redPacketImg,
       point: point
     }))
