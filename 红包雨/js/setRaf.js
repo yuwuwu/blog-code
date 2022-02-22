@@ -2,8 +2,8 @@
  * @Author: yuyongxing
  * @Date: 2022-02-22 23:07:58
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-22 23:17:48
- * @Description: 
+ * @LastEditTime: 2022-02-22 23:21:02
+ * @Description: 高刷下重写requestAnimationFrame事件
  */
 const getScreenFps = (() => {
     return (targetCount = 50) => {

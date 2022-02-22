@@ -2,8 +2,8 @@
  * @Author: yuyongxing
  * @Date: 2022-02-22 23:10:56
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-22 23:10:57
- * @Description: 
+ * @LastEditTime: 2022-02-22 23:21:11
+ * @Description: requestAnimationFrame兼容
  */
 (function() {
     var lastTime = 0;
