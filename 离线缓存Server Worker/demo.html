@@ -1,0 +1,58 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2021-08-26 10:28:26
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2021-08-31 19:51:48
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="js/jqurey.js"></script>
+</head>
+
+<body>
+    <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/154cd131b76e431897c2c04af97880df~tplv-k3u1fbpfcp-watermark.image" width="100px">
+    <div>这是一串文字</div>
+    <div class="list"></div>
+    <script>
+        let baseUrl = ""
+        function getList() {
+            $.ajax({
+                type: "get",
+                url: "http://localhost:3000/api/getList",
+                data: {},
+                dataType: "json",
+                success: res => {
+                    let html = ""
+                    for (let i in res.data) {
+                        html += "<div>" + res.data[i].name + "</div>"
+                    }
+                    $(".list").html(html)
+                }
+            })
+        }
+        getList()
+    </script>
+    <script>
+        window.addEventListener("load", event => {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker
+                    .register("sw.js")
+                    .then(registration => {
+                        console.log("注册成功");
+                    })
+                    .catch(error => {
+                        console.log("注册失败", error);
+                    });
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-02 18:36:38
+ * @LastEditTime: 2022-03-02 18:39:08
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -14,7 +14,7 @@
 - 文章[《 JS面向对象 》](https://juejin.cn/post/6942412781299695623)
 - 文章[《 串行异步操作 》](https://juejin.cn/post/7043340637961191455)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E4%B8%B2%E8%A1%8C%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C)
 
-- 文章[《 object和map性能比较 》](https://juejin.cn/post/6992874755070099492)| [查看代码]()
+- 文章[《 object和map性能比较 》](https://juejin.cn/post/6992874755070099492)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/object%E5%92%8Cmap%E7%9A%84%E6%80%A7%E8%83%BD%E6%AF%94%E8%BE%83)
 
 
 ## 小程序开发
