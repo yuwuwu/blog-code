@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-02 18:39:08
+ * @LastEditTime: 2022-03-02 18:41:26
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -31,7 +31,7 @@
 
 - 文章[《 关于我使用了html2canvas差点提桶跑路这件事 》](https://juejin.cn/post/7044178791878361118)
 
-- 文章[《 node+puppeteer生成海报 》](https://juejin.cn/post/7053990336820936712)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/puppeteer%E6%88%AA%E5%9B%BE)
+- 文章[《 node+puppeteer生成海报 》](https://juejin.cn/post/7053990336820936712) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/puppeteer%E6%88%AA%E5%9B%BE)
 - 文章[《 uniapp多环境配置 》](https://juejin.cn/post/6992116181343666213)
-- 文章[《 vue2性能优化之Object.freeze()测试 》](https://juejin.cn/post/6995500451407855623)| [查看代码]()
-- 文章[《 离线缓存Server Worker 》](https://juejin.cn/post/7002573409565540383)
+- 文章[《 vue2性能优化之Object.freeze()测试 》](https://juejin.cn/post/6995500451407855623)
+- 文章[《 离线缓存Server Worker 》](https://juejin.cn/post/7002573409565540383) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E7%A6%BB%E7%BA%BF%E7%BC%93%E5%AD%98Server%20Worker)
