@@ -1,0 +1,79 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2022-03-02 16:55:55
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2022-03-02 16:58:49
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function createRandomKey() {
+            return new Date().getTime().toString().substr(6, 7) + '-' + (Math.random() * 100000000).toString().substr(0, 7);
+        }
+        let keys = []
+        function setKeys() {
+            for (let i = 0; i < 1000000; i++) {
+                keys.push(createRandomKey()) //随机字符key
+                // keys.push(i) //连续整数key
+            }
+        }
+        setKeys()
+        let obj = new Object()
+        let map = new Map()
+        function getObjectTimeDiff() {
+            let t1 = new Date().getTime()
+            for (let i in keys) {
+                obj[keys[i]] = i
+            }
+            let t2 = new Date().getTime()
+            for (let j in keys) {
+                let value = obj[keys[j]]
+            }
+            let t3 = new Date().getTime()
+            for (let k in keys) {
+                obj[keys[k]] = keys[k]
+            }
+            let t4 = new Date().getTime()
+            for (let l in keys) {
+                delete obj[keys[l]]
+            }
+            let t5 = new Date().getTime()
+            return `object 增：${t2 - t1}，读：${t3 - t2}，改：${t4 - t3}，删:${t5 - t4}`
+        }
+        function getMapTimeDiff() {
+            let t1 = new Date().getTime()
+            for (let i in keys) {
+                map.set(keys[i], i)
+            }
+            let t2 = new Date().getTime()
+            for (let j in keys) {
+                let value = map.get(keys[j])
+            }
+            let t3 = new Date().getTime()
+            for (let k in keys) {
+                map.set(keys[k], keys[k])
+            }
+            let t4 = new Date().getTime()
+            for (let l in keys) {
+                map.delete(keys[l])
+            }
+            let t5 = new Date().getTime()
+            return `map 增：${t2 - t1}，读：${t3 - t2}，改：${t4 - t3}，删:${t5 - t4}`
+        }
+        console.log(getObjectTimeDiff())
+        console.log(getMapTimeDiff())
+
+    </script>
+</body>
+
+</html>

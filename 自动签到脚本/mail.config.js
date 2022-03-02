@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-02-25 16:15:28
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-27 17:58:55
+ * @LastEditTime: 2022-03-02 16:25:17
  * @Description: 邮箱动态项
  */
 module.exports = {
@@ -14,10 +14,10 @@ module.exports = {
     tos: [
         {
             email: "yyxpublic@163.com",
-            cookie: "",
+            cookie: ``,//使用字符串模板，防止cookie里有引号导致标签闭合问题
         },
         {
-            email: "yuyongxing@pxene.com",
+            email: "yyxpublic@163.com",
             cookie: ``
         }
     ]

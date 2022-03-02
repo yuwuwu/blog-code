@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-02-25 13:55:12
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-02-25 18:41:26
+ * @LastEditTime: 2022-03-02 16:42:22
  * @Description: 
  */
 
@@ -55,7 +55,7 @@ const sendEmail = (to, subject, text) => {
         }
     })
 }
-const todo = async () => {
+exports.todo = async () => {
     let title = ""
     let text = ""
     for (let i = 0, len = tos.length; i < len; i++) {
@@ -82,10 +82,9 @@ const todo = async () => {
                     text += `${map[j].name}失败，错误原因为：${map[j].data.err_msg};`
                 }
             }
-            console.log(text,to.email)
+            console.log(text, to.email)
             sendEmail(to.email, title, text)
         }
-
     }
 }
-todo()
+
