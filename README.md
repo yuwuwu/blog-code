@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-02 18:49:29
+ * @LastEditTime: 2022-03-03 09:50:29
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -13,7 +13,6 @@
 - 文章[《 ES6 》](https://juejin.cn/post/6920896651724849166)
 - 文章[《 JS面向对象 》](https://juejin.cn/post/6942412781299695623)
 - 文章[《 串行异步操作 》](https://juejin.cn/post/7043340637961191455)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E4%B8%B2%E8%A1%8C%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C)
-
 - 文章[《 object和map性能比较 》](https://juejin.cn/post/6992874755070099492)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/object%E5%92%8Cmap%E7%9A%84%E6%80%A7%E8%83%BD%E6%AF%94%E8%BE%83)
 
 
@@ -36,6 +35,8 @@
 - 文章[《 vue2性能优化之Object.freeze()测试 》](https://juejin.cn/post/6995500451407855623)
 - 文章[《 离线缓存Server Worker 》](https://juejin.cn/post/7002573409565540383) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E7%A6%BB%E7%BA%BF%E7%BC%93%E5%AD%98Server%20Worker)
 
+
+## 其他
 
 ## 最后
 都看到这里了，可以帮忙点个star吗？(￣▽￣)~*
