@@ -1,0 +1,24 @@
+{
+  "name": "vue-template-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yuwuwu-cli": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^2.3.0"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0"
+  }
+}
