@@ -3,7 +3,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-09 11:46:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-10 18:25:47
+ * @LastEditTime: 2022-03-10 19:02:53
  * @Description: cli入口
  */
 const fs = require("fs");
