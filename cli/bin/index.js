@@ -3,70 +3,75 @@
  * @Author: yuyongxing
  * @Date: 2022-03-09 11:46:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-10 19:02:53
+ * @LastEditTime: 2022-03-11 17:19:24
  * @Description: cli入口
  */
 const fs = require("fs");
-const version = require('../package.json').version
+const version = require("../package.json").version;
 const path = require("path");
 const chalk = require("chalk");
 const program = require("commander");
-const inquirer = require("inquirer");
+const {choiceTemplateQuestion,isRemoveDirQuestion,nodeProjectQuestion} = require("./questions")
 const rimraf = require("rimraf");
 const download = require("download-git-repo");
 const ora = require("ora");
 
 
-program.version(version)
-       .usage()
-        parse(process.argv);
+program
+  .command("init <project-name>")
+  .description("初始化项目文件")
+  .action((projectName) => {
+    console.log(chalk.green("项目名称：" + projectName));
+  });
 
-const dir = path.resolve(process.cwd(), program.args[0]);
-console.log(program.args);
+program
+  .on("--help", function () {
+    console.log();
+    console.log(chalk.green("你可以这样使用:yuwuwu init <project-name>"));
+    console.log();
+  });
+
+program
+  .version(version)
+  .parse(process.argv);
+
+if (program.args.length < 2) return program.help();
+
+const projectName = path.resolve(process.cwd(), program.args[0]);
+
 if (fs.existsSync(program.args[0])) {
     console.log(chalk.red(program.args[0] + "文件夹已存在"));
     isRemoveDir();
 } else {
-    fs.mkdirSync(dir);
+    fs.mkdirSync(projectName);
     choiceTemplate();
 }
 
 function choiceTemplate() {
-    inquirer
-        .prompt([
-            {
-                type: "list",
-                name: "choice",
-                message: "选择要使用的模板:",
-                default: 0,
-                choices: [
-                    {
-                        value: "github:yuwuwu/vue-mobile-template",
-                        name: "vue2+vant移动端模板",
-                    },
-                    {
-                        value: "github:yuwuwu/vue-pc-template",
-                        name: "vue2+element后台管理模板",
-                    },
-                ],
-            },
-        ])
+  choiceTemplateQuestion()
         .then((answers) => {
-            console.log("answers", answers);
-            downloadByGit(answers.choice);
-        })
-        .catch((error) => {
-            if (error.isTtyError) {
-                // Prompt couldn't be rendered in the current environment
-            } else {
-                // Something else went wrong
+            let { choice } = answers
+            switch (choice) {
+                case 'node':
+                    createNodeTemplate()
+                    break;
+                default:
+                    downloadByGit(choice);
             }
-        });
+        })
 }
+/**
+ * @Author: yuyongxing
+ * @param {*} url
+ * @return {*}
+ * @Date: 2022-03-11 11:21:50
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 下载git仓库代码模板
+ */
 function downloadByGit(url) {
-    console.log(url)
     const loading = ora("downloading").start()
-    download(url, dir, { clone: false }, function (err) {
+    download(url, projectName, { clone: false }, function (err) {
         loading.stop()
         if (err) {
             console.log(chalk.red(err));
@@ -80,24 +85,31 @@ function downloadByGit(url) {
  * @Author: yuyongxing
  * @param {*}
  * @return {*}
+ * @Date: 2022-03-11 11:21:47
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 创建node模板
+ */
+function createNodeTemplate() {
+  nodeProjectQuestion().then(answers=>{
+      console.log(answers)
+  })
+}
+
+/**
+ * @Author: yuyongxing
+ * @param {*}
+ * @return {*}
  * @Date: 2022-03-10 15:37:25
  * @LastEditors: yuyongxing
  * @LastEditTime: Do not edit
  * @Description:
  */
 function isRemoveDir() {
-    inquirer
-        .prompt([
-            {
-                type: "confirm",
-                message: "是否覆盖原文件夹？",
-                name: "ok",
-            },
-        ])
-        .then((answers) => {
+  isRemoveDirQuestion().then(answers => {
             if (answers.ok) {
-                rimraf.sync(dir);
-                fs.mkdirSync(dir);
+                rimraf.sync(projectName);
+                fs.mkdirSync(projectName);
                 choiceTemplate()
             }
         });

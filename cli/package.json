@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "yuwuwu-cli": "./bin/index.js"
+    "yuwuwu": "./bin/index.js"
   },
   "author": "",
   "license": "ISC",
