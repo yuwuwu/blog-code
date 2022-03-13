@@ -3,7 +3,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-09 11:46:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-11 17:19:24
+ * @LastEditTime: 2022-03-13 23:05:59
  * @Description: cli入口
  */
 const fs = require("fs");
@@ -15,7 +15,8 @@ const {choiceTemplateQuestion,isRemoveDirQuestion,nodeProjectQuestion} = require
 const rimraf = require("rimraf");
 const download = require("download-git-repo");
 const ora = require("ora");
-
+const {getIndexTemplate,getPackageTemplate} = require("./createNodeTemplate")
+const execa =require("execa")
 
 program
   .command("init <project-name>")
@@ -32,9 +33,8 @@ program
   });
 
 program
-  .version(version)
+  .version(version,'-v,--version')
   .parse(process.argv);
-
 if (program.args.length < 2) return program.help();
 
 const projectName = path.resolve(process.cwd(), program.args[0]);
@@ -92,7 +92,9 @@ function downloadByGit(url) {
  */
 function createNodeTemplate() {
   nodeProjectQuestion().then(answers=>{
-      console.log(answers)
+      fs.writeFileSync(projectName+"/index.js",getIndexTemplate(answers))
+      fs.writeFileSync(projectName+"/package.json",getPackageTemplate(answers))
+      installModules()
   })
 }
 
@@ -113,4 +115,9 @@ function isRemoveDir() {
                 choiceTemplate()
             }
         });
+}
+function installModules(){
+  execa("yarn", {
+    cwd: projectName
+  },["install"])
 }

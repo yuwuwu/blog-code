@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-11 15:24:59
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-11 18:06:51
+ * @LastEditTime: 2022-03-13 18:52:51
  * @Description: 用户交互模块，需要用户输入、选择
  */
 const inquirer = require("inquirer");
@@ -92,14 +92,14 @@ function nodeProjectQuestion() {
             name: "modules",
             message: "选择要使用的中间件或依赖",
             choices: [
-              {
-                name: "router",
-              },
-              {
-                name: "axios",
-              }
+                {
+                    name: "cors",
+                },
+                {
+                    name: "bodyParser",
+                }
             ],
-          }
+        }
     ])
 }
 module.exports = {

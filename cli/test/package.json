@@ -1,0 +1,24 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "2",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "3",
+  "license": "ISC",
+  "dependencies": {
+    "http-errors": "^2.0.0",
+
+    "cors": "^2.8.5",
+
+    "body-parser": "^1.19.2",
+
+    "express": "^4.17.2"
+  }
+}

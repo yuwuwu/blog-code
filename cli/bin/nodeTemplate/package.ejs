@@ -1,0 +1,25 @@
+{
+"name": "<%= name %>",
+"version": "1.0.0",
+"description": "<%= description %>",
+"main": "index.js",
+"directories": {
+"test": "test"
+},
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start": "node index.js"
+},
+"author": "<%= author %>",
+"license": "ISC",
+"dependencies": {
+"http-errors": "^2.0.0",
+<% if (modules.indexOf("cors") > -1) { %>
+"cors": "^2.8.5",
+<% } %>
+<% if (modules.indexOf("bodyParser") > -1) { %>
+"body-parser": "^1.19.2",
+<% } %>
+"express": "^4.17.2"
+}
+}
