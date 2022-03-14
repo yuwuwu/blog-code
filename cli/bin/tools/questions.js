@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-11 15:24:59
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-13 18:52:51
+ * @LastEditTime: 2022-03-14 16:48:26
  * @Description: 用户交互模块，需要用户输入、选择
  */
 const inquirer = require("inquirer");
@@ -97,7 +97,22 @@ function nodeProjectQuestion() {
                 },
                 {
                     name: "bodyParser",
-                }
+                },
+                {
+                    name: "fs",
+                },
+                {
+                    name: "static",
+                },
+                {
+                    name: "axios",
+                },
+                {
+                    name: "qs",
+                },
+                {
+                    name: "lodash",
+                },
             ],
         }
     ])

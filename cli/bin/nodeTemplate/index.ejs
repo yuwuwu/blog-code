@@ -1,22 +1,43 @@
 const express = require('express');
 const app = express()
 
-<% if (modules.indexOf("cors")> -1) { %>
+<% if (modules.indexOf("cors")> -1) { -%>
 const cors = require('cors');
-<% } %>
-<% if (modules.indexOf("bodyParser")> -1) { %>
+<% } -%>
+<% if (modules.indexOf("bodyParser")> -1) { -%>
 const bodyParser = require("body-parser");
-<% } %>
+<% } -%>
+<% if (modules.indexOf("fs")> -1) { -%>
+const fs = require("fs");
+<% } -%>
+<% if (modules.indexOf("axios")> -1) { -%>
+const axios = require("axios");
+<% } -%>
+<% if (modules.indexOf("qs")> -1) { -%>
+const qs = require("qs");
+<% } -%>
+<% if (modules.indexOf("lodash")> -1) { -%>
+const lodash = require("lodash");
+<% } -%>
+<% if (modules.indexOf("cheerio")> -1) { -%>
+const cheerio = require("cheerio");
+<% } -%>
 
 
 
-<% if (modules.indexOf("cors")> -1) { %>
+<% if (modules.indexOf("cors")> -1) { -%>
 app.use(cors());
-<% } %>
-<% if (modules.indexOf("bodyParser")> -1) { %>
+<% } -%>
+<% if (modules.indexOf("bodyParser")> -1) { -%>
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
-<% } %>
+<% } -%>
+<% if (modules.indexOf("static")> -1) { -%>
+app.use(express.static(__dirname+'/public'))
+<% } -%>
+
+
+
 const server = app.listen(<%= port %> , '0.0.0.0', () => {
 const host = server.address().address;
 const port = server.address().port;

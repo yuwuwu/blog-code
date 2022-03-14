@@ -13,13 +13,24 @@
 "author": "<%= author %>",
 "license": "ISC",
 "dependencies": {
-"http-errors": "^2.0.0",
-<% if (modules.indexOf("cors") > -1) { %>
+<% if (modules.indexOf("cors") > -1) { -%>
 "cors": "^2.8.5",
-<% } %>
-<% if (modules.indexOf("bodyParser") > -1) { %>
+<% } -%>
+<% if (modules.indexOf("bodyParser") > -1) { -%>
 "body-parser": "^1.19.2",
-<% } %>
+<% } -%>
+<% if (modules.indexOf("axios") > -1) { -%>
+"axios": "^0.26.1",
+<% } -%>
+<% if (modules.indexOf("qs") > -1) { -%>
+"qs": "^6.10.3",
+<% } -%>
+<% if (modules.indexOf("lodash") > -1) { -%>
+"lodash": "^4.17.21",
+<% } -%>
+<% if (modules.indexOf("cheerio") > -1) { -%>
+"cheerio": "^1.0.0-rc.10",
+<% } -%>
 "express": "^4.17.2"
 }
 }
