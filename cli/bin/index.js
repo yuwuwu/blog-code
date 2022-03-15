@@ -3,20 +3,20 @@
  * @Author: yuyongxing
  * @Date: 2022-03-09 11:46:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-14 16:15:09
+ * @LastEditTime: 2022-03-15 11:01:50
  * @Description: cli入口
  */
-const fs = require("fs");
+
 const version = require("../package.json").version;
-const path = require("path");
 const chalk = require("chalk");
 const program = require("commander");
-const { choiceTemplateQuestion, isRemoveDirQuestion, nodeProjectQuestion } = require("./tools/questions")
-const rimraf = require("rimraf");
-const download = require("download-git-repo");
-const ora = require("ora");
-const { getIndexTemplate, getPackageTemplate } = require("./tools/createNodeTemplate")
-const execa = require("execa");
+const {
+  mkdirByProjectName,
+  choiceTemplate,
+  downloadByGit,
+  createNodeTemplate,
+  installModules } = require("../lib/create")
+  
 
 program
   .command("init <project-name>")
@@ -40,68 +40,11 @@ if (program.args.length < 2) return program.help();
 
 
 
-async function mkdirByProjectName() {
-  if (fs.existsSync(program.args[0])) {
-    console.log(chalk.red(program.args[0] + "文件夹已存在"));
-    await isRemoveDirQuestion().then(answers => {
-      if (answers.ok) {
-        rimraf.sync(getProjectName());
-        fs.mkdirSync(getProjectName());
-      }
-    });
-  } else {
-    fs.mkdirSync(getProjectName());
-  }
-}
-
-
-function downloadByGit(url) {
-  const loading = ora("downloading").start()
-  return new Promise((res, rej) => {
-    download(url, getProjectName(), { clone: false }, function (err) {
-      loading.stop()
-      if (err) {
-        console.log(chalk.red(err));
-        rej()
-        process.exit(1)
-      }
-      console.log(chalk.green('download success!'));
-      res()
-    });
-  })
-
-}
-
-
-async function createNodeTemplate() {
-  await nodeProjectQuestion().then(answers => {
-    fs.writeFileSync(getProjectName() + "/index.js", getIndexTemplate(answers))
-    fs.writeFileSync(getProjectName() + "/package.json", getPackageTemplate(answers))
-  })
-}
-
-
-async function installModules() {
-  const loading = ora("install...").start()
-  await execa("yarn", { cwd: getProjectName() }, ["install"])
-    .then(() => {
-      loading.stop()
-    })
-    .catch((err) => {
-      console.log(chalk.red(err))
-      loading.stop()
-    })
-}
-
-function getProjectName() {
-  return path.resolve(process.cwd(), program.args[0])
-}
-
 async function cliStart() {
   // 1.创建项目文件目录
   await mkdirByProjectName()
   // 2.选择模板
-  const { choice } = await choiceTemplateQuestion()
+  const { choice } = await choiceTemplate()
   // 3.根据模板下载对应的文件
   switch (choice) {
     case 'node':
