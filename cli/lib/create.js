@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-15 10:52:57
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-15 11:29:04
+ * @LastEditTime: 2022-03-15 15:11:06
  * @Description: 
  */
 const fs = require("fs");
@@ -13,8 +13,8 @@ const rimraf = require("rimraf");
 const download = require("download-git-repo");
 const ora = require("ora");
 const execa = require("execa");
-const { choiceTemplateQuestion, isRemoveDirQuestion, nodeProjectQuestion } = require("../lib/questions")
-const { getIndexTemplate, getPackageTemplate } = require("../lib/createNodeTemplate")
+const { choiceTemplateQuestion, isRemoveDirQuestion, nodeProjectQuestion } = require("./questions")
+const { getIndexTemplate, getPackageTemplate } = require("./createNodeTemplate")
 
 
 /**
