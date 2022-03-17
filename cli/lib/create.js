@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-15 10:52:57
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-15 15:11:06
+ * @LastEditTime: 2022-03-17 13:55:38
  * @Description: 
  */
 const fs = require("fs");
@@ -87,7 +87,7 @@ function downloadByGit(url) {
    * @Date: 2022-03-15 11:15:25
    * @LastEditors: yuyongxing
    * @LastEditTime: Do not edit
-   * @Description: 问询选择的插件，通过ejs语法写入
+   * @Description: 问询用户需要选择的插件，通过ejs语法写入
    */
   async function createNodeTemplate() {
     await nodeProjectQuestion().then(answers => {
