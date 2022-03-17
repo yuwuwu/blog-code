@@ -12,7 +12,7 @@
   "bin": {
     "yuwuwu": "./bin/index.js"
   },
-  "author": "",
+  "author": "yuwuwu",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.11.0",
