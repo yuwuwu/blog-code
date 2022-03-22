@@ -3,7 +3,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-09 11:46:31
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-15 11:01:50
+ * @LastEditTime: 2022-03-22 16:14:18
  * @Description: cli入口
  */
 
@@ -36,7 +36,7 @@ program
 program
   .version(version, '-v,--version')
   .parse(process.argv);
-if (program.args.length < 2) return program.help();
+if (program.args.length < 2) program.help();
 
 
 

@@ -22,7 +22,6 @@ function choiceTemplateQuestion() {
             type: "list",
             name: "choice",
             message: "选择要使用的模板:",
-            default: 0,
             choices: [
                 {
                     value: "github:yuwuwu/vue-mobile-template",
@@ -66,7 +65,7 @@ function nodeProjectQuestion() {
             message: '请输入项目名称',
             validate(name) {
                 if (name) return true;
-                return "P请输入项目名称";
+                return "请输入项目名称";
             }
         },
         {
