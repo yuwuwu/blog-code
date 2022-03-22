@@ -1,6 +1,6 @@
 {
   "name": "yuwuwu-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -15,8 +15,8 @@
   "author": "yuwuwu",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.11.0",
     "chalk": "^2.3.0",
+    "commander": "^2.11.0",
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.6",
     "execa": "^4.1.0",
