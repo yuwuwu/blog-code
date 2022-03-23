@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-03-15 10:52:57
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-23 00:24:25
+ * @LastEditTime: 2022-03-23 23:42:52
  * @Description: 
  */
 const fs = require("fs");
@@ -107,7 +107,8 @@ async function installModules() {
   const loading = ora("install...").start()
   await execa("yarn", { cwd: getProjectName() }, ["install"])
     .then(() => {
-      loading.stop()
+      loading.succeed("install")
+      console.log(chalk.green("install success!!!"))
     })
     .catch((err) => {
       console.log(chalk.red(err))
