@@ -2,14 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-04-02 11:11:27
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-06 18:13:20
- * @Description: 
- */
-/*
- * @Author: yuyongxing
- * @Date: 2022-02-25 13:55:12
- * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-02 16:42:22
+ * @LastEditTime: 2022-04-15 22:55:54
  * @Description: 
  */
 
@@ -18,7 +11,17 @@ const { SendKey, users } = require('./config.js')
 
 
 
-// 获取bug
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @return {*} data
+ * @Date: 2022-04-15 22:52:34
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 查询用户可收集bug数
+ */
 const getBugList = async (aid, uuid, cookie) => {
     let { data } = await axios({
         url: `https://api.juejin.cn/user_api/v1/bugfix/not_collect?aid=${aid}&uuid=${uuid}`,
@@ -27,7 +30,19 @@ const getBugList = async (aid, uuid, cookie) => {
     })
     return data
 }
-// 收集bug
+
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @param {*} params
+ * @return {*}data
+ * @Date: 2022-04-15 22:53:01
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 收集bug
+ */
 const collectBug = async (aid, uuid, cookie, params) => {
     let { data } = await axios({
         url: `https://api.juejin.cn/user_api/v1/bugfix/collect?aid=${aid}&uuid=${uuid}`,
@@ -37,7 +52,18 @@ const collectBug = async (aid, uuid, cookie, params) => {
     })
     return data
 }
-// 获取活动详情
+
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @return {*} data
+ * @Date: 2022-04-15 22:53:16
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 获取活动详情
+ */
 const getBugFixGameInfo = async (aid, uuid, cookie) => {
     let { data } = await axios({
         url: `https://api.juejin.cn/user_api/v1/bugfix/competition?aid=${aid}&uuid=${uuid}`,
@@ -46,7 +72,19 @@ const getBugFixGameInfo = async (aid, uuid, cookie) => {
     })
     return data
 }
-// 获取活动用户详情
+
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @param {*} params
+ * @return {*} data
+ * @Date: 2022-04-15 22:53:32
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 获取活动用户详情:可用Bug数量
+ */
 const getBugFixGameUserInfo = async (aid, uuid, cookie, params) => {
     let { data } = await axios({
         url: `https://api.juejin.cn/user_api/v1/bugfix/user?aid=${aid}&uuid=${uuid}`,
@@ -56,7 +94,19 @@ const getBugFixGameUserInfo = async (aid, uuid, cookie, params) => {
     })
     return data
 }
-// 参与活动
+
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @param {*} params
+ * @return {*} data
+ * @Date: 2022-04-15 22:53:49
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 参与活动
+ */
 const bugFix = async (aid, uuid, cookie, params) => {
     let { data } = await axios({
         url: `https://api.juejin.cn/user_api/v1/bugfix/fix?aid=${aid}&uuid=${uuid}`,
@@ -67,14 +117,38 @@ const bugFix = async (aid, uuid, cookie, params) => {
     return data
 }
 
-const sendWxMessage = (title, desp) => {
+/**
+ * @Author: yuyongxing
+ * @param {*} title
+ * @param {*} desp
+ * @return {*} data
+ * @Date: 2022-04-15 22:54:07
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 微信推送
+ */
+const sendWxMessage = async (title, desp) => {
     title = encodeURIComponent(title)
     desp = encodeURIComponent(desp)
-    return axios({
+    let { data } = await axios({
         url: `https://sctapi.ftqq.com/${SendKey}.send?title=${title}&desp=${desp}`,
         method: 'post'
     })
+    return data
 }
+
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @param {*} bugList
+ * @return {*} {err_no: err_no,err_msg: err_msg}
+ * @Date: 2022-04-15 22:51:23
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 根据列表收取Bug
+ */
 const collectBugByList = async (aid, uuid, cookie, bugList) => {
     let err_msg = ""
     let err_no = 0
@@ -95,6 +169,17 @@ const collectBugByList = async (aid, uuid, cookie, bugList) => {
     }
 }
 
+/**
+ * @Author: yuyongxing
+ * @param {*} aid
+ * @param {*} uuid
+ * @param {*} cookie
+ * @return {*}
+ * @Date: 2022-04-15 22:54:24
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 参与游戏
+ */
 const joinBugFix = async (aid, uuid, cookie) => {
     let msg = ""
     const res_bugFixGameInfo = await getBugFixGameInfo(aid, uuid, cookie)
@@ -127,6 +212,15 @@ const joinBugFix = async (aid, uuid, cookie) => {
 }
 
 
+/**
+ * @Author: yuyongxing
+ * @param {*}
+ * @return {*}
+ * @Date: 2022-04-15 22:54:39
+ * @LastEditors: yuyongxing
+ * @LastEditTime: Do not edit
+ * @Description: 主函数
+ */
 const bugFix_start = async () => {
     for (let i = 0, len = users.length; i < len; i++) {
         let title = 'bugfix成功'
@@ -151,10 +245,7 @@ const bugFix_start = async () => {
         } else {
             desp += "参与失败：" + res_joinBugFix.err_msg
         }
-        sendWxMessage(title, desp).then(res => {
-        }).catch(err => {
-            console.log(err, "err")
-        })
+        await sendWxMessage(title, desp)
     }
 }
 exports.bugFix_start = bugFix_start
