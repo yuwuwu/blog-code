@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-03-24 09:37:08
+ * @LastEditTime: 2022-04-15 23:15:59
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -38,6 +38,7 @@
 
 
 ## 其他
-- 文章[《 腾讯云函数+掘金签到脚本 》](https://juejin.cn/post/7070521315236511781) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0%E8%84%9A%E6%9C%AC)
+- 文章[《 白嫖云函数 【腾讯云函数+掘金签到脚本】 》](https://juejin.cn/post/7070521315236511781) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0%E8%84%9A%E6%9C%AC)
+- 文章[《 白嫖云函数 【收集bugfix】 》](https://juejin.cn/post/7086848550277120014) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/bugfix%E8%84%9A%E6%9C%AC)
 ## 最后
 都看到这里了，可以帮忙点个star吗？(￣▽￣)~*

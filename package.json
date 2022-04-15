@@ -1,0 +1,28 @@
+{
+  "name": "markdown-code",
+  "version": "1.0.0",
+  "description": "博客代码--代码支持文章",
+  "main": "index.js",
+  "directories": {
+    "doc": "./"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuwuwu/markdown-code.git"
+  },
+  "keywords": [
+    "博客",
+    "javascript",
+    "node",
+    "脚本"
+  ],
+  "author": "yyxpublic@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuwuwu/markdown-code/issues"
+  },
+  "homepage": "https://github.com/yuwuwu/markdown-code#readme"
+}
