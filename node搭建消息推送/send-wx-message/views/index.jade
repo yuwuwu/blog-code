@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1 用户标识
+  p 你可以点击复制按钮或者手动复制你的openid
+  input(id='copy',type="text",value= openid,style ={border:'1px solid #333'} )
+  button(onclick="handleCopy()") 复制
+  script(src="js/index.js")
