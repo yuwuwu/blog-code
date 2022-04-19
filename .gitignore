@@ -13,10 +13,7 @@ bin-release/
 *.apk
 node_modules
 test
-wxConfig.js
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-
-node搭建消息推送/send-wx-message/utils/wxConfig.js
