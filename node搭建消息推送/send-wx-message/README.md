@@ -1,5 +1,3 @@
-<a href="https://github.com/TencentCloudBase/cloudbase-templates"><img src="https://main.qcloudimg.com/raw/ce7fa0617399ac5e7f7bdbef5efb29d9.png"></a>
-
 # Express 应用示例
 
 这个目录是基于云开发的一个 [Express](https://expressjs.com/zh-cn/) 应用示例，包含 Express + 云函数，可以基于 **[CloudBase Framework](https://github.com/TencentCloudBase/cloudbase-framework)** 框架将项目一键部署到云开发环境

@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-20 07:28:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-19 17:11:56
+ * @LastEditTime: 2022-04-21 16:26:06
  * @Description: 
  */
 const express = require("express");
@@ -58,8 +58,8 @@ router.get("/getUserInfo", async (req, res, next)=> {
 router.post("/sendMessage",async  (req, res, next)=> {
 	try {
 		const {openid,title,desc} = req.body
-		const {appid,secret,grant_type} = config
-		const res_getAccessToken = await getAccessToken(appid,secret,grant_type)
+		const {appid,secret} = config
+		const res_getAccessToken = await getAccessToken(appid,secret)
 		if(res_getAccessToken.errcode > 0){
 			res.send(res_getAccessToken)
 			return

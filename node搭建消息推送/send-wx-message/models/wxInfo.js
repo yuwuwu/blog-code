@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-04-18 22:20:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-19 16:57:49
+ * @LastEditTime: 2022-04-21 16:25:45
  * @Description: 
  */
 const axios = require("axios");
@@ -16,7 +16,7 @@ module.exports = {
         })
         return data
     },
-    getAccessToken: async (appid, secret, grant_type) => {
+    getAccessToken: async (appid, secret) => {
         const accessTokenJson = JSON.parse(fs.readFileSync(__dirname + '/access_token.json', 'utf8'))
         const nowTime = new Date().getTime()
         // 提前半小时刷新access_token
@@ -24,7 +24,7 @@ module.exports = {
             return accessTokenJson
         } else {
             const { data } = await axios({
-                url: `https://api.weixin.qq.com/cgi-bin/token?grant_type=${grant_type}&appid=${appid}&secret=${secret}`
+                url: `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${secret}`
             })
             if (data.access_token) {
                 fs.writeFileSync(__dirname + '/access_token.json', JSON.stringify({...data,createTime:nowTime}))
