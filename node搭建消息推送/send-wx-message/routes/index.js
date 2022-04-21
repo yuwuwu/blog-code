@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-20 07:28:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-21 18:13:48
+ * @LastEditTime: 2022-04-21 23:31:26
  * @Description: 
  */
 const express = require("express");
@@ -59,6 +59,7 @@ router.post("/sendMessage",async  (req, res, next)=> {
 		const {openid,title,desc} = req.body
 		const {appid,secret} = config
 		const res_getAccessToken = await getAccessToken(appid,secret)
+		console.log(res_getAccessToken)
 		if(res_getAccessToken.errcode > 0){
 			res.send(res_getAccessToken)
 			return
@@ -70,7 +71,8 @@ router.post("/sendMessage",async  (req, res, next)=> {
 		}
 		res.send({
 			errcode:0,
-			errmsg:'ok'
+			errmsg:'ok',
+			res_getAccessToken
 		})
 	} catch (error) {
 		res.send( { errcode:500,errmsg: error });
