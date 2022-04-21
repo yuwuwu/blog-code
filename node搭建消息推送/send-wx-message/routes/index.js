@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-20 07:28:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-21 16:26:06
+ * @LastEditTime: 2022-04-21 18:13:48
  * @Description: 
  */
 const express = require("express");
@@ -10,7 +10,7 @@ const config = require("../utils/wxConfig.js")
 const sha1 = require('node-sha1')
 const router = express.Router();
 const urlencode= require('urlencode')
-const {getOpenid,getAccessToken,sendWxMessage} = require('../models/wxInfo')
+const {getOpenid,getAccessToken,sendWxMessage} = require('../models/wxApi')
 
 // 验证消息来自微信服务器
 router.get("/", function (req, res, next) {
@@ -54,7 +54,6 @@ router.get("/getUserInfo", async (req, res, next)=> {
 });
 
 // 推送模板消息
-
 router.post("/sendMessage",async  (req, res, next)=> {
 	try {
 		const {openid,title,desc} = req.body
@@ -74,7 +73,7 @@ router.post("/sendMessage",async  (req, res, next)=> {
 			errmsg:'ok'
 		})
 	} catch (error) {
-		res.render("error", { errcode:500,errmsg: error });
+		res.send( { errcode:500,errmsg: error });
 	}
 })
 module.exports = router;
