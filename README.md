@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-22 14:52:09
+ * @LastEditTime: 2022-04-22 17:23:04
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -25,7 +25,7 @@
 
 - 文章[《 解放cv键 实现一个cli工具 》](https://juejin.cn/post/7078337031167803406)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/yuwuwu-cli)
 
-- 文章[《 云函数+测试公众号搭建微信消息推送平台 》](https://juejin.cn/post/7089314780804022280)| [查看代码](https://github.com/yuwuwu/blog-code/tree/master/node%E6%90%AD%E5%BB%BA%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81/send-wx-message)
+- 文章[《 云开发+测试公众号搭建微信消息推送平台 》](https://juejin.cn/post/7089314780804022280)| [查看代码](https://github.com/yuwuwu/blog-code/tree/master/node%E6%90%AD%E5%BB%BA%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81/send-wx-message)
 
 ## 项目优化、总结
 
