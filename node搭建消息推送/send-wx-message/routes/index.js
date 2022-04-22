@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-12-20 07:28:48
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-21 23:31:26
+ * @LastEditTime: 2022-04-22 11:06:15
  * @Description: 
  */
 const express = require("express");
@@ -31,7 +31,7 @@ router.get("/", function (req, res, next) {
 // 网页授权回调获取code
 router.get("/authorize", function (req, res, next) {
 	const appid = config.appid
-	const redirect_uri = urlencode("https://send-wx-message-9g3383r7e56cf5a4-1257712946.ap-shanghai.app.tcloudbase.com/express-starter/getUserInfo")
+	const redirect_uri = urlencode("https://send-wx-message-xxxxxxxxxxxxxxxx.ap-shanghai.app.tcloudbase.com/express-starter/getUserInfo")
     const scope = 'snsapi_userinfo';
 	res.redirect(`https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appid}&redirect_uri=${redirect_uri}&response_type=code&scope=${scope}&state=STATE&connect_redirect=1#wechat_redirect`)
 });
@@ -71,8 +71,7 @@ router.post("/sendMessage",async  (req, res, next)=> {
 		}
 		res.send({
 			errcode:0,
-			errmsg:'ok',
-			res_getAccessToken
+			errmsg:'ok'
 		})
 	} catch (error) {
 		res.send( { errcode:500,errmsg: error });
