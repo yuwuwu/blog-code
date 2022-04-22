@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "envId": "send-wx-message-9g3383r7e56cf5a4",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "framework": {
+    "name": "express-starter",
+    "plugins": {
+      "node": {
+        "use": "@cloudbase/framework-plugin-node",
+        "inputs": {
+          "name": "express-starter",
+          "path": "/express-starter"
+        }
+      }
+    }
+  }
+}
