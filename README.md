@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-15 23:15:59
+ * @LastEditTime: 2022-04-22 14:52:09
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -22,7 +22,10 @@
 ## node相关
 
 - 文章[《 node解决开发环境下跨域问题 》](https://juejin.cn/post/7001894700596592653)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/node%E6%9C%8D%E5%8A%A1%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F)
+
 - 文章[《 解放cv键 实现一个cli工具 》](https://juejin.cn/post/7078337031167803406)| [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/yuwuwu-cli)
+
+- 文章[《 云函数+测试公众号搭建微信消息推送平台 》](https://juejin.cn/post/7089314780804022280)| [查看代码](https://github.com/yuwuwu/blog-code/tree/master/node%E6%90%AD%E5%BB%BA%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81/send-wx-message)
 
 ## 项目优化、总结
 
