@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2021-11-09 18:05:40
  * @LastEditors: yuyongxing
- * @LastEditTime: 2022-04-24 09:38:26
+ * @LastEditTime: 2022-04-28 23:54:21
  * @Description: 
 -->
 # Blog-code(去写作，让自己学习更多知识)
@@ -40,6 +40,8 @@
 - 文章[《 离线缓存Server Worker 》](https://juejin.cn/post/7002573409565540383) | [查看代码](https://github.com/yuwuwu/markdown-code/tree/master/%E7%A6%BB%E7%BA%BF%E7%BC%93%E5%AD%98Server%20Worker)
 
 - 文章[《 6年前端开发整理出的日常开发中碰到的兼容适配问题 》](https://juejin.cn/post/7089822034502352904) 
+- 文章[《 6年前端经验整理出的日常开发中js工具方法 》](https://juejin.cn/post/7091309001471852580) 
+- 文章[《 h5网页唤醒app的方案  》](https://juejin.cn/post/7091673168921755656) 
 
 
 ## 其他
