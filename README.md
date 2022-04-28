@@ -41,7 +41,7 @@
 
 - 文章[《 6年前端开发整理出的日常开发中碰到的兼容适配问题 》](https://juejin.cn/post/7089822034502352904) 
 - 文章[《 6年前端经验整理出的日常开发中js工具方法 》](https://juejin.cn/post/7091309001471852580) 
-- 文章[《 h5网页唤醒app的方案  》](https://juejin.cn/post/7091673168921755656) 
+- 文章[《 h5网页唤醒app的方案  》](https://juejin.cn/post/7091673168921755656) | [查看代码](https://github.com/yuwuwu/blog-code/tree/master/h5%E7%BD%91%E9%A1%B5%E5%94%A4%E9%86%92app)
 
 
 ## 其他
