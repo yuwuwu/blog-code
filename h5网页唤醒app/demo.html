@@ -1,0 +1,32 @@
+<!--
+ * @Author: yuyongxing
+ * @Date: 2022-04-28 23:34:32
+ * @LastEditors: yuyongxing
+ * @LastEditTime: 2022-04-28 23:38:25
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./openApp.js"></script>
+</head>
+
+<body>
+  <button onclick="openWx()">打开微信</button>
+  <script>
+    function openWx() {
+      let obj = new openApp({
+        URLScheme: "weixin://",
+        downLoadUrl: "https://juejin.cn/post/7091673168921755656"
+      })
+      obj.open()
+    }
+  </script>
+</body>
+
+</html>
