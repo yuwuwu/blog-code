@@ -2,16 +2,17 @@
  * @Author: yuwuwu
  * @Date: 2024-06-18 18:19:12
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-06-20 19:43:58
+ * @LastEditTime: 2024-06-20 20:20:08
  * @FilePath: /markdown-code/查询淘宝商品是否补货脚本/src/getGoodsByWx.js
  * @Description:查询小程序商城是否有货，有货自动下单
  */
 
 const request = require("./request.js");
 const { wxConfig } = require("../project.config.js");
+const sendEmail = require("./sendEmail.js");
 
 const getTimestamp = () => Date.now();
-const goodsBaseUrl = "";
+
 
 // 预下单
 const buyGoods = async (sku) => {
@@ -90,7 +91,7 @@ const getWxGoods = async (skuList) => {
     result.push({
       isSuccess: false,
       hasStock: false,
-      title: JSON.stringify(error),
+      title: String(error),
     });
   }
 
