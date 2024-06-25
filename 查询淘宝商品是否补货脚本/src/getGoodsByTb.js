@@ -2,13 +2,11 @@
  * @Author: yuwuwu
  * @Date: 2024-06-18 16:32:53
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-06-18 16:40:29
- * @FilePath: /查询淘宝商品是否补货脚本/getGoodsByTb.js
+ * @LastEditTime: 2024-06-25 18:26:10
+ * @FilePath: /查询淘宝商品是否补货脚本/src/getGoodsByTb.js
  * @Description: 获取淘宝商城商品库存
  */
-const puppeteer = require("puppeteer");
-
-
+const puppeteer = require("puppeteer-core");
 
 const waitTime = (n) => new Promise((r) => setTimeout(r, n));
 const getTbGoods = async (list = []) => {
@@ -44,7 +42,7 @@ const getTbGoods = async (list = []) => {
       }); //访问页面
       await waitTime(1500);
       const hasStock = await page.evaluate((el) => {
-        console.log(el,"el");
+        console.log(el, "el");
         Object.defineProperty(navigator, "webdriver", { get: () => false });
         const loginDom = document.querySelector(".baxia-dialog");
         if (loginDom) {
@@ -54,26 +52,27 @@ const getTbGoods = async (list = []) => {
         let buttonDom = null;
         for (let element of divList) {
           if (element.className.includes("Actions--leftButtons")) {
-            buttonDom = element;
+            buttonDom = element.childNodes[0];
           }
         }
-        if (buttonDom && buttonDom.textContent != "商品已经卖光啦~") {
+        if (buttonDom) {
           return {
-            hasStock:true,
-            title:el.title,
+            error: false,
+            text: buttonDom.textContent,
+            disabled: buttonDom.className.includes("disabled"),
+            title: el.title,
           };
         }
-        console.log(buttonDom.textContent);
         return {
-          hasStock:false,
-          title:el.title,
+          error: true,
+          title: el.title,
         };
-      },el);
+      }, el);
       result.push(hasStock);
     }
-    await browser.close();
+    // await browser.close();
     return result;
   };
-   return await getResult();
+  return await getResult();
 };
 module.exports = getTbGoods;
