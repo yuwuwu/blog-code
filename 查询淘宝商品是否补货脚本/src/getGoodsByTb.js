@@ -2,11 +2,11 @@
  * @Author: yuwuwu
  * @Date: 2024-06-18 16:32:53
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-06-25 18:26:10
+ * @LastEditTime: 2024-06-26 17:32:31
  * @FilePath: /查询淘宝商品是否补货脚本/src/getGoodsByTb.js
  * @Description: 获取淘宝商城商品库存
  */
-const puppeteer = require("puppeteer-core");
+const puppeteer = require("puppeteer");
 
 const waitTime = (n) => new Promise((r) => setTimeout(r, n));
 const getTbGoods = async (list = []) => {

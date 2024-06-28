@@ -2,13 +2,14 @@
  * @Author: yuwuwu
  * @Date: 2024-06-25 15:28:06
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-06-25 16:59:35
+ * @LastEditTime: 2024-06-26 17:33:50
  * @FilePath: /查询淘宝商品是否补货脚本/index_tb.js
  * @Description: 
  */
 
 const getTbGoods = require("./src/getGoodsByTb.js");
 const sendEmail = require("./src/sendEmail.js");
+
 
 const tb_goods_url = [
   { url: "https://detail.tmall.com/item.htm?id=677388240047", title: "R10" },
