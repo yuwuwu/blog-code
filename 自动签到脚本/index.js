@@ -2,7 +2,7 @@
  * @Author: yuyongxing
  * @Date: 2022-02-25 13:55:12
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-08-15 17:37:25
+ * @LastEditTime: 2024-08-15 17:39:09
  * @Description:
  */
 
@@ -22,7 +22,7 @@ const transporter = nodeMailer.createTransport({
 const handleCheckIn = async (to) => {
   //   console.log(to);
   let { data } = await axios({
-    url: `https://api.juejin.cn/growth_api/v1/check_in?aid=${to.aid}&uuid=6896773487046772237&spider=0&msToken=NORaB16qRadvMM6mPbOFlJ5jQFLNA4W6-IaU3I3LvXsW83WvwFPvrJqqH3kFuwCnImt0DjhKkjif91CG9tC5FIohyUtF8u32xZpzzpmOoRPNoNf_IIQC_XttU6SHnOQ%3D&a_bogus=D7-DkcZ0Msm1ah3B6XDz9GjEiQE0YWRqgZEPq9xt60qs`,
+    url: `https://api.juejin.cn/growth_api/v1/check_in?aid=${to.aid}&uuid=${to.uuid}&spider=0&msToken=${to.msToken}&a_bogus=${to.a_bogus}`,
     method: 'post',
     data: '{}',
     headers: {
@@ -52,7 +52,7 @@ const handleCheckIn = async (to) => {
 // 免费抽奖
 const handleDraw = async (to) => {
   let { data } = await axios({
-    url: 'https://api.juejin.cn/growth_api/v1/lottery/draw?aid=2608&uuid=6896773487046772237&spider=0&msToken=u9y8aUE5NL9Dm72ELGOwvjkIuivjSaGiNAi2jhJx9V27Gyq2jgPYa7SQG-bc1x0M1iDQ3No2-ScPCDcrdzey6NF0zvu6eYLT7MYNfetMuGdW5knYRIRYs4VO8oUxMoFJ&a_bogus=Q74QXOZ0Msm1th3B07Dz97WEiZ80YWRMgZEPqjGolzLW',
+    url: `https://api.juejin.cn/growth_api/v1/lottery/draw?aid=${to.aid}&uuid=${to.uuid}&spider=0&msToken=${to.msToken}&a_bogus=${to.a_bogus}`,
     method: 'post',
     data: '{}',
     headers: {
