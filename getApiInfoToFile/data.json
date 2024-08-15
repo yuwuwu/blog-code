@@ -1,4 +1,4 @@
-{
+,{
   "code": 1000,
   "info": "catalog.product.success",
   "data": {
@@ -18,8 +18,8 @@
     "tags": [],
     "original_website_url": "https://www.canon.com.cn/product/r10/",
     "content_url_selected": "1",
-    "content_url": "/R10JS07152/index.html",
-    "attribute_url": "/R10JS07152/spec.html",
+    "content_url": "/R10BODY20240708/index.html",
+    "attribute_url": "/R10BODY20240708/spec.html",
     "content": "",
     "content2": "",
     "status": "0",
@@ -47,8 +47,8 @@
       },
       {
         "id": "435",
-        "name": "EOS R10机身+两年延保(享8折优惠)",
-        "price": "229.00",
+        "name": "EOS R10机身+二年延保",
+        "price": "286.00",
         "product_id": "3020",
         "deput": "ICP-B2C",
         "validity_period": "24",
@@ -92,11 +92,11 @@
   "info": "catalog.product.success",
   "data": {
     "product_id": "3021",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM1",
     "brief": "佳购码订单不参加店铺活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机RF-S18-45mm.jpg",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm-0702.jpg",
     "spu": "",
-    "spu_id": "479",
+    "spu_id": "0",
     "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM",
     "isnew": "0",
     "ishot": "1",
@@ -107,36 +107,23 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R101845-0531/index.html",
-    "attribute_url": "/R101845-0531/spec.html",
+    "content_url": "/R101545taoji20240708/index.html",
+    "attribute_url": "/R101545taoji20240708/spec.html",
     "content": "",
     "content2": "",
-    "status": 1,
+    "status": 0,
     "keywords": "",
     "description": "",
     "grouppriceconfig": "[]",
     "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机RF-S18-45mm.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm-0702.jpg",
       "https://shop.canon.com.cn/image/catalog/R10t1845ZT1.jpg",
       "https://shop.canon.com.cn/image/catalog/R10t1845ZT.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
     ],
-    "skulist": [
-      {
-        "product_id": "3027",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3127",
-        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3021",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
-      }
-    ],
+    "skulist": "",
     "iswishlist": false,
     "categorylist": [
       {
@@ -151,26 +138,7 @@
       }
     ],
     "presentlist": [],
-    "carelist": [
-      {
-        "id": "450",
-        "name": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+一年延保",
-        "price": "199.00",
-        "product_id": "3021",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "451",
-        "name": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+两年延保(享8折优惠)",
-        "price": "287.00",
-        "product_id": "3021",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
+    "carelist": [],
     "isspecialproduct": false,
     "installment_price": [],
     "relatedlist": [],
@@ -184,12 +152,12 @@
     "product_id": "3022",
     "title": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM",
     "brief": "佳购码订单不参加店铺活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-150ISSTM.jpg",
+    "image": "https://shop.canon.com.cn/image/catalog/R10(CN)18-150ISSTM20240719.jpg",
     "spu": "",
-    "spu_id": "0",
+    "spu_id": "479",
     "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM",
-    "isnew": "1",
-    "ishot": "1",
+    "isnew": "0",
+    "ishot": "0",
     "rawprice": 8099,
     "price": 8099,
     "weight": "0.00000000",
@@ -197,21 +165,42 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10t1815-0531/index.html",
-    "attribute_url": "/R10t1815-0531/spec.html",
+    "content_url": "/R1018150taoji20240708/index.html",
+    "attribute_url": "/R1018150taoji20240708/spec.html",
     "content": "",
     "content2": "",
-    "status": "0",
+    "status": 1,
     "keywords": "",
     "description": "",
     "grouppriceconfig": "[]",
     "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-150ISSTM.jpg",
+      "https://shop.canon.com.cn/image/catalog/R10(CN)18-150ISSTM20240719.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
     ],
-    "skulist": "",
+    "skulist": [
+      {
+        "product_id": "3022",
+        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3390",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3409",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM"
+      },
+      {
+        "product_id": "3411",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM"
+      },
+      {
+        "product_id": "3413",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM"
+      }
+    ],
     "iswishlist": false,
     "categorylist": [
       {
@@ -238,8 +227,8 @@
       },
       {
         "id": "455",
-        "name": " EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+二年延保(享8折优惠)",
-        "price": "287.00",
+        "name": " EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+二年延保",
+        "price": "358.00",
         "product_id": "3022",
         "deput": "ICP-B2C",
         "validity_period": "24",
@@ -253,8 +242,8 @@
       {
         "product_id": "3128",
         "title": "EOS R8 机身",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ue3PmFQkypo3HET7&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R8机身-0611.jpg",
+        "brief": "",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R8机身-0702.jpg",
         "spu": "",
         "sku": "EOS R8 机身",
         "isnew": "0",
@@ -262,12 +251,12 @@
         "rawprice": 10499,
         "price": 10499,
         "weight": "0.00000000",
-        "quantity": "30",
+        "quantity": "0",
         "tags": "",
         "original_website_url": "",
         "content_url_selected": "1",
-        "content_url": "/EOSR820240531/index.html",
-        "attribute_url": "/EOSR820240531/spec.html",
+        "content_url": "/EOSR820240704/index.html",
+        "attribute_url": "/EOSR820240704/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -278,2154 +267,8 @@
       {
         "product_id": "3129",
         "title": "EOS R8套机 RF24-50mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;4aucIkapbWxzQ5kw&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R8套机-RF24-50mm-F4.5-6.3-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "EOS R8套机 RF24-50mm F4.5-6.3 IS STM",
-        "isnew": "0",
-        "ishot": "1",
-        "rawprice": 11999,
-        "price": 11999,
-        "weight": "0.00000000",
-        "quantity": "12",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/EOSR820240531/index.html",
-        "attribute_url": "/EOSR820240531/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3168",
-        "title": "EOS 850D 套机 EF-S 18-55mm f/4-5.6 IS STM+EF 85mm f/1.8 USM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/EOS-850D-套机-EF-S-18-55mm-+EF-85mm-0130.jpg",
-        "spu": "",
-        "sku": "EOS 850D 套机 EF-S 18-55mm f/4-5.6 IS STM+EF 85mm f/1.8 USM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 9748,
-        "price": 9748,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/850D0325a/index.html",
-        "attribute_url": "/850D0325a/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "30",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3259",
-        "title": "离机热靴连线OC-E4A",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/OC-E4A-0801.jpg",
-        "spu": "",
-        "sku": "",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 1099,
-        "price": 1099,
-        "weight": "0.00000000",
-        "quantity": "1",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/OC-E4A/index.html",
-        "attribute_url": "",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3088",
-        "title": "PowerShot SX70HS+SELPHY CP1500(黑)",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/SX70HS+CP1500.jpg",
-        "spu": "",
-        "sku": "PowerShot SX70HS+SELPHY CP1500(黑)",
-        "isnew": "1",
-        "ishot": "1",
-        "rawprice": 4448,
-        "price": 5048,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/SX70HS2019/index.html",
-        "attribute_url": "/SX70HS2019/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3023",
-    "title": "EOS R10机身+RF85mm F2 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)BODY+RF-85-F2-0918.jpg",
-    "spu": "",
-    "spu_id": "446",
-    "sku": "EOS R10机身+RF85mm F2 MACRO IS STM",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 10298,
-    "price": 10298,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R10RF850719/index.html",
-    "attribute_url": "/R10RF850719/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)BODY+RF-85-F2-0918.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3023",
-        "sku": "EOS R10机身+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "2161",
-        "sku": ""
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "60",
-        "title": "摄影爱好者",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "2352",
-        "title": "RF800mm F11 IS STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
-        "spu": "",
-        "sku": "RF800mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 6899,
-        "price": 6899,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
-        "content_url_selected": "1",
-        "content_url": "/RF8000725/index.html",
-        "attribute_url": "/RF8000725/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2353",
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 5599,
-        "price": 5599,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
-        "content_url_selected": "1",
-        "content_url": "/RF600072501/index.html",
-        "attribute_url": "/RF600072501/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3038",
-        "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "RF24mm F1.8 MACRO IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4399,
-        "price": 4399,
-        "weight": "0.00000000",
-        "quantity": "6",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
-        "content_url_selected": "1",
-        "content_url": "/RF24mm/index.html",
-        "attribute_url": "/RF24mm/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3039",
-        "title": "RF15-30mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;z2CTfhn8kxFWPXxE&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-30mm-F4.5-6.3-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "RF15-30mm F4.5-6.3 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4099,
-        "price": 4099,
-        "weight": "0.00000000",
-        "quantity": "15",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf1530f4563/",
-        "content_url_selected": "1",
-        "content_url": "/RF1535mm/index.html",
-        "attribute_url": "/RF1535mm/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": [
-      {
-        "product_id": "2807",
-        "ax_item_id": "4514C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "4514C004AA",
-        "price": 10499,
-        "title": "RF100mm F2.8 L MACRO IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "spu": "",
-        "sku": "RF100mm F2.8 L MACRO IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF100mm-F2.8-L-MACRO-IS-USM-0611.jpg",
-        "rawprice": 10499,
-        "quantity": 1,
-        "totalquantity": 2
-      },
-      {
-        "product_id": "1996",
-        "ax_item_id": "3680C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3680C004AA",
-        "price": 15999,
-        "title": "RF24-70mm F2.8 L IS USM",
-        "brief": "",
-        "spu": "",
-        "sku": "RF24-70mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2.8-L-IS-USM-0614.jpg",
-        "rawprice": 15999,
-        "quantity": 1,
-        "totalquantity": 16
-      },
-      {
-        "product_id": "2353",
-        "ax_item_id": "3986C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3986C004AA",
-        "price": 5599,
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "rawprice": 5599,
-        "quantity": 1,
-        "totalquantity": 0
-      },
-      {
-        "product_id": "2581",
-        "ax_item_id": "4515C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "4515C004AA",
-        "price": 1399,
-        "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
-        "spu": "",
-        "sku": "RF50mm F1.8 STM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
-        "rawprice": 1399,
-        "quantity": 1,
-        "totalquantity": 4
-      }
-    ]
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3024",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF50mm F1.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-45ISSTM+RF-50-0918.jpg",
-    "spu": "",
-    "spu_id": "467",
-    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF50mm F1.8 STM",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 8098,
-    "price": 8098,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R10t1845RF500718/index.html",
-    "attribute_url": "/R10t1845RF500718/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-45ISSTM+RF-50-0918.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT1.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3024",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF50mm F1.8 STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "60",
-        "title": "摄影爱好者",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "1927",
-        "title": "EOS 5D Mark IV机身+大三元镜头 限定套装",
-        "brief": "EOS 5D Mark IV机身+EF 16-35mm f/2.8L III USM+EF 24-70mm f/2.8L II USM+EF 70-200mm f/2.8L IS III USM",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-5D-Mark-IV机身+大三元镜头-限定套装-0918.jpg",
-        "spu": "",
-        "sku": "EOS 5D Mark IV机身+大三元镜头 限定套装",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 63796,
-        "price": 61489,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/5dmk4/",
-        "content_url_selected": "1",
-        "content_url": "/5DBODY0430/index.html",
-        "attribute_url": "/5DBODY0430/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2352",
-        "title": "RF800mm F11 IS STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
-        "spu": "",
-        "sku": "RF800mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 6899,
-        "price": 6899,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
-        "content_url_selected": "1",
-        "content_url": "/RF8000725/index.html",
-        "attribute_url": "/RF8000725/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2520",
-        "title": "RF85mm F2 MACRO IS STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF85mm-F2-MACRO-IS-STM-0409.jpg",
-        "spu": "",
-        "sku": "RF85mm F2 MACRO IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4599,
-        "price": 4599,
-        "weight": "0.00000000",
-        "quantity": "2",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf85f2isstm/index.html",
-        "content_url_selected": "1",
-        "content_url": "/RF85mmF20725/index.html",
-        "attribute_url": "",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2632",
-        "title": "RF70-200mm F4 L IS USM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F4-L-IS-USM-0614.jpg",
-        "spu": "",
-        "sku": "RF70-200mm F4 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 11699,
-        "price": 11699,
-        "weight": "0.00000000",
-        "quantity": "5",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf70200f4lis/",
-        "content_url_selected": "1",
-        "content_url": "/RF702000725/index.html",
-        "attribute_url": "/RF702000725/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2807",
-        "title": "RF100mm F2.8 L MACRO IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF100mm-F2.8-L-MACRO-IS-USM-0611.jpg",
-        "spu": "",
-        "sku": "RF100mm F2.8 L MACRO IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 10499,
-        "price": 10499,
-        "weight": "0.00000000",
-        "quantity": "2",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf100f28lisusm/",
-        "content_url_selected": "1",
-        "content_url": "/RF1000725/index.html",
-        "attribute_url": "/RF1000725/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2849",
-        "title": "RF14-35mm F4 L IS USM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF14-35mm-F4-L-IS-USM-0614.jpg",
-        "spu": "",
-        "sku": "RF14-35mm F4 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 12999,
-        "price": 12999,
-        "weight": "0.00000000",
-        "quantity": "2",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf1435f4lis/",
-        "content_url_selected": "1",
-        "content_url": "/RF1435pc072502/index.html",
-        "attribute_url": "/RF1435pc072502/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": [
-      {
-        "product_id": "2040",
-        "ax_item_id": "3792C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3792C004AA",
-        "price": 18999,
-        "title": "RF70-200mm F2.8 L IS USM",
-        "brief": "",
-        "spu": "",
-        "sku": "RF70-200mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "1",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2.8-L-IS-USM-0426.jpg",
-        "rawprice": 18999,
-        "quantity": 1,
-        "totalquantity": 17
-      },
-      {
-        "product_id": "2353",
-        "ax_item_id": "3986C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3986C004AA",
-        "price": 5599,
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "rawprice": 5599,
-        "quantity": 1,
-        "totalquantity": 0
-      },
-      {
-        "product_id": "1996",
-        "ax_item_id": "3680C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3680C004AA",
-        "price": 15999,
-        "title": "RF24-70mm F2.8 L IS USM",
-        "brief": "",
-        "spu": "",
-        "sku": "RF24-70mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2.8-L-IS-USM-0614.jpg",
-        "rawprice": 15999,
-        "quantity": 1,
-        "totalquantity": 16
-      },
-      {
-        "product_id": "1995",
-        "ax_item_id": "3682C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3682C004AA",
-        "price": 16299,
-        "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "spu": "",
-        "sku": "RF15-35mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
-        "rawprice": 16299,
-        "quantity": 1,
-        "totalquantity": 2
-      }
-    ]
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3025",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+三脚架手柄 HG-100TBR 黑色",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机RF-S18-45mm-+三脚架手柄-HG-100TBR-黑色-0918.jpg",
-    "spu": "",
-    "spu_id": "436",
-    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+三脚架手柄 HG-100TBR 黑色",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 7398,
-    "price": 7398,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R101845HG0718/index.html",
-    "attribute_url": "/R101845HG0718/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机RF-S18-45mm-+三脚架手柄-HG-100TBR-黑色-0918.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT1.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3025",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+三脚架手柄 HG-100TBR 黑色"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "60",
-        "title": "摄影爱好者",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "2046",
-        "title": "三脚架手柄 HG-100TBR 黑色",
-        "brief": "增加拍摄乐趣 Vlog自拍更便捷",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/HG-100TBR1-1.jpg",
-        "spu": "HG-100TBR",
-        "sku": "三脚架手柄 HG-100TBR 黑色",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 699,
-        "price": 699,
-        "weight": "0.00000000",
-        "quantity": "13",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/hg100tbr/index.html#hover",
-        "content_url_selected": "1",
-        "content_url": "/shoubxq0322/index.html",
-        "attribute_url": "",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "30",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3026",
-    "title": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF50mm F1.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-150ISSTM+RF-50-1-8-0918.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF50mm F1.8 STM",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 9498,
-    "price": 9498,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R10t18150RF500718/index.html",
-    "attribute_url": "/R10t18150RF500718/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-150ISSTM+RF-50-1-8-0918.jpg",
-      "https://shop.canon.com.cn/image/catalog/R1018150R500715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "60",
-        "title": "摄影爱好者",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [
-      {
-        "present_id": "541",
-        "ax_type": "1",
-        "ax_item_id": "0228W315",
-        "ax_item_name": "",
-        "title": "百贴布",
-        "brief": "百贴布",
-        "image": "",
-        "quantity": 1,
-        "sort_order": "1",
-        "totalquantity": 617
-      }
-    ],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "1916",
-        "title": "PowerShot G7 X Mark III 黑色",
-        "brief": "佳购码订单不参加店铺活动",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/PowerShot-G7-X-Mark-III-黑色0401.jpg",
-        "spu": "",
-        "sku": "PowerShot G7 X Mark III 黑色",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4999,
-        "price": 4999,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/g7xmk3/",
-        "content_url_selected": "1",
-        "content_url": "/G7XMarkIII0531b/index.html",
-        "attribute_url": "/G7XMarkIII0531b/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2352",
-        "title": "RF800mm F11 IS STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
-        "spu": "",
-        "sku": "RF800mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 6899,
-        "price": 6899,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
-        "content_url_selected": "1",
-        "content_url": "/RF8000725/index.html",
-        "attribute_url": "/RF8000725/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2353",
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 5599,
-        "price": 5599,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
-        "content_url_selected": "1",
-        "content_url": "/RF600072501/index.html",
-        "attribute_url": "/RF600072501/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3038",
-        "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "RF24mm F1.8 MACRO IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4399,
-        "price": 4399,
-        "weight": "0.00000000",
-        "quantity": "6",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
-        "content_url_selected": "1",
-        "content_url": "/RF24mm/index.html",
-        "attribute_url": "/RF24mm/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3039",
-        "title": "RF15-30mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;z2CTfhn8kxFWPXxE&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-30mm-F4.5-6.3-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "RF15-30mm F4.5-6.3 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4099,
-        "price": 4099,
-        "weight": "0.00000000",
-        "quantity": "15",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf1530f4563/",
-        "content_url_selected": "1",
-        "content_url": "/RF1535mm/index.html",
-        "attribute_url": "/RF1535mm/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": [
-      {
-        "product_id": "1995",
-        "ax_item_id": "3682C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3682C004AA",
-        "price": 16299,
-        "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "spu": "",
-        "sku": "RF15-35mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
-        "rawprice": 16299,
-        "quantity": 1,
-        "totalquantity": 2
-      },
-      {
-        "product_id": "1996",
-        "ax_item_id": "3680C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3680C004AA",
-        "price": 15999,
-        "title": "RF24-70mm F2.8 L IS USM",
-        "brief": "",
-        "spu": "",
-        "sku": "RF24-70mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2.8-L-IS-USM-0614.jpg",
-        "rawprice": 15999,
-        "quantity": 1,
-        "totalquantity": 16
-      },
-      {
-        "product_id": "2581",
-        "ax_item_id": "4515C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "4515C004AA",
-        "price": 1399,
-        "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
-        "spu": "",
-        "sku": "RF50mm F1.8 STM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
-        "rawprice": 1399,
-        "quantity": 1,
-        "totalquantity": 4
-      },
-      {
-        "product_id": "2040",
-        "ax_item_id": "3792C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3792C004AA",
-        "price": 18999,
-        "title": "RF70-200mm F2.8 L IS USM",
-        "brief": "",
-        "spu": "",
-        "sku": "RF70-200mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "1",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2.8-L-IS-USM-0426.jpg",
-        "rawprice": 18999,
-        "quantity": 1,
-        "totalquantity": 17
-      }
-    ]
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3027",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF85mm-副本-0321.jpg",
-    "spu": "",
-    "spu_id": "479",
-    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 11298,
-    "price": 11298,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R101845-0531/index.html",
-    "attribute_url": "/R101845-0531/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF85mm-副本-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3027",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3127",
-        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3021",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "1995",
-        "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
-        "spu": "",
-        "sku": "RF15-35mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 16299,
-        "price": 16299,
-        "weight": "0.00000000",
-        "quantity": "2",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf1535f28lis/",
-        "content_url_selected": "1",
-        "content_url": "/RF1535mm072501/index.html",
-        "attribute_url": "/RF1535mm072501/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3038",
-        "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "RF24mm F1.8 MACRO IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4399,
-        "price": 4399,
-        "weight": "0.00000000",
-        "quantity": "6",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
-        "content_url_selected": "1",
-        "content_url": "/RF24mm/index.html",
-        "attribute_url": "/RF24mm/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": [
-      {
-        "product_id": "2581",
-        "ax_item_id": "4515C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "4515C004AA",
-        "price": 1399,
-        "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
-        "spu": "",
-        "sku": "RF50mm F1.8 STM",
-        "isnew": "0",
-        "ishot": "0",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
-        "rawprice": 1399,
-        "quantity": 1,
-        "totalquantity": 4
-      },
-      {
-        "product_id": "2040",
-        "ax_item_id": "3792C004AA",
-        "ec_item_ids_include": "",
-        "item_id": "3792C004AA",
-        "price": 18999,
-        "title": "RF70-200mm F2.8 L IS USM",
-        "brief": "",
-        "spu": "",
-        "sku": "RF70-200mm F2.8 L IS USM",
-        "isnew": "0",
-        "ishot": "1",
-        "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2.8-L-IS-USM-0426.jpg",
-        "rawprice": 18999,
-        "quantity": 1,
-        "totalquantity": 17
-      }
-    ]
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3336",
-    "title": "官方翻新品-EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF100-400mm F5.6-8 IS USM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R50RFS1845RF10040020231219.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 10248,
-    "price": 7698,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R50RFS1845RF10040020231219.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3337",
-    "title": "官方翻新品-EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF35mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R50RFS1845RF3520231219.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 9398,
-    "price": 6498,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R50RFS1845RF3520231219.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3339",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF16mm-0321.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 8848,
-    "price": 8848,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R101845-0531/index.html",
-    "attribute_url": "/R101845-0531/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF16mm-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3341",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机+RF16-0321.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 7748,
-    "price": 7748,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R500531/index.html",
-    "attribute_url": "/R500531/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机+RF16-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3363",
-    "title": "官方翻新品-EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF135mm F1.8 L IS USM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R10T+RF13520240204.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 23797,
-    "price": 18098,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R10T+RF13520240204.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3364",
-    "title": "官方翻新品-EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF100-400mm F5.6-8 IS USM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/fxR50BKRF100-40020240204.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 10248,
-    "price": 7698,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/fxR50BKRF100-40020240204.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3365",
-    "title": "官方翻新品-EOS R10套机RF-S18-45mm F4.5-6.3 IS STM +RF24-50mm F4.5-6.3 IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R10T18-45RF24-5020240205.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 8998,
-    "price": 6798,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R10T18-45RF24-5020240205.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3390",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM新",
-    "brief": "",
-    "image": "",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 6699,
-    "price": 6699,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "",
-    "attribute_url": "",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "2081",
-    "title": "1344C008AA PR100-R-RD CHIX CP(新品)",
-    "brief": "",
-    "image": "",
-    "spu": "",
-    "spu_id": null,
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 0,
-    "price": 0,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "",
-    "attribute_url": "",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "2365",
-    "title": "电池盒手柄BG-R10",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0001/shoubingzhutu1.jpg",
-    "spu": "EOSR5",
-    "spu_id": "496",
-    "sku": "电池盒手柄BG-R10",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 1849,
-    "price": 1849,
-    "weight": "0.00000000",
-    "quantity": "6",
-    "tags": [],
-    "original_website_url": "https://www.canon.com.cn/product/bgr10/",
-    "content_url_selected": "1",
-    "content_url": "/BGR10/index.html",
-    "attribute_url": "/BGR10/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0001/shoubingzhutu1.jpg",
-      "https://shop.canon.com.cn/image/catalog/0001/shoubingzhutu2.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "2365",
-        "sku": "电池盒手柄BG-R10"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "129",
-        "title": "EOS数码相机附件",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "2388",
-        "title": "锂电池LP-E6NH",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0001/LP-E6NH-.jpg",
-        "spu": "EOSR5",
-        "sku": "锂电池LP-E6NH",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 749,
-        "price": 749,
-        "weight": "0.00000000",
-        "quantity": "25",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/lp-e6nh1017/index.html",
-        "attribute_url": "",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "3",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "1645",
-        "title": "交流电适配器 AC-E6N",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/11-14/ AC-E6N.jpg",
-        "spu": "",
-        "sku": "AC-E6N(CN)",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 749,
-        "price": 749,
-        "weight": "0.00000000",
-        "quantity": "1",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/AC-E6N0718/index.html",
-        "attribute_url": "/AC-E6N0718/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "30",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "1670",
-        "title": "直流电连接器 DR-E6",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/battery_DR-E61222.jpg",
-        "spu": "",
-        "sku": "",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 349,
-        "price": 349,
-        "weight": "0.00000000",
-        "quantity": "2",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/DR-E60718/index.html",
-        "attribute_url": "/DR-E60718/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "30",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "1642",
-        "title": "锂电池 LP-E6N",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/10.25/LP-E6N.jpg",
-        "spu": "",
-        "sku": "LP-E6N",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 549,
-        "price": 549,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/E6N0521/index.html",
-        "attribute_url": "",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "30",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "2366",
-    "title": "无线文件传输器 WFT-R10C",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10C (2).jpg",
-    "spu": "",
-    "spu_id": null,
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 6649,
-    "price": 0,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/WFTR10C/index.html",
-    "attribute_url": "/WFTR10C/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10C (2).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10C (1).jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "129",
-        "title": "EOS数码相机附件",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "2368",
-    "title": "无线文件传输器WFT-R10C",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10C (2).jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 6649,
-    "price": 6649,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/WFTR10C/index.html",
-    "attribute_url": "/WFTR10C/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10C (2).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10C (1).jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "129",
-        "title": "EOS数码相机附件",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3020",
-    "title": "EOS R10 机身",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)BODY-0918.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 5699,
-    "price": 5699,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "https://www.canon.com.cn/product/r10/",
-    "content_url_selected": "1",
-    "content_url": "/R10BODY20240627/index.html",
-    "attribute_url": "/R10BODY20240627/spec.html",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)BODY-0918.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "434",
-        "name": "EOS R10机身+一年延保",
-        "price": "159.00",
-        "product_id": "3020",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "435",
-        "name": "EOS R10机身+两年延保(享8折优惠)",
-        "price": "229.00",
-        "product_id": "3020",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "3088",
-        "title": "PowerShot SX70HS+SELPHY CP1500(黑)",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/SX70HS+CP1500.jpg",
-        "spu": "",
-        "sku": "PowerShot SX70HS+SELPHY CP1500(黑)",
-        "isnew": "1",
-        "ishot": "1",
-        "rawprice": 4448,
-        "price": 5048,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/SX70HS2019/index.html",
-        "attribute_url": "/SX70HS2019/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3021",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM",
-    "brief": "佳购码订单不参加店铺活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机RF-S18-45mm.jpg",
-    "spu": "",
-    "spu_id": "479",
-    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 6699,
-    "price": 6699,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R10taoji154520240701/index.html",
-    "attribute_url": "/R10taoji154520240701/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机RF-S18-45mm.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT1.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10t1845ZT.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3027",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3127",
-        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3021",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "450",
-        "name": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+一年延保",
-        "price": "199.00",
-        "product_id": "3021",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "451",
-        "name": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+两年延保(享8折优惠)",
-        "price": "287.00",
-        "product_id": "3021",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3022",
-    "title": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM",
-    "brief": "佳购码订单不参加店铺活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-150ISSTM.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 8099,
-    "price": 8099,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R10taoji20240627/index.html",
-    "attribute_url": "/R10taoji20240627/spec.html",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-150ISSTM.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "454",
-        "name": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+一年延保",
-        "price": "199.00",
-        "product_id": "3022",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "455",
-        "name": " EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+二年延保(享8折优惠)",
-        "price": "287.00",
-        "product_id": "3022",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "3128",
-        "title": "EOS R8 机身",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ue3PmFQkypo3HET7&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R8机身-0611.jpg",
-        "spu": "",
-        "sku": "EOS R8 机身",
-        "isnew": "0",
-        "ishot": "1",
-        "rawprice": 10499,
-        "price": 10499,
-        "weight": "0.00000000",
-        "quantity": "29",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/EOSR820240531/index.html",
-        "attribute_url": "/EOSR820240531/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3129",
-        "title": "EOS R8套机 RF24-50mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;4aucIkapbWxzQ5kw&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R8套机-RF24-50mm-F4.5-6.3-IS-STM-0611.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/EOS-R8套机-RF24-50mm-F4-5-6-3-IS-STM-0711.jpg",
         "spu": "",
         "sku": "EOS R8套机 RF24-50mm F4.5-6.3 IS STM",
         "isnew": "0",
@@ -2437,8 +280,8 @@
         "tags": "",
         "original_website_url": "",
         "content_url_selected": "1",
-        "content_url": "/EOSR820240531/index.html",
-        "attribute_url": "/EOSR820240531/spec.html",
+        "content_url": "/EOSR820240704/index.html",
+        "attribute_url": "/EOSR820240704/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -2483,7 +326,7 @@
         "rawprice": 1099,
         "price": 1099,
         "weight": "0.00000000",
-        "quantity": "1",
+        "quantity": "0",
         "tags": "",
         "original_website_url": "",
         "content_url_selected": "1",
@@ -2544,8 +387,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10BODY20240627/index.html",
-    "attribute_url": "/R10BODY20240627/spec.html",
+    "content_url": "/R10BODY20240708/index.html",
+    "attribute_url": "/R10BODY20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -2588,35 +431,10 @@
     "relatedlist": [],
     "recommendlist": [
       {
-        "product_id": "2353",
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 5599,
-        "price": 5599,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
-        "content_url_selected": "1",
-        "content_url": "/RF600mm20240701/index.html",
-        "attribute_url": "/RF600mm20240701/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
         "product_id": "2352",
         "title": "RF800mm F11 IS STM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM-0704.jpg",
         "spu": "",
         "sku": "RF800mm F11 IS STM",
         "isnew": "0",
@@ -2628,8 +446,33 @@
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
         "content_url_selected": "1",
-        "content_url": "/RF800mm20240701/index.html",
-        "attribute_url": "/RF800mm20240701/spec.html",
+        "content_url": "/RF800mm20240708/index.html",
+        "attribute_url": "/RF800mm20240708/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "1",
+        "purchase_number_limit": "1000",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
+      },
+      {
+        "product_id": "2353",
+        "title": "RF600mm F11 IS STM",
+        "brief": "",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头-0704a.jpg",
+        "spu": "",
+        "sku": "RF600mm F11 IS STM",
+        "isnew": "0",
+        "ishot": "0",
+        "rawprice": 5599,
+        "price": 5599,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
+        "content_url_selected": "1",
+        "content_url": "/RF600mm20240708/index.html",
+        "attribute_url": "/RF600mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -2640,8 +483,8 @@
       {
         "product_id": "3038",
         "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;61aGS9n6JZSq9O9F&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF24mm-F1-8-MACRO-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF24mm F1.8 MACRO IS STM",
         "isnew": "0",
@@ -2649,7 +492,7 @@
         "rawprice": 4399,
         "price": 4399,
         "weight": "0.00000000",
-        "quantity": "6",
+        "quantity": "3",
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
         "content_url_selected": "1",
@@ -2665,8 +508,8 @@
       {
         "product_id": "3039",
         "title": "RF15-30mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;z2CTfhn8kxFWPXxE&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-30mm-F4.5-6.3-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;nfoVmBvatutpmX31&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-30mm-F4-5-6-3-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF15-30mm F4.5-6.3 IS STM",
         "isnew": "0",
@@ -2696,13 +539,13 @@
         "item_id": "4514C004AA",
         "price": 10499,
         "title": "RF100mm F2.8 L MACRO IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
         "spu": "",
         "sku": "RF100mm F2.8 L MACRO IS USM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF100mm-F2.8-L-MACRO-IS-USM-0611.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/RF100mm-F2-8-L-MACRO-IS-USM-0710.jpg",
         "rawprice": 10499,
         "quantity": 1,
         "totalquantity": 2
@@ -2720,10 +563,10 @@
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2.8-L-IS-USM-0614.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2-8-L-IS-USM-0704.jpg",
         "rawprice": 15999,
         "quantity": 1,
-        "totalquantity": 16
+        "totalquantity": 13
       },
       {
         "product_id": "2353",
@@ -2731,14 +574,14 @@
         "ec_item_ids_include": "",
         "item_id": "3986C004AA",
         "price": 5599,
-        "title": "RF600mm F11 IS STM 镜头",
+        "title": "RF600mm F11 IS STM",
         "brief": "",
         "spu": "",
         "sku": "RF600mm F11 IS STM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头-0704a.jpg",
         "rawprice": 5599,
         "quantity": 1,
         "totalquantity": 0
@@ -2750,16 +593,16 @@
         "item_id": "4515C004AA",
         "price": 1399,
         "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
+        "brief": "注：可用适配R5R6R6IIR7R10R8R50",
         "spu": "",
         "sku": "RF50mm F1.8 STM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF50mm-F1-8-STM-0704.jpg",
         "rawprice": 1399,
         "quantity": 1,
-        "totalquantity": 3
+        "totalquantity": 48
       }
     ]
   }
@@ -2783,8 +626,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji154520240701/index.html",
-    "attribute_url": "/R10taoji154520240701/spec.html",
+    "content_url": "/R101545taoji20240708/index.html",
+    "attribute_url": "/R101545taoji20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -2826,10 +669,35 @@
     "relatedlist": [],
     "recommendlist": [
       {
+        "product_id": "2352",
+        "title": "RF800mm F11 IS STM",
+        "brief": "",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM-0704.jpg",
+        "spu": "",
+        "sku": "RF800mm F11 IS STM",
+        "isnew": "0",
+        "ishot": "0",
+        "rawprice": 6899,
+        "price": 6899,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
+        "content_url_selected": "1",
+        "content_url": "/RF800mm20240708/index.html",
+        "attribute_url": "/RF800mm20240708/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "1",
+        "purchase_number_limit": "1000",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
+      },
+      {
         "product_id": "2520",
         "title": "RF85mm F2 MACRO IS STM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF85mm-F2-MACRO-IS-STM-0409.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF85mm-F2-MACRO-IS-STM-0703a.jpg",
         "spu": "",
         "sku": "RF85mm F2 MACRO IS STM",
         "isnew": "0",
@@ -2837,12 +705,12 @@
         "rawprice": 4599,
         "price": 4599,
         "weight": "0.00000000",
-        "quantity": "0",
+        "quantity": "18",
         "tags": "",
         "original_website_url": "http://www.canon.com.cn/product/rf85f2isstm/index.html",
         "content_url_selected": "1",
-        "content_url": "/RF85mm20240701/index.html",
-        "attribute_url": "/RF85mm20240701/spec.html",
+        "content_url": "/RF85mm20240708/index.html",
+        "attribute_url": "/RF85mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -2854,7 +722,7 @@
         "product_id": "2632",
         "title": "RF70-200mm F4 L IS USM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F4-L-IS-USM-0614.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F4-L-IS-USM-0703a.jpg",
         "spu": "",
         "sku": "RF70-200mm F4 L IS USM",
         "isnew": "0",
@@ -2862,12 +730,12 @@
         "rawprice": 11699,
         "price": 11699,
         "weight": "0.00000000",
-        "quantity": "5",
+        "quantity": "1",
         "tags": "",
         "original_website_url": "http://www.canon.com.cn/product/rf70200f4lis/",
         "content_url_selected": "1",
-        "content_url": "/RF70-200mm20240701/index.html",
-        "attribute_url": "/RF70-200mm20240701/spec.html",
+        "content_url": "/RF70-200mm20240708/index.html",
+        "attribute_url": "/RF70-200mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -2878,8 +746,8 @@
       {
         "product_id": "2807",
         "title": "RF100mm F2.8 L MACRO IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF100mm-F2.8-L-MACRO-IS-USM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF100mm-F2-8-L-MACRO-IS-USM-0710.jpg",
         "spu": "",
         "sku": "RF100mm F2.8 L MACRO IS USM",
         "isnew": "0",
@@ -2891,8 +759,8 @@
         "tags": "",
         "original_website_url": "http://www.canon.com.cn/product/rf100f28lisusm/",
         "content_url_selected": "1",
-        "content_url": "/RF100mm20240701/index.html",
-        "attribute_url": "/RF100mm20240701/spec.html",
+        "content_url": "/RF100mm20240708/index.html",
+        "attribute_url": "/RF100mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -2904,7 +772,7 @@
         "product_id": "2849",
         "title": "RF14-35mm F4 L IS USM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF14-35mm-F4-L-IS-USM-0614.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF14-35mm-F4-L-IS-USM-0703a.jpg",
         "spu": "",
         "sku": "RF14-35mm F4 L IS USM",
         "isnew": "0",
@@ -2916,8 +784,8 @@
         "tags": "",
         "original_website_url": "http://www.canon.com.cn/product/rf1435f4lis/",
         "content_url_selected": "1",
-        "content_url": "/RF1435mm20240701/index.html",
-        "attribute_url": "/RF1435mm20240701/spec.html",
+        "content_url": "/RF1435mm20240708/index.html",
+        "attribute_url": "/RF1435mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -2941,36 +809,11 @@
         "tags": "",
         "original_website_url": "http://www.canon.com.cn/product/5dmk4/",
         "content_url_selected": "1",
-        "content_url": "/5DBODY20240627/index.html",
-        "attribute_url": "/5DBODY20240627/spec.html",
+        "content_url": "/5DBODY20240708/index.html",
+        "attribute_url": "/5DBODY20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2352",
-        "title": "RF800mm F11 IS STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
-        "spu": "",
-        "sku": "RF800mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 6899,
-        "price": 6899,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
-        "content_url_selected": "1",
-        "content_url": "/RF800mm20240701/index.html",
-        "attribute_url": "/RF800mm20240701/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
         "purchase_number_limit": "1000",
         "purchase_limit_range": "180",
         "isspecialproduct": false
@@ -2990,10 +833,10 @@
         "isnew": "0",
         "ishot": "1",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2.8-L-IS-USM-0426.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2-8-L-IS-USM-0703a.jpg",
         "rawprice": 18999,
         "quantity": 1,
-        "totalquantity": 17
+        "totalquantity": 19
       },
       {
         "product_id": "2353",
@@ -3001,14 +844,14 @@
         "ec_item_ids_include": "",
         "item_id": "3986C004AA",
         "price": 5599,
-        "title": "RF600mm F11 IS STM 镜头",
+        "title": "RF600mm F11 IS STM",
         "brief": "",
         "spu": "",
         "sku": "RF600mm F11 IS STM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头-0704a.jpg",
         "rawprice": 5599,
         "quantity": 1,
         "totalquantity": 0
@@ -3026,10 +869,10 @@
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2.8-L-IS-USM-0614.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2-8-L-IS-USM-0704.jpg",
         "rawprice": 15999,
         "quantity": 1,
-        "totalquantity": 16
+        "totalquantity": 13
       },
       {
         "product_id": "1995",
@@ -3038,13 +881,13 @@
         "item_id": "3682C004AA",
         "price": 16299,
         "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
         "spu": "",
         "sku": "RF15-35mm F2.8 L IS USM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-35mm-F2-8-L-IS-USM-0710.jpg",
         "rawprice": 16299,
         "quantity": 1,
         "totalquantity": 2
@@ -3161,8 +1004,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji20240627/index.html",
-    "attribute_url": "/R10taoji20240627/spec.html",
+    "content_url": "/R1018150taoji20240708/index.html",
+    "attribute_url": "/R1018150taoji20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -3201,7 +1044,7 @@
         "image": "",
         "quantity": 1,
         "sort_order": "1",
-        "totalquantity": 613
+        "totalquantity": 430
       }
     ],
     "carelist": [],
@@ -3210,60 +1053,10 @@
     "relatedlist": [],
     "recommendlist": [
       {
-        "product_id": "2353",
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 5599,
-        "price": 5599,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
-        "content_url_selected": "1",
-        "content_url": "/RF600mm20240701/index.html",
-        "attribute_url": "/RF600mm20240701/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "1916",
-        "title": "PowerShot G7 X Mark III 黑色",
-        "brief": "佳购码订单不参加店铺活动",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/PowerShot-G7-X-Mark-III-黑色0401.jpg",
-        "spu": "",
-        "sku": "PowerShot G7 X Mark III 黑色",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 4999,
-        "price": 4999,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/g7xmk3/",
-        "content_url_selected": "1",
-        "content_url": "/G7XMarkIII0531b/index.html",
-        "attribute_url": "/G7XMarkIII0531b/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
         "product_id": "2352",
         "title": "RF800mm F11 IS STM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM-0704.jpg",
         "spu": "",
         "sku": "RF800mm F11 IS STM",
         "isnew": "0",
@@ -3275,8 +1068,33 @@
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
         "content_url_selected": "1",
-        "content_url": "/RF800mm20240701/index.html",
-        "attribute_url": "/RF800mm20240701/spec.html",
+        "content_url": "/RF800mm20240708/index.html",
+        "attribute_url": "/RF800mm20240708/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "1",
+        "purchase_number_limit": "1000",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
+      },
+      {
+        "product_id": "2353",
+        "title": "RF600mm F11 IS STM",
+        "brief": "",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头-0704a.jpg",
+        "spu": "",
+        "sku": "RF600mm F11 IS STM",
+        "isnew": "0",
+        "ishot": "0",
+        "rawprice": 5599,
+        "price": 5599,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
+        "content_url_selected": "1",
+        "content_url": "/RF600mm20240708/index.html",
+        "attribute_url": "/RF600mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -3287,8 +1105,8 @@
       {
         "product_id": "3038",
         "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;61aGS9n6JZSq9O9F&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF24mm-F1-8-MACRO-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF24mm F1.8 MACRO IS STM",
         "isnew": "0",
@@ -3296,7 +1114,7 @@
         "rawprice": 4399,
         "price": 4399,
         "weight": "0.00000000",
-        "quantity": "6",
+        "quantity": "3",
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
         "content_url_selected": "1",
@@ -3312,8 +1130,8 @@
       {
         "product_id": "3039",
         "title": "RF15-30mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;z2CTfhn8kxFWPXxE&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-30mm-F4.5-6.3-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;nfoVmBvatutpmX31&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-30mm-F4-5-6-3-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF15-30mm F4.5-6.3 IS STM",
         "isnew": "0",
@@ -3333,6 +1151,31 @@
         "purchase_number_limit": "1000",
         "purchase_limit_range": "180",
         "isspecialproduct": false
+      },
+      {
+        "product_id": "1916",
+        "title": "PowerShot G7 X Mark III 黑色",
+        "brief": "佳购码订单不参加店铺活动",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/G7-X-Mark-III黑色-0703.jpg",
+        "spu": "",
+        "sku": "PowerShot G7 X Mark III 黑色",
+        "isnew": "0",
+        "ishot": "0",
+        "rawprice": 4999,
+        "price": 4999,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "http://www.canon.com.cn/product/g7xmk3/",
+        "content_url_selected": "1",
+        "content_url": "/G7XMarkIII0531b/index.html",
+        "attribute_url": "/G7XMarkIII0531b/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "1",
+        "purchase_number_limit": "1",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
       }
     ],
     "groupbuyproductlist": [
@@ -3343,13 +1186,13 @@
         "item_id": "3682C004AA",
         "price": 16299,
         "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
         "spu": "",
         "sku": "RF15-35mm F2.8 L IS USM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-35mm-F2-8-L-IS-USM-0710.jpg",
         "rawprice": 16299,
         "quantity": 1,
         "totalquantity": 2
@@ -3367,10 +1210,10 @@
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2.8-L-IS-USM-0614.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24-70mm-F2-8-L-IS-USM-0704.jpg",
         "rawprice": 15999,
         "quantity": 1,
-        "totalquantity": 16
+        "totalquantity": 13
       },
       {
         "product_id": "2581",
@@ -3379,16 +1222,16 @@
         "item_id": "4515C004AA",
         "price": 1399,
         "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
+        "brief": "注：可用适配R5R6R6IIR7R10R8R50",
         "spu": "",
         "sku": "RF50mm F1.8 STM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF50mm-F1-8-STM-0704.jpg",
         "rawprice": 1399,
         "quantity": 1,
-        "totalquantity": 3
+        "totalquantity": 48
       },
       {
         "product_id": "2040",
@@ -3403,10 +1246,10 @@
         "isnew": "0",
         "ishot": "1",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2.8-L-IS-USM-0426.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2-8-L-IS-USM-0703a.jpg",
         "rawprice": 18999,
         "quantity": 1,
-        "totalquantity": 17
+        "totalquantity": 19
       }
     ]
   }
@@ -3415,12 +1258,12 @@
   "info": "catalog.product.success",
   "data": {
     "product_id": "3027",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM1",
     "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF85mm-副本-0321.jpg",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF85mm-0702.jpg",
     "spu": "",
-    "spu_id": "479",
-    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
+    "spu_id": "0",
+    "sku": "",
     "isnew": "0",
     "ishot": "0",
     "rawprice": 11298,
@@ -3430,36 +1273,23 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji154520240701/index.html",
-    "attribute_url": "/R10taoji154520240701/spec.html",
+    "content_url": "/R101545+RF85/index.html",
+    "attribute_url": "/R101545+RF85/spec.html",
     "content": "",
     "content2": "",
-    "status": 1,
+    "status": 0,
     "keywords": "",
     "description": "",
     "grouppriceconfig": "[]",
     "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF85mm-副本-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF85mm-0702.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EC7月活动2.jpg",
       "https://shop.canon.com.cn/image/catalog/R10t1845ZT2.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS2.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS715.jpg",
       "https://shop.canon.com.cn/image/catalog/R10JS1.jpg"
     ],
-    "skulist": [
-      {
-        "product_id": "3027",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3127",
-        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3021",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
-      }
-    ],
+    "skulist": "",
     "iswishlist": false,
     "categorylist": [
       {
@@ -3482,8 +1312,8 @@
       {
         "product_id": "1995",
         "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-35mm-F2-8-L-IS-USM-0710.jpg",
         "spu": "",
         "sku": "RF15-35mm F2.8 L IS USM",
         "isnew": "0",
@@ -3495,8 +1325,8 @@
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf1535f28lis/",
         "content_url_selected": "1",
-        "content_url": "/RF1535mm20240701/index.html",
-        "attribute_url": "/RF1535mm20240701/spec.html",
+        "content_url": "/RF1535mm20240708/index.html",
+        "attribute_url": "/RF1535mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -3507,8 +1337,8 @@
       {
         "product_id": "3038",
         "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;61aGS9n6JZSq9O9F&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF24mm-F1-8-MACRO-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF24mm F1.8 MACRO IS STM",
         "isnew": "0",
@@ -3516,7 +1346,7 @@
         "rawprice": 4399,
         "price": 4399,
         "weight": "0.00000000",
-        "quantity": "6",
+        "quantity": "3",
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
         "content_url_selected": "1",
@@ -3538,16 +1368,16 @@
         "item_id": "4515C004AA",
         "price": 1399,
         "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
+        "brief": "注：可用适配R5R6R6IIR7R10R8R50",
         "spu": "",
         "sku": "RF50mm F1.8 STM",
         "isnew": "0",
         "ishot": "0",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF50mm-F1-8-STM-0704.jpg",
         "rawprice": 1399,
         "quantity": 1,
-        "totalquantity": 3
+        "totalquantity": 48
       },
       {
         "product_id": "2040",
@@ -3562,10 +1392,10 @@
         "isnew": "0",
         "ishot": "1",
         "status": "1",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2.8-L-IS-USM-0426.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF70-200mm-F2-8-L-IS-USM-0703a.jpg",
         "rawprice": 18999,
         "quantity": 1,
-        "totalquantity": 17
+        "totalquantity": 19
       }
     ]
   }
@@ -3589,8 +1419,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10BODY20240627/index.html",
-    "attribute_url": "/R10BODY20240627/spec.html",
+    "content_url": "/R10BODY20240708/index.html",
+    "attribute_url": "/R10BODY20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -3626,60 +1456,10 @@
     "relatedlist": [],
     "recommendlist": [
       {
-        "product_id": "2353",
-        "title": "RF600mm F11 IS STM 镜头",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头.jpg",
-        "spu": "",
-        "sku": "RF600mm F11 IS STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 5599,
-        "price": 5599,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
-        "content_url_selected": "1",
-        "content_url": "/RF600mm20240701/index.html",
-        "attribute_url": "/RF600mm20240701/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3133",
-        "title": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM ",
-        "brief": "佳购码订单不参加店铺活动",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50白色套机.jpg",
-        "spu": "",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM ",
-        "isnew": "0",
-        "ishot": "1",
-        "rawprice": 5599,
-        "price": 5599,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/r50/",
-        "content_url_selected": "1",
-        "content_url": "/R5020240628/index.html",
-        "attribute_url": "/R5020240628/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
         "product_id": "2352",
         "title": "RF800mm F11 IS STM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF800mm-F11-IS-STM-0704.jpg",
         "spu": "",
         "sku": "RF800mm F11 IS STM",
         "isnew": "0",
@@ -3691,8 +1471,33 @@
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf800f11isstm/",
         "content_url_selected": "1",
-        "content_url": "/RF800mm20240701/index.html",
-        "attribute_url": "/RF800mm20240701/spec.html",
+        "content_url": "/RF800mm20240708/index.html",
+        "attribute_url": "/RF800mm20240708/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "1",
+        "purchase_number_limit": "1000",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
+      },
+      {
+        "product_id": "2353",
+        "title": "RF600mm F11 IS STM",
+        "brief": "",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF600mm-F11-IS-STM-镜头-0704a.jpg",
+        "spu": "",
+        "sku": "RF600mm F11 IS STM",
+        "isnew": "0",
+        "ishot": "0",
+        "rawprice": 5599,
+        "price": 5599,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "http://www.canon.com.cn/product/rf600f11isstm/sample.html",
+        "content_url_selected": "1",
+        "content_url": "/RF600mm20240708/index.html",
+        "attribute_url": "/RF600mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -3703,8 +1508,8 @@
       {
         "product_id": "3038",
         "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;61aGS9n6JZSq9O9F&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF24mm-F1-8-MACRO-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF24mm F1.8 MACRO IS STM",
         "isnew": "0",
@@ -3712,7 +1517,7 @@
         "rawprice": 4399,
         "price": 4399,
         "weight": "0.00000000",
-        "quantity": "6",
+        "quantity": "3",
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
         "content_url_selected": "1",
@@ -3728,8 +1533,8 @@
       {
         "product_id": "3039",
         "title": "RF15-30mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;z2CTfhn8kxFWPXxE&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-30mm-F4.5-6.3-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;nfoVmBvatutpmX31&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-30mm-F4-5-6-3-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF15-30mm F4.5-6.3 IS STM",
         "isnew": "0",
@@ -3749,91 +1554,33 @@
         "purchase_number_limit": "1000",
         "purchase_limit_range": "180",
         "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3079",
-    "title": "R10(CN)18-45ISSTM+RF 50 1.8+佳能定制R系列-棒球帽",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-45ISSTM+RF-50+佳能定制R系列-棒球帽-0918.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "R10(CN)18-45ISSTM+RF 50 1.8+佳能定制R系列-棒球帽",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 8157,
-    "price": 8157,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R10t1845RF500718/index.html",
-    "attribute_url": "/R10t1845RF500718/spec.html",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/R10(CN)18-45ISSTM+RF-50+佳能定制R系列-棒球帽-0918.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10RF50棒球帽.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10t1845ZT2.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10t1845ZT1.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10t1845ZT.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R10JS715.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
       },
       {
-        "category_id": "60",
-        "title": "摄影爱好者",
-        "parent_id": "59"
+        "product_id": "3133",
+        "title": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM ",
+        "brief": "佳购码订单不参加店铺活动",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50-白色套机-0703.jpg",
+        "spu": "",
+        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM ",
+        "isnew": "0",
+        "ishot": "1",
+        "rawprice": 5599,
+        "price": 5599,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "https://www.canon.com.cn/product/r50/",
+        "content_url_selected": "1",
+        "content_url": "/EOSR50taoji20240716a/index.html",
+        "attribute_url": "/EOSR50taoji20240716a/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "1",
+        "purchase_number_limit": "1",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
       }
     ],
-    "presentlist": [
-      {
-        "present_id": "541",
-        "ax_type": "1",
-        "ax_item_id": "0228W315",
-        "ax_item_name": "",
-        "title": "百贴布",
-        "brief": "百贴布",
-        "image": "",
-        "quantity": 1,
-        "sort_order": "1",
-        "totalquantity": 613
-      },
-      {
-        "present_id": "540",
-        "ax_type": "1",
-        "ax_item_id": "0228W457",
-        "ax_item_name": "",
-        "title": "加护灵除菌笔（米奇&amp;米妮）",
-        "brief": "加护灵除菌笔（米奇&amp;米妮）",
-        "image": "",
-        "quantity": 0,
-        "sort_order": "1",
-        "totalquantity": 0
-      }
-    ],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
     "groupbuyproductlist": []
   }
 },{
@@ -3890,7 +1637,7 @@
         "image": "",
         "quantity": 1,
         "sort_order": "1",
-        "totalquantity": 613
+        "totalquantity": 430
       }
     ],
     "carelist": [],
@@ -3933,9 +1680,9 @@
     "product_id": "3127",
     "title": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
     "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF85mm-0321.jpg",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-18-150mm+RF85mm-0702.jpg",
     "spu": "",
-    "spu_id": "479",
+    "spu_id": "0",
     "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
     "isnew": "0",
     "ishot": "0",
@@ -3946,32 +1693,19 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji20240627/index.html",
-    "attribute_url": "/R10taoji20240627/spec.html",
+    "content_url": "/R1018150+RF85/index.html",
+    "attribute_url": "/R1018150+RF85/spec.html",
     "content": "",
     "content2": "",
-    "status": 1,
+    "status": 0,
     "keywords": "",
     "description": "",
     "grouppriceconfig": "[]",
     "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF85mm-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-18-150mm+RF85mm-0702.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EC7月活动2.jpg"
     ],
-    "skulist": [
-      {
-        "product_id": "3027",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3127",
-        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3021",
-        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
-      }
-    ],
+    "skulist": "",
     "iswishlist": false,
     "categorylist": [
       {
@@ -3997,510 +1731,6 @@
   "code": 1000,
   "info": "catalog.product.success",
   "data": {
-    "product_id": "3130",
-    "title": "EOS R50 黑色机身",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50-黑色机身.jpg",
-    "spu": "",
-    "spu_id": "554",
-    "sku": "EOS R50 黑色机身",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 4599,
-    "price": 4599,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "https://www.canon.com.cn/product/r50/",
-    "content_url_selected": "1",
-    "content_url": "/R5020240628/index.html",
-    "attribute_url": "/R5020240628/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50-黑色机身.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/r50 (2).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/r50 (3).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/r50 (1).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/r50 (4).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/r50 (5).jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3132",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM"
-      },
-      {
-        "product_id": "3133",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM "
-      },
-      {
-        "product_id": "3130",
-        "sku": "EOS R50 黑色机身"
-      },
-      {
-        "product_id": "3131",
-        "sku": "EOS R50 白色机身"
-      },
-      {
-        "product_id": "3162",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3249",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "445",
-        "name": "EOS R50 黑色 一年延保",
-        "price": "159.00",
-        "product_id": "3130",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "443",
-        "name": "EOS R50 黑色 两年延保",
-        "price": "286.00",
-        "product_id": "3130",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3131",
-    "title": "EOS R50 白色机身",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50-白色机身.jpg",
-    "spu": "",
-    "spu_id": "554",
-    "sku": "EOS R50 白色机身",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 4599,
-    "price": 4599,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "https://www.canon.com.cn/product/r50/",
-    "content_url_selected": "1",
-    "content_url": "/R5020240628/index.html",
-    "attribute_url": "/R5020240628/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50-白色机身.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R50白 (2).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R50白 (3).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R50白 (4).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R50白 (1).jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/R50白 (5).jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3132",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM"
-      },
-      {
-        "product_id": "3133",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM "
-      },
-      {
-        "product_id": "3130",
-        "sku": "EOS R50 黑色机身"
-      },
-      {
-        "product_id": "3131",
-        "sku": "EOS R50 白色机身"
-      },
-      {
-        "product_id": "3162",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3249",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "444",
-        "name": "EOS R50 白色 一年延保",
-        "price": "159.00",
-        "product_id": "3131",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "442",
-        "name": "EOS R50 白色 两年延保",
-        "price": "286.00",
-        "product_id": "3131",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3132",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM",
-    "brief": "佳购码订单不参加店铺活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机.jpg",
-    "spu": "",
-    "spu_id": "554",
-    "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 5599,
-    "price": 5599,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "https://www.canon.com.cn/product/r50/",
-    "content_url_selected": "1",
-    "content_url": "/R5020240628/index.html",
-    "attribute_url": "/R5020240628/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机.jpg",
-      "https://shop.canon.com.cn/image/catalog/R50黑-800 800-1.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3132",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM"
-      },
-      {
-        "product_id": "3133",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM "
-      },
-      {
-        "product_id": "3130",
-        "sku": "EOS R50 黑色机身"
-      },
-      {
-        "product_id": "3131",
-        "sku": "EOS R50 白色机身"
-      },
-      {
-        "product_id": "3162",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3249",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "449",
-        "name": "EOS R50 黑色套机RF-S18-45mm F4.5-6.3 IS STM 一年延保",
-        "price": "159.00",
-        "product_id": "3132",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "447",
-        "name": "EOS R50 黑色套机RF-S18-45mm F4.5-6.3 IS STM 两年延保(享8折优惠)",
-        "price": "229.00",
-        "product_id": "3132",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "2581",
-        "title": "RF50mm F1.8 STM",
-        "brief": "注：可用适配R5R6R7R10R8R50",
-        "image": "https://shop.canon.com.cn/image/catalog/RF5020240320.jpg",
-        "spu": "",
-        "sku": "RF50mm F1.8 STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 1399,
-        "price": 1399,
-        "weight": "0.00000000",
-        "quantity": "3",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/http://www.canon.com.cn/product/rf50f18stm/",
-        "content_url_selected": "1",
-        "content_url": "/RF50mm20240701/index.html",
-        "attribute_url": "/RF50mm20240701/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3133",
-    "title": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM ",
-    "brief": "佳购码订单不参加店铺活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50白色套机.jpg",
-    "spu": "",
-    "spu_id": "554",
-    "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM ",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 5599,
-    "price": 5599,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "https://www.canon.com.cn/product/r50/",
-    "content_url_selected": "1",
-    "content_url": "/R5020240628/index.html",
-    "attribute_url": "/R5020240628/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50白色套机.jpg",
-      "https://shop.canon.com.cn/image/catalog/R50-800 800-1.jpg",
-      "https://shop.canon.com.cn/image/catalog/R50-800 800-2.jpg",
-      "https://shop.canon.com.cn/image/catalog/R50-800 800-3.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3132",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM"
-      },
-      {
-        "product_id": "3133",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM "
-      },
-      {
-        "product_id": "3130",
-        "sku": "EOS R50 黑色机身"
-      },
-      {
-        "product_id": "3131",
-        "sku": "EOS R50 白色机身"
-      },
-      {
-        "product_id": "3162",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3249",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [
-      {
-        "id": "448",
-        "name": "EOS R50 白色套机RF-S18-45mm F4.5-6.3 IS STM 一年延保",
-        "price": "159.00",
-        "product_id": "3133",
-        "deput": "ICP-B2C",
-        "validity_period": "12",
-        "installment_price": []
-      },
-      {
-        "id": "446",
-        "name": "EOS R50 白色套机RF-S18-45mm F4.5-6.3 IS STM 两年延保(享8折优惠)",
-        "price": "229.00",
-        "product_id": "3133",
-        "deput": "ICP-B2C",
-        "validity_period": "24",
-        "installment_price": []
-      }
-    ],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "3073",
-        "title": "PowerShot ZOOM 黑",
-        "brief": "不参加店铺活动。赠品数量有限，赠完即止。",
-        "image": "https://shop.canon.com.cn/image/catalog/zoomhei.jpg",
-        "spu": "ZOOM",
-        "sku": "PowerShot ZOOM 黑",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 2199,
-        "price": 2199,
-        "weight": "0.00000000",
-        "quantity": "15",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/zoom/",
-        "content_url_selected": "1",
-        "content_url": "/zoom20240628/index.html",
-        "attribute_url": "/zoom20240628/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3043",
-        "title": "EOS R10 机身+RF15-30mm F4.5-6.3 IS STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-机身+RF15-30mm-0918.jpg",
-        "spu": "",
-        "sku": "EOS R10 机身+RF15-30mm F4.5-6.3 IS STM",
-        "isnew": "0",
-        "ishot": "1",
-        "rawprice": 9798,
-        "price": 9798,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/R10BODY20240627/index.html",
-        "attribute_url": "/R10BODY20240627/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "2591",
-        "title": "EOS R6 机身+RF50mm F1.8 STM",
-        "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R6-机身+RF50mm-0321.jpg",
-        "spu": "",
-        "sku": "EOS R6 机身+RF50mm F1.8 STM",
-        "isnew": "0",
-        "ishot": "0",
-        "rawprice": 17398,
-        "price": 16398,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "http://www.canon.com.cn/",
-        "content_url_selected": "1",
-        "content_url": "/EOSR6129/index.html",
-        "attribute_url": "/EOSR6129/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
     "product_id": "3134",
     "title": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
     "brief": "",
@@ -4517,8 +1747,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji20240627/index.html",
-    "attribute_url": "/R10taoji20240627/spec.html",
+    "content_url": "/R1018150taoji20240708/index.html",
+    "attribute_url": "/R1018150taoji20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -4553,7 +1783,7 @@
         "product_id": "3157",
         "title": "RF-S55-210mm F5-7.1 IS STM",
         "brief": "",
-        "image": "https://shop.canon.com.cn/image/catalog/RFS55-21020240322.jpg",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/RF-S55-210mm-F5-7-1-IS-STM-0703a.jpg",
         "spu": "",
         "sku": "RF-S55-210mm F5-7.1 IS STM",
         "isnew": "0",
@@ -4567,189 +1797,6 @@
         "content_url_selected": "1",
         "content_url": "/RFS55210STM/index.html",
         "attribute_url": "/RFS55210STM/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "1",
-        "purchase_number_limit": "1",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      }
-    ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3161",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF50mm F1.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(BK)-RF-S18-45-2+RF50-0918.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 6998,
-    "price": 6998,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R50-0224/index.html",
-    "attribute_url": "/R50-0224/spec.html",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(BK)-RF-S18-45-2+RF50-0918.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "176",
-        "title": "热卖产品",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3162",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机+RF85-0401.jpg",
-    "spu": "",
-    "spu_id": "554",
-    "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 10198,
-    "price": 10198,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R5020240628/index.html",
-    "attribute_url": "/R5020240628/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机+RF85-0401.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3132",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM"
-      },
-      {
-        "product_id": "3133",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM "
-      },
-      {
-        "product_id": "3130",
-        "sku": "EOS R50 黑色机身"
-      },
-      {
-        "product_id": "3131",
-        "sku": "EOS R50 白色机身"
-      },
-      {
-        "product_id": "3162",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3249",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [
-      {
-        "product_id": "2993",
-        "title": "EOS R7套机RF-S18-150mm F3.5-6.3 IS STM1",
-        "brief": "推荐此套机，针对直播时的特写，性价比高",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R7套机RF-S18-150mm-F3.5-6.3-IS-STM.jpg",
-        "spu": "",
-        "sku": "EOS R7套机RF-S18-150mm F3.5-6.3 IS STM",
-        "isnew": "0",
-        "ishot": "1",
-        "rawprice": 11899,
-        "price": 11899,
-        "weight": "0.00000000",
-        "quantity": "0",
-        "tags": "",
-        "original_website_url": "https://www.canon.com.cn/product/r7/index.html#hover",
-        "content_url_selected": "1",
-        "content_url": "/EOSR720240628/index.html",
-        "attribute_url": "/EOSR720240628/spec.html",
-        "content": "",
-        "content2": "",
-        "status": "0",
-        "purchase_number_limit": "1000",
-        "purchase_limit_range": "180",
-        "isspecialproduct": false
-      },
-      {
-        "product_id": "3129",
-        "title": "EOS R8套机 RF24-50mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;4aucIkapbWxzQ5kw&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R8套机-RF24-50mm-F4.5-6.3-IS-STM-0611.jpg",
-        "spu": "",
-        "sku": "EOS R8套机 RF24-50mm F4.5-6.3 IS STM",
-        "isnew": "0",
-        "ishot": "1",
-        "rawprice": 11999,
-        "price": 11999,
-        "weight": "0.00000000",
-        "quantity": "11",
-        "tags": "",
-        "original_website_url": "",
-        "content_url_selected": "1",
-        "content_url": "/EOSR820240531/index.html",
-        "attribute_url": "/EOSR820240531/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -4828,7 +1875,7 @@
         "image": "",
         "quantity": 1,
         "sort_order": "1",
-        "totalquantity": 613
+        "totalquantity": 430
       }
     ],
     "carelist": [],
@@ -4858,8 +1905,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10BODY20240627/index.html",
-    "attribute_url": "/R10BODY20240627/spec.html",
+    "content_url": "/R10BODY20240708/index.html",
+    "attribute_url": "/R10BODY20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -4991,8 +2038,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji154520240701/index.html",
-    "attribute_url": "/R10taoji154520240701/spec.html",
+    "content_url": "/R101545taoji20240708/index.html",
+    "attribute_url": "/R101545taoji20240708/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -5031,7 +2078,7 @@
     "product_id": "3224",
     "title": "EOS R100套机 RF-S18-45mm F4.5-6.3 IS STM",
     "brief": "不参加店铺任何活动",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R100-0617.jpg",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/R100-0726.jpg",
     "spu": "",
     "spu_id": "586",
     "sku": "EOS R100套机 RF-S18-45mm F4.5-6.3 IS STM",
@@ -5053,7 +2100,7 @@
     "description": "",
     "grouppriceconfig": "[]",
     "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R100-0617.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/R100-0726.jpg",
       "https://shop.canon.com.cn/image/catalog/0000/R100 (3).jpg",
       "https://shop.canon.com.cn/image/catalog/0000/R100 (2).jpg",
       "https://shop.canon.com.cn/image/catalog/0000/R100 (4).jpg",
@@ -5089,7 +2136,7 @@
         "image": "",
         "quantity": 1,
         "sort_order": "1",
-        "totalquantity": 258
+        "totalquantity": 73
       }
     ],
     "carelist": [
@@ -5104,8 +2151,8 @@
       },
       {
         "id": "470",
-        "name": "EOS R100套机 RF-S18-45mm F4.5-6.3 IS STM+二年延保(享8折优惠)",
-        "price": "229.00",
+        "name": "EOS R100套机 RF-S18-45mm F4.5-6.3 IS STM+二年延保",
+        "price": "286.00",
         "product_id": "3224",
         "deput": "ICP-B2C",
         "validity_period": "24",
@@ -5119,8 +2166,8 @@
       {
         "product_id": "1995",
         "title": "RF15-35mm F2.8 L IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-35mm-F2.8-L-IS-USM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-35mm-F2-8-L-IS-USM-0710.jpg",
         "spu": "",
         "sku": "RF15-35mm F2.8 L IS USM",
         "isnew": "0",
@@ -5132,8 +2179,8 @@
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf1535f28lis/",
         "content_url_selected": "1",
-        "content_url": "/RF1535mm20240701/index.html",
-        "attribute_url": "/RF1535mm20240701/spec.html",
+        "content_url": "/RF1535mm20240708/index.html",
+        "attribute_url": "/RF1535mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -5144,8 +2191,8 @@
       {
         "product_id": "2807",
         "title": "RF100mm F2.8 L MACRO IS USM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;fBB7wGwh1Y4fYC9z&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF100mm-F2.8-L-MACRO-IS-USM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;ilQpIqZMpvpH2tCC&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF100mm-F2-8-L-MACRO-IS-USM-0710.jpg",
         "spu": "",
         "sku": "RF100mm F2.8 L MACRO IS USM",
         "isnew": "0",
@@ -5157,8 +2204,8 @@
         "tags": "",
         "original_website_url": "http://www.canon.com.cn/product/rf100f28lisusm/",
         "content_url_selected": "1",
-        "content_url": "/RF100mm20240701/index.html",
-        "attribute_url": "/RF100mm20240701/spec.html",
+        "content_url": "/RF100mm20240708/index.html",
+        "attribute_url": "/RF100mm20240708/spec.html",
         "content": "",
         "content2": "",
         "status": "1",
@@ -5167,10 +2214,35 @@
         "isspecialproduct": false
       },
       {
+        "product_id": "2971",
+        "title": "EOS 200D II 银色套机 EF-S 18-55mm f/4-5.6 IS STM+EF 50mm f/1.8 STM套装",
+        "brief": "小巧轻便的迷你单反,影像无线分享 火热促销中",
+        "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-200D-II-银色+EF50-0722.jpg",
+        "spu": "",
+        "sku": "",
+        "isnew": "0",
+        "ishot": "0",
+        "rawprice": 5598,
+        "price": 5598,
+        "weight": "0.00000000",
+        "quantity": "0",
+        "tags": "",
+        "original_website_url": "",
+        "content_url_selected": "1",
+        "content_url": "/EOS200DII50180713/index.html",
+        "attribute_url": "/EOS200DII50180713/spec.html",
+        "content": "",
+        "content2": "",
+        "status": "0",
+        "purchase_number_limit": "1",
+        "purchase_limit_range": "180",
+        "isspecialproduct": false
+      },
+      {
         "product_id": "3038",
         "title": "RF24mm F1.8 MACRO IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;k3Uv9WrL8OJ3NWSZ&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF24mm-F1.8-MACRO-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;61aGS9n6JZSq9O9F&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF24mm-F1-8-MACRO-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF24mm F1.8 MACRO IS STM",
         "isnew": "0",
@@ -5178,7 +2250,7 @@
         "rawprice": 4399,
         "price": 4399,
         "weight": "0.00000000",
-        "quantity": "6",
+        "quantity": "3",
         "tags": "",
         "original_website_url": "https://www.canon.com.cn/product/rf24f18/",
         "content_url_selected": "1",
@@ -5194,8 +2266,8 @@
       {
         "product_id": "3039",
         "title": "RF15-30mm F4.5-6.3 IS STM",
-        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;z2CTfhn8kxFWPXxE&quot;&gt;点击领取优惠券&lt;/span&gt;",
-        "image": "https://shop.canon.com.cn/image/catalog/0000/RF15-30mm-F4.5-6.3-IS-STM-0611.jpg",
+        "brief": "&lt;span class=&quot;couponbtn&quot; id=&quot;nfoVmBvatutpmX31&quot;&gt;点击领取优惠券&lt;/span&gt;",
+        "image": "https://shop.canon.com.cn/image/catalog/RF15-30mm-F4-5-6-3-IS-STM-0710.jpg",
         "spu": "",
         "sku": "RF15-30mm F4.5-6.3 IS STM",
         "isnew": "0",
@@ -5217,191 +2289,6 @@
         "isspecialproduct": false
       }
     ],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3249",
-    "title": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50白色套机+RF85-0401.jpg",
-    "spu": "",
-    "spu_id": "554",
-    "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 10198,
-    "price": 10198,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R5020240628/index.html",
-    "attribute_url": "/R5020240628/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 1,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50白色套机+RF85-0401.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
-    ],
-    "skulist": [
-      {
-        "product_id": "3132",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM"
-      },
-      {
-        "product_id": "3133",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM "
-      },
-      {
-        "product_id": "3130",
-        "sku": "EOS R50 黑色机身"
-      },
-      {
-        "product_id": "3131",
-        "sku": "EOS R50 白色机身"
-      },
-      {
-        "product_id": "3162",
-        "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      },
-      {
-        "product_id": "3249",
-        "sku": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM"
-      }
-    ],
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3250",
-    "title": "EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(W)-RF-S18-45-2+RF24-0918.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 9998,
-    "price": 9998,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R50-0224/index.html",
-    "attribute_url": "/R50-0224/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(W)-RF-S18-45-2+RF24-0918.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "176",
-        "title": "热卖产品",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3251",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(BK)-RF-S18-45-2+RF24-0918.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "1",
-    "rawprice": 9998,
-    "price": 9998,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R50-0224/index.html",
-    "attribute_url": "/R50-0224/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(BK)-RF-S18-45-2+RF24-0918.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "176",
-        "title": "热卖产品",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
     "groupbuyproductlist": []
   }
 },{
@@ -5461,62 +2348,9 @@
         "image": "",
         "quantity": 1,
         "sort_order": "1",
-        "totalquantity": 613
+        "totalquantity": 430
       }
     ],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3260",
-    "title": "官方翻新品-EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF600mm F11 IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R101845RF6000804.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 12298,
-    "price": 9048,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R101845RF6000804.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
     "carelist": [],
     "isspecialproduct": false,
     "installment_price": [],
@@ -5634,139 +2468,6 @@
   "code": 1000,
   "info": "catalog.product.success",
   "data": {
-    "product_id": "3289",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM1",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(BK)-RF-S18-45-2+RF16mm-F2-8-STM.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 7748,
-    "price": 7748,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R500309/index.html",
-    "attribute_url": "/R500309/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50(BK)-RF-S18-45-2+RF16mm-F2-8-STM.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "176",
-        "title": "热卖产品",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3296",
-    "title": "官方翻新品-R50(BKCN)BODY",
-    "brief": "",
-    "image": "",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 0,
-    "price": 3449,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "",
-    "attribute_url": "",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3297",
-    "title": "官方翻新品-R50(WHCN)BODY",
-    "brief": "",
-    "image": "",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
-    "rawprice": 0,
-    "price": 3449,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "",
-    "attribute_url": "",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
     "product_id": "3311",
     "title": "官方翻新品-R10机身+RF600mm F11 IS STM",
     "brief": "",
@@ -5860,112 +2561,6 @@
   "code": 1000,
   "info": "catalog.product.success",
   "data": {
-    "product_id": "3314",
-    "title": "官方翻新品-EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF600mm F11 IS STM ",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/r501845rf60001.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 11198,
-    "price": 8198,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/r501845rf60001.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3315",
-    "title": "官方翻新品-EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+USB交流适配器 PD-E1",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/r501845PDE1.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 6298,
-    "price": 4748,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/r501845PDE1.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
     "product_id": "3316",
     "title": "官方翻新品-EOS R10套机RF-S18-150mm F3.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
     "brief": "",
@@ -6019,271 +2614,10 @@
   "code": 1000,
   "info": "catalog.product.success",
   "data": {
-    "product_id": "3317",
-    "title": "官方翻新品-R50黑色套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 4399,
-    "price": 0,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "",
-    "attribute_url": "",
-    "content": "",
-    "content2": "",
-    "status": "0",
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3318",
-    "title": "官方翻新品-R50黑色套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 9498,
-    "price": 7498,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3319",
-    "title": "官方翻新品-EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/r501845rf241.8.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 9498,
-    "price": 7498,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/r501845rf241.8.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3336",
-    "title": "官方翻新品-EOS R50白色套机 RF-S18-45mm F4.5-6.3 IS STM+RF100-400mm F5.6-8 IS USM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R50RFS1845RF10040020231219.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 10248,
-    "price": 7698,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R50RFS1845RF10040020231219.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3337",
-    "title": "官方翻新品-EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF35mm F1.8 MACRO IS STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/R50RFS1845RF3520231219.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 9398,
-    "price": 6498,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/R50RFS1845RF3520231219.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
     "product_id": "3339",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF16mm-0321.jpg",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM1",
+    "brief": "<span class=\"couponbtn\" id=\"pJHxcjzBUHmELy3T\">点击领取优惠券</span>",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF16mm-0717.jpg",
     "spu": "",
     "spu_id": "0",
     "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
@@ -6296,8 +2630,8 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "/R10taoji154520240701/index.html",
-    "attribute_url": "/R10taoji154520240701/spec.html",
+    "content_url": "/R101545+RF16/index.html",
+    "attribute_url": "/R101545+RF16/spec.html",
     "content": "",
     "content2": "",
     "status": 0,
@@ -6305,62 +2639,9 @@
     "description": "",
     "grouppriceconfig": "[]",
     "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10套机+RF16mm-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "59",
-        "title": "EOS单反/微单相机",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "61",
-        "title": "微单",
-        "parent_id": "59"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
-    "product_id": "3341",
-    "title": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机+RF16-0321.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 7748,
-    "price": 7748,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/R500531/index.html",
-    "attribute_url": "/R500531/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/0000/EOS-R50黑色套机+RF16-0321.jpg",
-      "https://shop.canon.com.cn/image/catalog/0000/EC活动2.jpg"
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF16mm-0717.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF16mm-0717a.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EC7月活动2.jpg"
     ],
     "skulist": "",
     "iswishlist": false,
@@ -6441,59 +2722,6 @@
   "code": 1000,
   "info": "catalog.product.success",
   "data": {
-    "product_id": "3364",
-    "title": "官方翻新品-EOS R50黑色套机 RF-S18-45mm F4.5-6.3 IS STM+RF100-400mm F5.6-8 IS USM",
-    "brief": "",
-    "image": "https://shop.canon.com.cn/image/catalog/fxR50BKRF100-40020240204.jpg",
-    "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "0",
-    "ishot": "0",
-    "rawprice": 10248,
-    "price": 7698,
-    "weight": "0.00000000",
-    "quantity": "0",
-    "tags": [],
-    "original_website_url": "",
-    "content_url_selected": "1",
-    "content_url": "/M50II97/index.html",
-    "attribute_url": "/M50II97/spec.html",
-    "content": "",
-    "content2": "",
-    "status": 0,
-    "keywords": "",
-    "description": "",
-    "grouppriceconfig": "[]",
-    "imagelist": [
-      "https://shop.canon.com.cn/image/catalog/fxR50BKRF100-40020240204.jpg"
-    ],
-    "skulist": "",
-    "iswishlist": false,
-    "categorylist": [
-      {
-        "category_id": "166",
-        "title": "官方认证翻新品",
-        "parent_id": "0"
-      },
-      {
-        "category_id": "168",
-        "title": "相机",
-        "parent_id": "166"
-      }
-    ],
-    "presentlist": [],
-    "carelist": [],
-    "isspecialproduct": false,
-    "installment_price": [],
-    "relatedlist": [],
-    "recommendlist": [],
-    "groupbuyproductlist": []
-  }
-},{
-  "code": 1000,
-  "info": "catalog.product.success",
-  "data": {
     "product_id": "3365",
     "title": "官方翻新品-EOS R10套机RF-S18-45mm F4.5-6.3 IS STM +RF24-50mm F4.5-6.3 IS STM",
     "brief": "",
@@ -6504,7 +2732,7 @@
     "isnew": "0",
     "ishot": "0",
     "rawprice": 8998,
-    "price": 6798,
+    "price": 6198,
     "weight": "0.00000000",
     "quantity": "0",
     "tags": [],
@@ -6548,14 +2776,14 @@
   "info": "catalog.product.success",
   "data": {
     "product_id": "3390",
-    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM新",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM",
     "brief": "",
-    "image": "",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm-0702.jpg",
     "spu": "",
-    "spu_id": "0",
-    "sku": "",
-    "isnew": "1",
-    "ishot": "1",
+    "spu_id": "479",
+    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM",
+    "isnew": "0",
+    "ishot": "0",
     "rawprice": 6699,
     "price": 6699,
     "weight": "0.00000000",
@@ -6563,18 +2791,403 @@
     "tags": [],
     "original_website_url": "",
     "content_url_selected": "1",
-    "content_url": "",
-    "attribute_url": "",
+    "content_url": "/R101545taoji20240708/index.html",
+    "attribute_url": "/R101545taoji20240708/spec.html",
     "content": "",
     "content2": "",
-    "status": "0",
+    "status": 1,
     "keywords": "",
     "description": "",
     "grouppriceconfig": "[]",
-    "imagelist": [],
+    "imagelist": [
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm-0702.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/R10t1845ZT1.jpg"
+    ],
+    "skulist": [
+      {
+        "product_id": "3022",
+        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3390",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3409",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM"
+      },
+      {
+        "product_id": "3411",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM"
+      },
+      {
+        "product_id": "3413",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM"
+      }
+    ],
+    "iswishlist": false,
+    "categorylist": [
+      {
+        "category_id": "59",
+        "title": "EOS单反/微单相机",
+        "parent_id": "0"
+      },
+      {
+        "category_id": "61",
+        "title": "微单",
+        "parent_id": "59"
+      }
+    ],
+    "presentlist": [],
+    "carelist": [
+      {
+        "id": "450",
+        "name": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+一年延保",
+        "price": "199.00",
+        "product_id": "3390",
+        "deput": "ICP-B2C",
+        "validity_period": "12",
+        "installment_price": []
+      },
+      {
+        "id": "451",
+        "name": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+二年延保",
+        "price": "358.00",
+        "product_id": "3390",
+        "deput": "ICP-B2C",
+        "validity_period": "24",
+        "installment_price": []
+      }
+    ],
+    "isspecialproduct": false,
+    "installment_price": [],
+    "relatedlist": [],
+    "recommendlist": [],
+    "groupbuyproductlist": []
+  }
+},{
+  "code": 1000,
+  "info": "catalog.product.success",
+  "data": {
+    "product_id": "3409",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
+    "brief": "<span class=\"couponbtn\" id=\"KC7KUFs9eQappope\">点击领取优惠券</span>",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF16mm-0717.jpg",
+    "spu": "",
+    "spu_id": "479",
+    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM",
+    "isnew": "1",
+    "ishot": "1",
+    "rawprice": 8848,
+    "price": 8848,
+    "weight": "0.00000000",
+    "quantity": "0",
+    "tags": [],
+    "original_website_url": "",
+    "content_url_selected": "1",
+    "content_url": "/R101545+RF16/index.html",
+    "attribute_url": "/R101545+RF16/spec.html",
+    "content": "",
+    "content2": "",
+    "status": 1,
+    "keywords": "",
+    "description": "",
+    "grouppriceconfig": "[]",
+    "imagelist": [
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF16mm-0717.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF16mm-0717a.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EC7月活动2.jpg"
+    ],
+    "skulist": [
+      {
+        "product_id": "3022",
+        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3390",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3409",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM"
+      },
+      {
+        "product_id": "3411",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM"
+      },
+      {
+        "product_id": "3413",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM"
+      }
+    ],
+    "iswishlist": false,
+    "categorylist": [
+      {
+        "category_id": "59",
+        "title": "EOS单反/微单相机",
+        "parent_id": "0"
+      },
+      {
+        "category_id": "61",
+        "title": "微单",
+        "parent_id": "59"
+      }
+    ],
+    "presentlist": [],
+    "carelist": [],
+    "isspecialproduct": false,
+    "installment_price": [],
+    "relatedlist": [],
+    "recommendlist": [],
+    "groupbuyproductlist": []
+  }
+},{
+  "code": 1000,
+  "info": "catalog.product.success",
+  "data": {
+    "product_id": "3410",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
+    "brief": "",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF85mm-0702.jpg",
+    "spu": "",
+    "spu_id": "0",
+    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF85mm F2 MACRO IS STM",
+    "isnew": "1",
+    "ishot": "1",
+    "rawprice": 11298,
+    "price": 11298,
+    "weight": "0.00000000",
+    "quantity": "0",
+    "tags": [],
+    "original_website_url": "",
+    "content_url_selected": "1",
+    "content_url": "/R101545+RF85/index.html",
+    "attribute_url": "/R101545+RF85/spec.html",
+    "content": "",
+    "content2": "",
+    "status": 0,
+    "keywords": "",
+    "description": "",
+    "grouppriceconfig": "[]",
+    "imagelist": [
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF85mm-0702.jpg",
+      "https://shop.canon.com.cn/image/catalog/0000/EC7月活动2.jpg"
+    ],
     "skulist": "",
     "iswishlist": false,
-    "categorylist": [],
+    "categorylist": [
+      {
+        "category_id": "59",
+        "title": "EOS单反/微单相机",
+        "parent_id": "0"
+      },
+      {
+        "category_id": "61",
+        "title": "微单",
+        "parent_id": "59"
+      }
+    ],
+    "presentlist": [],
+    "carelist": [],
+    "isspecialproduct": false,
+    "installment_price": [],
+    "relatedlist": [],
+    "recommendlist": [],
+    "groupbuyproductlist": []
+  }
+},{
+  "code": 1000,
+  "info": "catalog.product.success",
+  "data": {
+    "product_id": "3411",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
+    "brief": "",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF24mm-0719.jpg",
+    "spu": "",
+    "spu_id": "479",
+    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM",
+    "isnew": "0",
+    "ishot": "0",
+    "rawprice": 11098,
+    "price": 11098,
+    "weight": "0.00000000",
+    "quantity": "0",
+    "tags": [],
+    "original_website_url": "",
+    "content_url_selected": "1",
+    "content_url": "/R101545RF24mm0723/index.html",
+    "attribute_url": "/R101545RF24mm0723/spec.html",
+    "content": "",
+    "content2": "",
+    "status": 1,
+    "keywords": "",
+    "description": "",
+    "grouppriceconfig": "[]",
+    "imagelist": [
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF24mm-0719.jpg"
+    ],
+    "skulist": [
+      {
+        "product_id": "3022",
+        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3390",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3409",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM"
+      },
+      {
+        "product_id": "3411",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM"
+      },
+      {
+        "product_id": "3413",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM"
+      }
+    ],
+    "iswishlist": false,
+    "categorylist": [
+      {
+        "category_id": "59",
+        "title": "EOS单反/微单相机",
+        "parent_id": "0"
+      },
+      {
+        "category_id": "61",
+        "title": "微单",
+        "parent_id": "59"
+      }
+    ],
+    "presentlist": [],
+    "carelist": [],
+    "isspecialproduct": false,
+    "installment_price": [],
+    "relatedlist": [],
+    "recommendlist": [],
+    "groupbuyproductlist": []
+  }
+},{
+  "code": 1000,
+  "info": "catalog.product.success",
+  "data": {
+    "product_id": "3412",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF15-30mm F4.5-6.3 IS STM",
+    "brief": "",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF15-30mm-0719.jpg",
+    "spu": "",
+    "spu_id": "0",
+    "sku": "",
+    "isnew": "0",
+    "ishot": "0",
+    "rawprice": 10798,
+    "price": 10798,
+    "weight": "0.00000000",
+    "quantity": "0",
+    "tags": [],
+    "original_website_url": "",
+    "content_url_selected": "1",
+    "content_url": "/R101545RF1530mm0723/index.html",
+    "attribute_url": "/R101545RF1530mm0723/spec.html",
+    "content": "",
+    "content2": "",
+    "status": 0,
+    "keywords": "",
+    "description": "",
+    "grouppriceconfig": "[]",
+    "imagelist": [
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF15-30mm-0719.jpg"
+    ],
+    "skulist": "",
+    "iswishlist": false,
+    "categorylist": [
+      {
+        "category_id": "59",
+        "title": "EOS单反/微单相机",
+        "parent_id": "0"
+      },
+      {
+        "category_id": "61",
+        "title": "微单",
+        "parent_id": "59"
+      }
+    ],
+    "presentlist": [],
+    "carelist": [],
+    "isspecialproduct": false,
+    "installment_price": [],
+    "relatedlist": [],
+    "recommendlist": [],
+    "groupbuyproductlist": []
+  }
+},{
+  "code": 1000,
+  "info": "catalog.product.success",
+  "data": {
+    "product_id": "3413",
+    "title": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM",
+    "brief": "",
+    "image": "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF28mm-0719.jpg",
+    "spu": "",
+    "spu_id": "479",
+    "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM",
+    "isnew": "0",
+    "ishot": "0",
+    "rawprice": 8898,
+    "price": 8898,
+    "weight": "0.00000000",
+    "quantity": "0",
+    "tags": [],
+    "original_website_url": "",
+    "content_url_selected": "1",
+    "content_url": "/R101545taoji20240708/index.html",
+    "attribute_url": "/R101545taoji20240708/spec.html",
+    "content": "",
+    "content2": "",
+    "status": 1,
+    "keywords": "",
+    "description": "",
+    "grouppriceconfig": "[]",
+    "imagelist": [
+      "https://shop.canon.com.cn/image/catalog/0000/EOS-R10-15-45mm+RF28mm-0719.jpg"
+    ],
+    "skulist": [
+      {
+        "product_id": "3022",
+        "sku": "EOS R10套机RF-S18-150mm F3.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3390",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM"
+      },
+      {
+        "product_id": "3409",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF16mm F2.8 STM"
+      },
+      {
+        "product_id": "3411",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF24mm F1.8 MACRO IS STM"
+      },
+      {
+        "product_id": "3413",
+        "sku": "EOS R10套机RF-S18-45mm F4.5-6.3 IS STM+RF28mm F2.8 STM"
+      }
+    ],
+    "iswishlist": false,
+    "categorylist": [
+      {
+        "category_id": "59",
+        "title": "EOS单反/微单相机",
+        "parent_id": "0"
+      },
+      {
+        "category_id": "63",
+        "title": "单反",
+        "parent_id": "59"
+      }
+    ],
     "presentlist": [],
     "carelist": [],
     "isspecialproduct": false,

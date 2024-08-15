@@ -2,7 +2,7 @@
  * @Author: yuwuwu
  * @Date: 2024-06-28 13:36:37
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-07-05 16:44:28
+ * @LastEditTime: 2024-07-31 18:39:06
  * @FilePath: /markdown-code/getApiInfoToFile/index.js
  * @Description:
  */
@@ -10,7 +10,7 @@ const { getGoodsBySku } = require('./src/api');
 const { writeToFile, waitTime } = require('./src/utils');
 
 const start = async () => {
-  for (let i = 10001; i <= 11000; i++) {
+  for (let i = 3000; i <= 4000; i++) {
     try {
       if (i % 50 == 0) {
         await waitTime(30000);
@@ -19,11 +19,7 @@ const start = async () => {
       }
       const result = await getGoodsBySku(i);
       console.log(result?.data?.title, i, result?.data?.quantity);
-      if (
-        result.code == 1000 &&
-        (result?.data?.title?.includes('R50') ||
-          result?.data?.title?.includes('R10'))
-      ) {
+      if (result.code == 1000 && result?.data?.title?.includes('R10')) {
         writeToFile(result);
       }
     } catch (error) {

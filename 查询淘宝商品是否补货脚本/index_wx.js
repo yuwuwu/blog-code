@@ -2,7 +2,7 @@
  * @Author: yuwuwu
  * @Date: 2024-06-17 17:27:34
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-07-17 11:26:01
+ * @LastEditTime: 2024-07-17 15:03:53
  * @FilePath: /markdown-code/查询淘宝商品是否补货脚本/index_wx.js
  * @Description:
  */
@@ -10,6 +10,7 @@ const getWxGoods = require('./src/getGoodsByWx.js');
 const sendEmail = require('./src/sendEmail.js');
 
 const wx_r10_sku_list = ['3020', '3021', '3024', '3025', '3390'];
+// const wx_r10_sku_list = ['3127', '3409', '3410'];
 
 const start = async () => {
   const wx_goods = await getWxGoods(wx_r10_sku_list);
