@@ -2,8 +2,8 @@
  * @Author: yuwuwu
  * @Date: 2024-06-28 13:24:04
  * @LastEditors: yuwuwu
- * @LastEditTime: 2024-06-28 13:28:32
- * @FilePath: /markdown-code/查询淘宝商品是否补货脚本/README.md
+ * @LastEditTime: 2025-01-11 20:47:33
+ * @FilePath: \blog-code\查询佳能是否补货脚本\README.md
  * @Description:
 -->
 
@@ -21,4 +21,22 @@
 npm install
 npm run dev:wx //通过api获取商品信息
 npm run dev:tb //通过无头浏览器获取商品信息
+```
+
+```
+// project.config.js
+module.exports = {
+  emailConfig: {
+    user: 发送邮件的邮箱账号,
+    pass: 发送邮件的邮箱密钥,
+    to: 接收邮件的邮箱账号,
+  },
+  wxConfig: {
+    token: token,
+    gate_token: gete_token,
+    uid: uid,
+  },
+};
+
+
 ```
